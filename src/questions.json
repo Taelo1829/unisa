@@ -12,7 +12,7 @@
     },
     {
         "id": 2,
-        "question": "Which of the following databases are used in a distributed database model?",
+        "question": "Which of the following databases are used in a distributed database model?\nA. Fragmented\nB. Replicated\nC. Repeated",
         "options": [
             "Only A and B",
             "Only A and C",
@@ -20,7 +20,8 @@
             "A, B and C"
         ],
         "answer": "Only A and B"
-    },
+    }
+
     {
         "id": 3,
         "question": "___ is a declarative programming language used on relational databases.",
@@ -820,49 +821,49 @@
             "(1111101)₂ × (2)₁₀"
         ],
         "answer": "(1 111101)₂ × (2²)₁₀"
-    },{
-  "id": 75,
-  "question": "Convert (11111)₂ to an octal number",
-  "options": [
-    "(15 1)₈",
-    "(15 4)₈",
-    "(174)₈",
-    "(13 2)₈"
-  ],
-  "answer": "(37)₈"
-},{
-  "id": 76,
-  "question": "Convert (41)₁₀ to a hexadecimal number",
-  "options": [
-    "(29)₁₆",
-    "(92)₁₆",
-    "(2A)₁₆",
-    "(28)₁₆"
-  ],
-  "answer": "(29)₁₆"
-},{
-  "id": 77,
-  "question": "Historians have since 1950 divided computer software and hardware into generations. In which generation are we currently (as of 2011)?",
-  "options": [
-    "Second",
-    "Third",
-    "Fourth",
-    "Fifth"
-  ],
-  "answer": "Fourth"
-},{
-  "id": 78,
-  "question": "According to the von Neumann model, which subsystem of a computer serves as a manager of other subsystems?",
-  "options": [
-    "ALU",
-    "Input/Output",
-    "Memory",
-    "Control Unit"
-  ],
-  "answer": "Control Unit"
-}
-
-
-
-
+    },
+    {
+        "id": 75,
+        "question": "Convert (11111)₂ to an octal number",
+        "options": [
+            "(15 1)₈",
+            "(15 4)₈",
+            "(174)₈",
+            "(13 2)₈"
+        ],
+        "answer": "(37)₈"
+    },
+    {
+        "id": 76,
+        "question": "Convert (41)₁₀ to a hexadecimal number",
+        "options": [
+            "(29)₁₆",
+            "(92)₁₆",
+            "(2A)₁₆",
+            "(28)₁₆"
+        ],
+        "answer": "(29)₁₆"
+    },
+    {
+        "id": 77,
+        "question": "Historians have since 1950 divided computer software and hardware into generations. In which generation are we currently (as of 2011)?",
+        "options": [
+            "Second",
+            "Third",
+            "Fourth",
+            "Fifth"
+        ],
+        "answer": "Fourth"
+    },
+    {
+        "id": 78,
+        "question": "According to the von Neumann model, which subsystem of a computer serves as a manager of other subsystems?",
+        "options": [
+            "ALU",
+            "Input/Output",
+            "Memory",
+            "Control Unit"
+        ],
+        "answer": "Control Unit"
+    }
 ]
