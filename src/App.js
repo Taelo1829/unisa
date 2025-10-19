@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import questions from './questions.json';
 import './App.css';
 import Header from './Header';
+import RenderQuestion from './components/RenderQuestion';
 
 function App() {
   const [current, setCurrent] = useState(0);
@@ -48,7 +49,7 @@ function App() {
     <div>
       <Header />
       <div className='card'>
-        <p>{q.question}</p>
+        <RenderQuestion question={q.question} type={q.type} data={q.data} />
         {q.options.map((opt, idx) => (
           <div key={idx}
             onClick={() => handleAnswer(opt)}

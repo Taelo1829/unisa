@@ -63,3 +63,7 @@ button {
   align-items: center;
   justify-content: center;
 }
+
+.question {
+  padding-bottom: 10px;
+}

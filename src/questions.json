@@ -20,8 +20,7 @@
             "A, B and C"
         ],
         "answer": "Only A and B"
-    }
-
+    },
     {
         "id": 3,
         "question": "___ is a declarative programming language used on relational databases.",
@@ -288,12 +287,35 @@
     },
     {
         "id": 27,
-        "question": "The two methods that are used for translating a program to machine language both follow the same translation process. Arrange the steps in the CORRECT sequence:\n\nSTEPS             | ORDER\nsemantic analysis | I\nsyntax analysis   | II\nCode generation   | III\nlexical analysis  | IV",
+        "question": "The two methods that are used for translating a program to machine language both follow the same translation process. Arrange the steps in the CORRECT sequence:",
         "options": [
             "I, II, III, IV",
             "I, II, IV, III",
             "III, II, I, IV",
             "IV, II, I, III"
+        ],
+        "type": "table",
+        "data": [
+            {
+                "header": "STEPS",
+                "value": "ORDER"
+            },
+            {
+                "header": "semantic analysis",
+                "value": "I"
+            },
+            {
+                "header": "syntax analysis",
+                "value": "II"
+            },
+            {
+                "header": "Code generation",
+                "value": "III"
+            },
+            {
+                "header": "lexical analysis",
+                "value": "IV"
+            }
         ],
         "answer": "IV, II, I, III"
     },
@@ -354,12 +376,19 @@
     },
     {
         "id": 33,
-        "question": "Which of the following are basic algorithms used in computer programs?\nA. Searching\nB. Sorting\nC. Repetition\nD. Looping",
+        "question": "Which of the following are basic algorithms used in computer programs?",
         "options": [
             "Only A and B",
             "Only A, B and D",
             "Only B, C and D",
             "A, B, C and D"
+        ],
+        "type": "list",
+        "data": [
+            "A. Searching",
+            "B. Sorting",
+            "C. Repetition",
+            "D. Looping"
         ],
         "answer": "A, B, C and D"
     },
@@ -674,7 +703,8 @@
             "A'"
         ],
         "answer": "A'D'",
-        "url": "https://ibb.co/fVVpWdfz"
+        "type": "image",
+        "data": "https://ibb.co/fVVpWdfz"
     },
     {
         "id": 62,
