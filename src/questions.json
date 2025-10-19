@@ -1,0 +1,868 @@
+[
+    {
+        "id": 1,
+        "question": "An object-oriented database tries to keep the advantages of a ___ model and at the same time allows the applications to access structured data.",
+        "options": [
+            "relational",
+            "hierarchical",
+            "network",
+            "distributed"
+        ],
+        "answer": "relational"
+    },
+    {
+        "id": 2,
+        "question": "Which of the following databases are used in a distributed database model?",
+        "options": [
+            "Only A and B",
+            "Only A and C",
+            "Only B and C",
+            "A, B and C"
+        ],
+        "answer": "Only A and B"
+    },
+    {
+        "id": 3,
+        "question": "___ is a declarative programming language used on relational databases.",
+        "options": [
+            "ANSI",
+            "SQM",
+            "SQL",
+            "ISO"
+        ],
+        "answer": "SQL"
+    },
+    {
+        "id": 4,
+        "question": "The total number of rows in a relation is called the ___.",
+        "options": [
+            "cardinality",
+            "degree of the relation",
+            "size",
+            "depth"
+        ],
+        "answer": "cardinality"
+    },
+    {
+        "id": 5,
+        "question": "In which database model can entities be accessed through several paths?",
+        "options": [
+            "Hierarchical",
+            "Network",
+            "Relational",
+            "Distributed"
+        ],
+        "answer": "Network"
+    },
+    {
+        "id": 6,
+        "question": "The ___ level of a database defines the logical view of the data.",
+        "options": [
+            "conceptual",
+            "user",
+            "internal",
+            "external"
+        ],
+        "answer": "conceptual"
+    },
+    {
+        "id": 7,
+        "question": "Which type of hashing method guarantees that there are no synonyms and collisions?",
+        "options": [
+            "Modulo division hashing",
+            "Direct hashing",
+            "Indirect hashing",
+            "Digital extraction hashing"
+        ],
+        "answer": "Direct hashing"
+    },
+    {
+        "id": 8,
+        "question": "____ uses a node that can accommodate more than one record.",
+        "options": [
+            "Bucket hashing",
+            "Division remainder hashing",
+            "Open addressing",
+            "Linked list resolution"
+        ],
+        "answer": "Bucket hashing"
+    },
+    {
+        "id": 9,
+        "question": "Which one of the following is NOT a hashing method for hashed files?",
+        "options": [
+            "Modulo division hashing",
+            "Direct hashing",
+            "Indirect hashing",
+            "Digital extraction hashing"
+        ],
+        "answer": "Indirect hashing"
+    },
+    {
+        "id": 10,
+        "question": "A hashed file is a random access file in which a ____ maps a key to an address.",
+        "options": [
+            "transaction",
+            "relation",
+            "function",
+            "connection"
+        ],
+        "answer": "function"
+    },
+    {
+        "id": 11,
+        "question": "Which one of the following statements regarding sequential files is NOT TRUE?",
+        "options": [
+            "There are four files associated with an update program: the old and new master files, transaction file, and error report file",
+            "The new master file contains changes to be applied to the old master file",
+            "All the files need to be sorted on the same key to make the updating process efficient",
+            "A loop is used to read and process records one by one"
+        ],
+        "answer": "The new master file contains changes to be applied to the old master file"
+    },
+    {
+        "id": 12,
+        "question": "Which one of the following statements regarding linked lists is NOT TRUE?",
+        "options": [
+            "A linked list is a suitable structure if a large number of insertions and deletions are needed",
+            "The same operations defined for an array can be applied to a linked list",
+            "A linked list can grow infinitely and shrink to an empty list",
+            "The name of a linked list is the name of the head pointer that points to the last node of the list"
+        ],
+        "answer": "The name of a linked list is the name of the head pointer that points to the last node of the list"
+    },
+    {
+        "id": 13,
+        "question": "How many pointers are used when trying to find an element in a linked list?",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "answer": "1"
+    },
+    {
+        "id": 14,
+        "question": "Which algorithm must be applied to a linked list before an item is inserted into it?",
+        "options": [
+            "Searching",
+            "Deletion",
+            "Traversal",
+            "Retrieval"
+        ],
+        "answer": "Traversal"
+    },
+    {
+        "id": 15,
+        "question": "Which of the following operations can be defined on an array?\nA. Searching\nB. Insertion\nC. Retrieval\nD. Deletion",
+        "options": [
+            "Only A and B",
+            "Only A, B and D",
+            "Only A, B and C",
+            "A, B, C and D"
+        ],
+        "answer": "A, B, C and D"
+    },
+    {
+        "id": 16,
+        "question": "An array is ___",
+        "options": [
+            "a collection of fields that are all related to one object",
+            "a sequenced collection of elements, normally of the same data type",
+            "only one-dimensional",
+            "a collection of elements called fields"
+        ],
+        "answer": "a sequenced collection of elements, normally of the same data type"
+    },
+    {
+        "id": 17,
+        "question": "Which one of the following is NOT a data structure?",
+        "options": [
+            "Index",
+            "Array",
+            "Record",
+            "Linked list"
+        ],
+        "answer": "Record"
+    },
+    {
+        "id": 18,
+        "question": "Which one of the following statements regarding documentation in the software lifecycle is NOT TRUE?",
+        "options": [
+            "Service documentation defines how the system should be maintained and updated if necessary",
+            "System documentation defines software",
+            "Documentation stops when software is tested",
+            "Technical documentation describes the installation and servicing of a software system"
+        ],
+        "answer": "Documentation stops when software is tested"
+    },
+    {
+        "id": 19,
+        "question": "Basis path testing is a method in which each statement in the software is executed ____",
+        "options": [
+            "only one time",
+            "more than one time",
+            "one or more times",
+            "zero or more times"
+        ],
+        "answer": "only one time"
+    },
+    {
+        "id": 20,
+        "question": "___ Between modules in a software system must be minimized",
+        "options": [
+            "Cohesion",
+            "Coupling",
+            "Modularity",
+            "Procedures"
+        ],
+        "answer": "Coupling"
+    },
+    {
+        "id": 21,
+        "question": "When considering software quality, maintainability includes:\nA. Changeability\nB. Flexibility\nC. Portability\nD. Testability\nE. Correctability",
+        "options": [
+            "Only A and D",
+            "Only A, C and D",
+            "Only A, B, D and E",
+            "A, B, C, D and E"
+        ],
+        "answer": "Only A, B, D and E"
+    },
+    {
+        "id": 22,
+        "question": "Which of the following statements regarding the analysis phase of the software life cycle are NOT TRUE?\n\nA. A specification document is produced that shows what the software will do without specifying how it will be done\nB. In this phase it must be known what type of programming language will be used in the implementation phase\nC. Data flow diagrams, entity-relationship diagrams and state diagrams are modelling tools that can be used in this phase\nD. A use-case diagram is a modelling tool that can be used in this phase to show how users communicate with the system",
+        "options": [
+            "Only A and B",
+            "Only C and D",
+            "Only A, B and C",
+            "A, B, C and D"
+        ],
+        "answer": "Only A and B"
+    },
+    {
+        "id": 23,
+        "question": "What is the first stage of the waterfall model in the software development process?",
+        "options": [
+            "Observation",
+            "Analysis",
+            "Testing",
+            "Implementation"
+        ],
+        "answer": "Analysis"
+    },
+    {
+        "id": 24,
+        "question": "In the Scheme version of LISP, if S = (14 20 55 77 87 109 200 301), then (car (cdr (cdr (cdr S)))) would give a result of",
+        "options": [
+            "14",
+            "55",
+            "77",
+            "87"
+        ],
+        "answer": "77"
+    },
+    {
+        "id": 25,
+        "question": "Which one of the following programming paradigms deals with active objects?",
+        "options": [
+            "Declarative",
+            "Functional",
+            "Procedural",
+            "Object-oriented"
+        ],
+        "answer": "Object-oriented"
+    },
+    {
+        "id": 26,
+        "question": "Which one of the following programming paradigms is considered to be imperative?",
+        "options": [
+            "Declarative",
+            "Functional",
+            "Procedural",
+            "Object-oriented"
+        ],
+        "answer": "Procedural"
+    },
+    {
+        "id": 27,
+        "question": "The two methods that are used for translating a program to machine language both follow the same translation process. Arrange the steps in the CORRECT sequence:\n\nSTEPS             | ORDER\nsemantic analysis | I\nsyntax analysis   | II\nCode generation   | III\nlexical analysis  | IV",
+        "options": [
+            "I, II, III, IV",
+            "I, II, IV, III",
+            "III, II, I, IV",
+            "IV, II, I, III"
+        ],
+        "answer": "IV, II, I, III"
+    },
+    {
+        "id": 28,
+        "question": "Compilation ____",
+        "options": [
+            "translates and executes the source code a line at a time",
+            "is used in the first approach to interpretation",
+            "translates the whole source program into the object module before executing it",
+            "is a form of interpretation"
+        ],
+        "answer": "translates the whole source program into the object module before executing it"
+    },
+    {
+        "id": 29,
+        "question": "The only language understood by a computer is ____ language.",
+        "options": [
+            "machine",
+            "assembly",
+            "English",
+            "mnemonic"
+        ],
+        "answer": "machine"
+    },
+    {
+        "id": 30,
+        "question": "Which one of the following statements regarding an algorithm is NOT TRUE?",
+        "options": [
+            "It is a step-by-step method for solving a problem",
+            "It is dependent on the computer system",
+            "It accepts input data",
+            "It creates output data"
+        ],
+        "answer": "It is dependent on the computer system"
+    },
+    {
+        "id": 31,
+        "question": "A sort algorithm is often used in computer programs. In ___ sort, the list is divided into two lists, sorted and unsorted, that are separated by an imaginary wall:\nA. Bubble\nB. Selection\nC. Insertion",
+        "options": [
+            "Only B",
+            "Only C",
+            "Only A and B",
+            "A, B and C"
+        ],
+        "answer": "Only B"
+    },
+    {
+        "id": 32,
+        "question": "Which high-level design tool would be most appropriate to use to show relationship between different modules in an algorithm?",
+        "options": [
+            "A flowchart",
+            "A structure chart",
+            "Pseudocode",
+            "A subalgorithm"
+        ],
+        "answer": "A structure chart"
+    },
+    {
+        "id": 33,
+        "question": "Which of the following are basic algorithms used in computer programs?\nA. Searching\nB. Sorting\nC. Repetition\nD. Looping",
+        "options": [
+            "Only A and B",
+            "Only A, B and D",
+            "Only B, C and D",
+            "A, B, C and D"
+        ],
+        "answer": "A, B, C and D"
+    },
+    {
+        "id": 34,
+        "question": "Suppose a list contains the following elements: 47, 98, 22, 13, 938. What is the order of the elements in the list after three passes if bubble sort is used?",
+        "options": [
+            "8, 13, 22, 47, 98, 93",
+            "8, 13, 22, 47, 93, 98",
+            "8, 13, 22, 98, 93, 47",
+            "8, 13, 22, 93, 98, 47"
+        ],
+        "answer": "8, 13, 22, 47, 93, 98"
+    },
+    {
+        "id": 35,
+        "question": "A list contains the following elements: 3, 7, 8, 17, 23, 42, 47, 78, 99, 107, 130. At the beginning, first = 1, mid = 6 and last = 11. What are the values of first, mid and last respectively after another (one) iteration of the binary search algorithm if the goal is 78?",
+        "options": [
+            "1, 3, 5",
+            "6, 8, 10",
+            "7, 8, 9",
+            "7, 9, 11"
+        ],
+        "answer": "7, 9, 11"
+    },
+    {
+        "id": 36,
+        "question": "A ____ occurs when an operating system does not put resource restrictions on processes.",
+        "options": [
+            "starvation",
+            "deadlock",
+            "queue",
+            "delay"
+        ],
+        "answer": "deadlock"
+    },
+    {
+        "id": 37,
+        "question": "Modern operating systems use three different terms that refer to a set of instructions: program, job and process. In which of the following possible states can a process be?\nA. Hold\nB. Terminated\nC. Ready\nD. Waiting\nE. Running",
+        "options": [
+            "Only A and B",
+            "Only C, D and E",
+            "Only B, C and D",
+            "A, B, C, D and E"
+        ],
+        "answer": "Only C, D and E"
+    },
+    {
+        "id": 38,
+        "question": "During ___, more than one program can be in memory at the same time and executed concurrently.",
+        "options": [
+            "monoprogramming",
+            "batch processing",
+            "multiprogramming",
+            "multiprocessing"
+        ],
+        "answer": "multiprogramming"
+    },
+    {
+        "id": 39,
+        "question": "An operating system (OS) can be programmed in a modular architecture with several layers such that higher layers can be changed without affecting the lower layers. This property refers to the ____ of the OS.",
+        "options": [
+            "extensibility",
+            "reliability",
+            "compatibility",
+            "portability"
+        ],
+        "answer": "extensibility"
+    },
+    {
+        "id": 40,
+        "question": "An operating system is a(n):\nA. Program that facilitates the execution of other programs\nB. Interface between the hardware of a computer and the user\nC. Program that facilitates access to hardware resources, but not software resources\nD. Interface between networks",
+        "options": [
+            "Only A and B",
+            "Only C and D",
+            "Only A, B and C",
+            "A, B, C and D"
+        ],
+        "answer": "Only A and B"
+    },
+    {
+        "id": 41,
+        "question": "There are several layers in a TCP/IP protocol suite. The transport layer is responsible for ____",
+        "options": [
+            "providing service to the user",
+            "logical delivery of a message between client and server processes",
+            "the delivery of individual packets from the source host to the destination host",
+            "the movement of individual bits from one node to the next"
+        ],
+        "answer": "logical delivery of a message between client and server processes"
+    },
+    {
+        "id": 42,
+        "question": "What is the MAIN factor that differentiates a wide area network (WAN) from a local area network (LAN)?",
+        "options": [
+            "The topology of the networks",
+            "The sizes of the geographical areas covered by the networks",
+            "The number of nodes on the networks",
+            "The number of computers on the networks"
+        ],
+        "answer": "The sizes of the geographical areas covered by the networks"
+    },
+    {
+        "id": 43,
+        "question": "A small part of a star LAN with 150 stations is damaged. How many stations are affected by this damage?",
+        "options": [
+            "All 150 stations are affected",
+            "All 150 stations are affected if special provisions are not made",
+            "Only the stations on the damaged portion of the network are affected",
+            "No station is affected if special provisions are made"
+        ],
+        "answer": "Only the stations on the damaged portion of the network are affected"
+    },
+    {
+        "id": 44,
+        "question": "A network consists of two or more devices connected through links. Dedicated point-to-point links are used in the following topologies:\nA. Ring\nB. Star\nC. Mesh\nD. Bus",
+        "options": [
+            "Only A, B and D",
+            "Only A, B and C",
+            "Only B, C and D",
+            "A, B, C and D"
+        ],
+        "answer": "Only A, B and C"
+    },
+    {
+        "id": 45,
+        "question": "What is the most common high-speed LAN (local area network) topology currently in use?",
+        "options": [
+            "Bus",
+            "Ring",
+            "Star",
+            "Mesh"
+        ],
+        "answer": "Star"
+    },
+    {
+        "id": 46,
+        "question": "In a network, what reliability factor is related to transit time and response time?",
+        "options": [
+            "performance",
+            "reliability",
+            "security",
+            "connectivity"
+        ],
+        "answer": "performance"
+    },
+    {
+        "id": 47,
+        "question": "In the method that is used for synchronising the operation of the CPU with the I/O device, a large block of data can be passed from an I/O device to memory directly:",
+        "options": [
+            "programmed I/O",
+            "Isolated I/O",
+            "DMA (direct memory access)",
+            "interrupt-driven I/O"
+        ],
+        "answer": "DMA (direct memory access)"
+    },
+    {
+        "id": 48,
+        "question": "Which one of the following is NOT a form of an input/output (I/O) controller?",
+        "options": [
+            "SCSI",
+            "ALU",
+            "FireWire",
+            "USB"
+        ],
+        "answer": "ALU"
+    },
+    {
+        "id": 49,
+        "question": "Which of the following statements regarding memory is FALSE?",
+        "options": [
+            "Static RAM (SRAM) technology uses traditional flip-flop gates to hold data",
+            "Dynamic RAM (DRAM) is faster than SRAM",
+            "RAM is volatile",
+            "ROM can be accessed randomly"
+        ],
+        "answer": "Dynamic RAM (DRAM) is faster than SRAM"
+    },
+    {
+        "id": 50,
+        "question": "Where is cache memory located?",
+        "options": [
+            "in the CPU",
+            "in main memory",
+            "between the CPU and main memory",
+            "in the control unit"
+        ],
+        "answer": "between the CPU and main memory"
+    },
+    {
+        "id": 51,
+        "question": "A computer has 8 MB (megabytes) of memory. How many bits are needed to address a single byte?",
+        "options": [
+            "23 bits",
+            "46 bits",
+            "log32 2^3 bits",
+            "log2 3^2 bits"
+        ],
+        "answer": "23 bits"
+    },
+    {
+        "id": 52,
+        "question": "In which one of the following subsystems are registers found?",
+        "options": [
+            "Central processing unit (CPU)",
+            "Arithmetic and logic unit (ALU)",
+            "Main memory",
+            "Input/output subsystem"
+        ],
+        "answer": "Central processing unit (CPU)"
+    },
+    {
+        "id": 53,
+        "question": "A function F(A, B, C) accepts a decimal number between 0 and 7 as input and outputs 1 if the number is 1 or a prime number. The following table shows different combinations of binary inputs for A, B, and C. Which alternative shows the correct outputs for F?",
+        "options": [
+            "Alternative 1: 0, 0",
+            "Alternative 2: 1, 1",
+            "Alternative 3: 0, 1",
+            "Alternative 4: 1, 0"
+        ],
+        "answer": "Alternative 2: 1, 1"
+    },
+    {
+        "id": 54,
+        "question": "A function F(A, B, C) accepts a decimal number between 0 and 7 as input and outputs 1 if the number is 1 or a prime number. The following table shows different combinations of binary inputs for A, B, and C. Which alternative shows the correct outputs for F for each row?",
+        "options": [
+            "Alternative 1: F = 0, 0",
+            "Alternative 2: F = 1, 1",
+            "Alternative 3: F = 0, 1",
+            "Alternative 4: F = 1, 0"
+        ],
+        "answer": "Alternative 2: F = 1, 1"
+    },
+    {
+        "id": 55,
+        "question": "A function F(A, B, C) accepts a decimal number between 0 and 7 as input and outputs 1 if the number is 1 or a prime number. The following table shows different combinations of binary inputs for A, B, and C. Which alternative shows the correct outputs for F for each row?",
+        "options": [
+            "Alternative 1: F = 0, 0",
+            "Alternative 2: F = 1, 1",
+            "Alternative 3: F = 0, 1",
+            "Alternative 4: F = 1, 0"
+        ],
+        "answer": "Alternative 2: F = 1, 1"
+    },
+    {
+        "id": 56,
+        "question": "A function F(A, B, C) accepts a decimal number between 0 and 7 as input and outputs 1 if the number is 1 or a prime number. The following table shows different combinations of binary inputs for A, B, and C. Which alternative shows the correct outputs for F for each row?",
+        "options": [
+            "Alternative 1: F = 0, 0",
+            "Alternative 2: F = 1, 1",
+            "Alternative 3: F = 0, 1",
+            "Alternative 4: F = 1, 0"
+        ],
+        "answer": "Alternative 2: F = 1, 1"
+    },
+    {
+        "id": 57,
+        "question": "What is the output of Gate 4?",
+        "options": [
+            "(x y z')' + ((x + y) + z)'",
+            "(x y z')' + ((x + y) z)'",
+            "(x + y + z')' ((x + y) z)",
+            "(x y z')' ((x + y) z)'"
+        ],
+        "answer": "(x y z')' + ((x + y) z)'",
+        "url": "https://ibb.co/6cMd10hS"
+    },
+    {
+        "id": 58,
+        "question": "What is the output of Gate 32?",
+        "options": [
+            "x + y + z",
+            "((x y) z)'",
+            "((x + y) + z)'",
+            "((x + y) z)"
+        ],
+        "answer": "((x + y) + z)'",
+        "url": "https://ibb.co/6cMd10hS"
+    },
+    {
+        "id": 59,
+        "question": "What is the output of Gate 2?",
+        "options": [
+            "xy",
+            "x + y",
+            "(x + y)'",
+            "x yz"
+        ],
+        "answer": "(x + y)'",
+        "url": "https://ibb.co/6cMd10hS"
+    },
+    {
+        "id": 60,
+        "question": "What is the output of Gate 19?",
+        "options": [
+            "(x y z')",
+            "(x + y + z')\"",
+            "x + y + z'",
+            "x + y"
+        ],
+        "answer": "x + y + z'",
+        "url": "https://ibb.co/6cMd10hS"
+    },
+    {
+        "id": 61,
+        "question": "Which term represents Group 1?",
+        "options": [
+            "D'",
+            "A'D'",
+            "A'CD",
+            "A'"
+        ],
+        "answer": "A'D'",
+        "url": "https://ibb.co/fVVpWdfz"
+    },
+    {
+        "id": 62,
+        "question": "Which term represents Group 2?",
+        "options": [
+            "BD",
+            "CD",
+            "BA",
+            "A'D'"
+        ],
+        "answer": "CD",
+        "url": "https://ibb.co/fVVpWdfz"
+    },
+    {
+        "id": 63,
+        "question": "Which term represents Group 32?",
+        "options": [
+            "ABD",
+            "ABC",
+            "BC",
+            "ACD"
+        ],
+        "answer": "BC",
+        "url": "https://ibb.co/fVVpWdfz"
+    },
+    {
+        "id": 64,
+        "question": "Which one of the following four Karnaugh maps reflects the correct forming of groups?",
+        "options": [
+            "https://ibb.co/HfrSqxMx",
+            "https://ibb.co/spbbBss8",
+            "https://ibb.co/SXkXngt9",
+            "https://ibb.co/4wDWcJ1F"
+        ],
+        "answer": "https://ibb.co/HfrSqxMx",
+        "url": "https://ibb.co/qM2Cn3f6"
+    },
+    {
+        "id": 65,
+        "question": "Consider the following Boolean function F(x, y, z) = m₁ + m₃ + m₄ + m₆. Which one of the following four Karnaugh diagrams represents the given function?",
+        "options": [
+            "1.\n       y'z'   y'z    yz    yz'\n   x'         1             1\n   x     1                 1",
+            "2.\n       y'z'   y'z    yz    yz'\n   x'  1       1             1\n   x                 1",
+            "3.\n       y'z'   y'z    yz    yz'\n   x'         1       1       \n   x     1                 1",
+            "4.\n       y'z'   y'z    yz    yz'\n   x'  1       1       1     \n   x                     1"
+        ],
+        "answer": "1.\n       y'z'   y'z    yz    yz'\n   x'         1             1\n   x     1                 1"
+    },
+    {
+        "id": 66,
+        "question": "What is the simplest form of the Boolean function (x + y + z')'?",
+        "options": [
+            "x' + y' + z''",
+            "x' + y + z",
+            "x'y'z''",
+            "x'y'z"
+        ],
+        "answer": "x'y'z"
+    },
+    {
+        "id": 67,
+        "question": "What is the simplest form of the Boolean function (x + y')x?",
+        "options": [
+            "y'x",
+            "xx + y'x",
+            "x + y'",
+            "x"
+        ],
+        "answer": "x"
+    },
+    {
+        "id": 68,
+        "question": "What is the simplest form of the Boolean function (xy' + 0)'?",
+        "options": [
+            "x' + y",
+            "(xy')' + 0'",
+            "1",
+            "0"
+        ],
+        "answer": "x' + y"
+    },
+    {
+        "id": 69,
+        "question": "Calculate (101011)₂ + (1011)₂",
+        "options": [
+            "(1000101)₂",
+            "(1000001)₂",
+            "(11110110)₂",
+            "(1000110)₂"
+        ],
+        "answer": "(1000101)₂"
+    },
+    {
+        "id": 70,
+        "question": "What is the result of (10010111)₂ XOR (01010101)₂?",
+        "options": [
+            "11010111",
+            "11000010",
+            "00101000",
+            "11111111"
+        ],
+        "answer": "11000010"
+    },
+    {
+        "id": 71,
+        "question": "Images can be stored in a computer by using the raster graphics technique. The following statements regarding this technique are TRUE:\nA. Raster graphics is used when we need to store an analog image such as a photograph\nB. The scanning rate in image processing is called resolution\nC. \nD. The number of bits used to represent a pixel depends on how a pixel's colour is handled by different encoding techniques. JPEG (Joint Photographic Experts Group) uses the True-Color scheme, and GIF (Graphic Interchange Format) uses the indexed colour scheme\nE. Raster graphics has two disadvantages: the file size is big and rescaling is troublesome",
+        "options": [
+            "Only A, B and C",
+            "Only B, C and E",
+            "Only A, B, C and E",
+            "A, B, C, D and E"
+        ],
+        "answer": "A, B, C, D and E"
+    },
+    {
+        "id": 72,
+        "question": "A n-bit memory location can store a maximum unsigned integer of ___",
+        "options": [
+            "2 + 1",
+            "2 - 1",
+            "2ⁿ + 1",
+            "2ⁿ - 1"
+        ],
+        "answer": "2ⁿ - 1"
+    },
+    {
+        "id": 73,
+        "question": "What is the signed-and-magnitude representation of -5 using 4 bits?",
+        "options": [
+            "(1101)₂",
+            "(1111)₂",
+            "(0101)₂",
+            "(0111)₂"
+        ],
+        "answer": "(1101)₂"
+    },
+    {
+        "id": 74,
+        "question": "What is the normalised form of (1111101)₂?",
+        "options": [
+            "(1 111101)₂ x (22)₁₀",
+            "(1 111101)₂ × (2²)₁₀",
+            "(1111101)₂ x (2)₁₀",
+            "(1111101)₂ × (2)₁₀"
+        ],
+        "answer": "(1 111101)₂ × (2²)₁₀"
+    },{
+  "id": 75,
+  "question": "Convert (11111)₂ to an octal number",
+  "options": [
+    "(15 1)₈",
+    "(15 4)₈",
+    "(174)₈",
+    "(13 2)₈"
+  ],
+  "answer": "(37)₈"
+},{
+  "id": 76,
+  "question": "Convert (41)₁₀ to a hexadecimal number",
+  "options": [
+    "(29)₁₆",
+    "(92)₁₆",
+    "(2A)₁₆",
+    "(28)₁₆"
+  ],
+  "answer": "(29)₁₆"
+},{
+  "id": 77,
+  "question": "Historians have since 1950 divided computer software and hardware into generations. In which generation are we currently (as of 2011)?",
+  "options": [
+    "Second",
+    "Third",
+    "Fourth",
+    "Fifth"
+  ],
+  "answer": "Fourth"
+},{
+  "id": 78,
+  "question": "According to the von Neumann model, which subsystem of a computer serves as a manager of other subsystems?",
+  "options": [
+    "ALU",
+    "Input/Output",
+    "Memory",
+    "Control Unit"
+  ],
+  "answer": "Control Unit"
+}
+
+
+
+
+]

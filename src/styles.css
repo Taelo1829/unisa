@@ -1,0 +1,21 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+.dark {
+  background-color: #121212;
+  color: white;
+}
+.light {
+  background-color: #f5f5f5;
+  color: black;
+}
+button {
+  margin: 5px;
+  padding: 10px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}

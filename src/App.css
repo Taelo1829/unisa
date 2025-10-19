@@ -1,0 +1,65 @@
+.answer {
+  border: 1px solid #b8dce2;
+  padding: 10px;
+  margin-bottom: 4px;
+  border-radius: 10px;
+}
+
+body {
+  background-color: #f8f9fa;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.card {
+  background-color: #e7f3f5;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #b8dce2;
+  margin-top: 40px
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+  margin: 0px;
+  padding: 10px;
+  height: 40px;
+}
+
+.next {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center
+}
+
+.next button {
+  border-radius: 10px;
+  border: 1px solid #b8dce2;
+  background-color: #10a9c5;
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.profile {
+  background-color: #ccc;
+  color: #373737;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

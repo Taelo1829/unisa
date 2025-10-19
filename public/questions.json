@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "question": "An object-oriented database tries to keep the advantages of a ___ model and at the same time allows the applications to access structured data.",
+        "options": [
+            "relational",
+            "hierarchical",
+            "network",
+            "distributed"
+        ],
+        "answer": "relational"
+    },
+    {
+        "id": 2,
+        "question": "Which of the following databases are used in a distributed database model?",
+        "options": [
+            "Only A and B",
+            "Only A and C",
+            "Only B and C",
+            "A, B and C"
+        ],
+        "answer": "Only A and B"
+    },
+    {
+        "id": 3,
+        "question": "___ is a declarative programming language used on relational databases.",
+        "options": [
+            "ANSI",
+            "SQM",
+            "SQL",
+            "ISO"
+        ],
+        "answer": "SQL"
+    },
+    {
+        "id": 4,
+        "question": "The total number of rows in a relation is called the ___.",
+        "options": [
+            "cardinality",
+            "degree of the relation",
+            "size",
+            "depth"
+        ],
+        "answer": "cardinality"
+    }
+]
