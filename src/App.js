@@ -4,6 +4,7 @@ import questions from './questions.json';
 import './App.css';
 import Header from './Header';
 import RenderQuestion from './components/RenderQuestion';
+import RenderAnswers from './components/RenderAnswers';
 
 function App() {
   const [current, setCurrent] = useState(0);
@@ -26,9 +27,18 @@ function App() {
   };
 
   const nextQuestion = () => {
-    setCurrent(current + 1);
-    setShowAnswer(false);
-    setSelected(null);
+    let answeredQuestions = JSON.parse(localStorage.getItem("answeredQuestions") ?? "[]")
+    do {
+      setCurrent(current + 1);
+      setShowAnswer(false);
+      setSelected(null);
+    } while (answeredQuestions.includes(q.id)) {
+      setCurrent(current + 1);
+      setShowAnswer(false);
+      setSelected(null);
+    }
+    answeredQuestions.push(q.id)
+    localStorage.setItem("answeredQuestions", JSON.stringify(answeredQuestions))
   };
 
 
@@ -50,21 +60,8 @@ function App() {
       <Header />
       <div className='card'>
         <RenderQuestion question={q.question} type={q.type} data={q.data} />
-        {q.options.map((opt, idx) => (
-          <div key={idx}
-            onClick={() => handleAnswer(opt)}
-            disabled={showAnswer}
-            className='answer'
-            style={{
-              backgroundColor: showAnswer ?
-                opt === q.answer ? 'green' :
-                  opt === selected ? 'red' : '' : '',
-              color: showAnswer && (opt === q.answer || opt === selected) ? "#fff" : ''
-            }}>
-            {opt}
-          </div>
-        ))}
-
+        <RenderAnswers answer={q.answer} handleAnswer={handleAnswer} options={q.options} selected={selected}
+          showAnswer={showAnswer} type={q.answerType} />
       </div>
       <div className='next'>
         <div>

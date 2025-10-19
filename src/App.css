@@ -67,3 +67,19 @@ button {
 .question {
   padding-bottom: 10px;
 }
+
+.table {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  border-bottom: 1px solid black;
+}
+
+.table :first-child {
+  border-right: 1px solid black;
+  width: 50%;
+}
+
+.table div {
+  padding: 5px
+}

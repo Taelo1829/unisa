@@ -12,14 +12,20 @@
     },
     {
         "id": 2,
-        "question": "Which of the following databases are used in a distributed database model?\nA. Fragmented\nB. Replicated\nC. Repeated",
+        "question": "Which of the following databases are used in a distributed database model?",
         "options": [
             "Only A and B",
             "Only A and C",
             "Only B and C",
             "A, B and C"
         ],
-        "answer": "Only A and B"
+        "answer": "Only A and B",
+        "type": "list",
+        "data": [
+            "A. Fragmented",
+            "B. Replicated",
+            "C. Repeated"
+        ]
     },
     {
         "id": 3,
@@ -221,14 +227,22 @@
     },
     {
         "id": 21,
-        "question": "When considering software quality, maintainability includes:\nA. Changeability\nB. Flexibility\nC. Portability\nD. Testability\nE. Correctability",
+        "question": "When considering software quality, maintainability includes:",
         "options": [
             "Only A and D",
             "Only A, C and D",
             "Only A, B, D and E",
             "A, B, C, D and E"
         ],
-        "answer": "Only A, B, D and E"
+        "data": [
+            "A. Changeability",
+            "B. Flexibility",
+            "C. Portability",
+            "D. Testability",
+            "E. Correctability"
+        ],
+        "answer": "Only A, B, D and E",
+        "type": "list"
     },
     {
         "id": 22,
@@ -394,7 +408,7 @@
     },
     {
         "id": 34,
-        "question": "Suppose a list contains the following elements: 47, 98, 22, 13, 938. What is the order of the elements in the list after three passes if bubble sort is used?",
+        "question": "Suppose a list contains the following elements: 47, 98, 22, 13, 93, 8. What is the order of the elements in the list after three passes if bubble sort is used?",
         "options": [
             "8, 13, 22, 47, 98, 93",
             "8, 13, 22, 47, 93, 98",
@@ -427,14 +441,22 @@
     },
     {
         "id": 37,
-        "question": "Modern operating systems use three different terms that refer to a set of instructions: program, job and process. In which of the following possible states can a process be?\nA. Hold\nB. Terminated\nC. Ready\nD. Waiting\nE. Running",
+        "question": "Modern operating systems use three different terms that refer to a set of instructions: program, job and process. In which of the following possible states can a process be?",
         "options": [
             "Only A and B",
             "Only C, D and E",
             "Only B, C and D",
             "A, B, C, D and E"
         ],
-        "answer": "Only C, D and E"
+        "answer": "Only C, D and E",
+        "type": "list",
+        "data": [
+            "A. Hold",
+            "B. Terminated",
+            "C. Ready",
+            "D. Waiting",
+            "E. Running"
+        ]
     },
     {
         "id": 38,
@@ -610,7 +632,8 @@
             "Alternative 3: 0, 1",
             "Alternative 4: 1, 0"
         ],
-        "answer": "Alternative 2: 1, 1"
+        "answer": "Alternative 2: 1, 1",
+        "answerType": "table"
     },
     {
         "id": 54,
@@ -655,7 +678,8 @@
             "(x y z')' ((x + y) z)'"
         ],
         "answer": "(x y z')' + ((x + y) z)'",
-        "url": "https://ibb.co/6cMd10hS"
+        "url": "https://ibb.co/6cMd10hS",
+        "type": "image"
     },
     {
         "id": 58,
@@ -704,7 +728,7 @@
         ],
         "answer": "A'D'",
         "type": "image",
-        "data": "https://ibb.co/fVVpWdfz"
+        "data": "https://i.ibb.co/PsshyGKv/image.png"
     },
     {
         "id": 62,
@@ -716,7 +740,7 @@
             "A'D'"
         ],
         "answer": "CD",
-        "url": "https://ibb.co/fVVpWdfz"
+        "url": "https://i.ibb.co/PsshyGKv/image.png"
     },
     {
         "id": 63,
@@ -728,7 +752,8 @@
             "ACD"
         ],
         "answer": "BC",
-        "url": "https://ibb.co/fVVpWdfz"
+        "type": "image",
+        "url": "https://i.ibb.co/PsshyGKv/image.png"
     },
     {
         "id": 64,
@@ -751,7 +776,8 @@
             "3.\n       y'z'   y'z    yz    yz'\n   x'         1       1       \n   x     1                 1",
             "4.\n       y'z'   y'z    yz    yz'\n   x'  1       1       1     \n   x                     1"
         ],
-        "answer": "1.\n       y'z'   y'z    yz    yz'\n   x'         1             1\n   x     1                 1"
+        "answer": "1.\n       y'z'   y'z    yz    yz'\n   x'         1             1\n   x     1                 1",
+        "answerType": "table"
     },
     {
         "id": 66,

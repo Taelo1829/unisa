@@ -1,7 +1,7 @@
 import React from 'react'
 
 const RenderQuestion = ({ question, type = "", data = [] }) => {
-    let content = <></>
+    question = question.split(".").map((row, key) => <div key={key}>{row}</div>)
 
     return (
         <div className='question'>
@@ -14,14 +14,14 @@ const RenderQuestion = ({ question, type = "", data = [] }) => {
 function RenderType(type, data) {
     if (type === "table")
         return (<>
-            {data.map(item => (<div>
+            {data.map((item, index) => (<div className='table' key={index}>
                 <div>{item.header}</div>
                 <div>{item.value}</div>
             </div>))}
         </>)
     if (type === "list")
         return (<>
-            {data.map(item => (<div>
+            {data.map((item, index) => (<div key={index}>
                 <div>{item}</div>
             </div>))}
         </>)
