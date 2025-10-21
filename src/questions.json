@@ -255,14 +255,21 @@
     },
     {
         "id": 22,
-        "question": "Which of the following statements regarding the analysis phase of the software life cycle are NOT TRUE?\n\nA. A specification document is produced that shows what the software will do without specifying how it will be done\nB. In this phase it must be known what type of programming language will be used in the implementation phase\nC. Data flow diagrams, entity-relationship diagrams and state diagrams are modelling tools that can be used in this phase\nD. A use-case diagram is a modelling tool that can be used in this phase to show how users communicate with the system",
+        "question": "Which of the following statements regarding the analysis phase of the software life cycle are NOT TRUE?",
         "options": [
             "Only A and B",
             "Only C and D",
             "Only A, B and C",
             "A, B, C and D"
         ],
-        "answer": "Only A and B"
+        "answer": "Only A and B",
+        "type": "list",
+        "data": [
+            "A. A specification document is produced that shows what the software will do without specifying how it will be done",
+            "B. In this phase it must be known what type of programming language will be used in the implementation phase",
+            "C. Data flow diagrams, entity-relationship diagrams and state diagrams are modelling tools that can be used in this phase",
+            "D. A use-case diagram is a modelling tool that can be used in this phase to show how users communicate with the system"
+        ]
     },
     {
         "id": 23,
