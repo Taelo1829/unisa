@@ -28,7 +28,7 @@ function RenderType(type, data) {
         </div>)
     if (type === "image")
         return (<>
-            <img src={data} alt={data} />
+            <img src={data} alt={data} width={"100%"} />
         </>)
 }
 
