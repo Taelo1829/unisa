@@ -34,12 +34,14 @@ function App() {
         if ((sectionCount[question.section] < 20 || !question.section) && !answeredQuestions.includes(question.id)) {
           sectionCount[question.section]++
           results.push(question)
+          existingIndexes.push(ri)
           it = 0
         } else if (answeredQuestions.includes(question.id)) {
           it++
           if (it > 3) {
             it = 0
             results.push(question)
+            existingIndexes.push(ri)
           }
         }
       }
