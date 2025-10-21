@@ -496,6 +496,7 @@
     },
     {
         "id": 39,
+        "section": "Computer systems, organisation and networks",
         "question": "An operating system (OS) can be programmed in a modular architecture with several layers such that higher layers can be changed without affecting the lower layers. This property refers to the ____ of the OS.",
         "options": [
             "extensibility",
@@ -503,7 +504,8 @@
             "compatibility",
             "portability"
         ],
-        "answer": "extensibility"
+        "answer": "extensibility",
+        "explanation": "Extensibility refers to the ability of a system to be expanded or modified with new functionality without disrupting existing components. In an OS with modular architecture, higher layers can change independently of lower ones, demonstrating this property."
     },
     {
         "id": 40,
