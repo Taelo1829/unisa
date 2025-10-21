@@ -368,14 +368,20 @@
     },
     {
         "id": 31,
-        "question": "A sort algorithm is often used in computer programs. In ___ sort, the list is divided into two lists, sorted and unsorted, that are separated by an imaginary wall:\nA. Bubble\nB. Selection\nC. Insertion",
+        "question": "A sort algorithm is often used in computer programs. In ___ sort, the list is divided into two lists, sorted and unsorted, that are separated by an imaginary wall:",
         "options": [
             "Only B",
             "Only C",
             "Only A and B",
             "A, B and C"
         ],
-        "answer": "Only B"
+        "answer": "Only B",
+        "data": [
+            "A. Bubble",
+            "B. Selection",
+            "C. Insertion"
+        ],
+        "type": "list"
     },
     {
         "id": 32,
