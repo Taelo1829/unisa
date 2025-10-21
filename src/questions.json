@@ -357,6 +357,7 @@
     },
     {
         "id": 30,
+        "section": "Computer algorithms, programming and software development",
         "question": "Which one of the following statements regarding an algorithm is NOT TRUE?",
         "options": [
             "It is a step-by-step method for solving a problem",
@@ -521,6 +522,7 @@
     },
     {
         "id": 43,
+        "section": "Computer systems, organisation and networks",
         "question": "A small part of a star LAN with 150 stations is damaged. How many stations are affected by this damage?",
         "options": [
             "All 150 stations are affected",
@@ -684,7 +686,7 @@
             "(x y z')' ((x + y) z)'"
         ],
         "answer": "(x y z')' + ((x + y) z)'",
-        "url": "https://ibb.co/6cMd10hS",
+        "data": "https://i.ibb.co/Gf6htQwD/image.png",
         "type": "image"
     },
     {
@@ -721,7 +723,7 @@
             "x + y"
         ],
         "answer": "x + y + z'",
-        "url": "https://ibb.co/6cMd10hS",
+        "data": "https://ibb.co/6cMd10hS",
         "type": "image"
     },
     {
