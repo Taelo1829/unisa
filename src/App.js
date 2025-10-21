@@ -22,15 +22,23 @@ function App() {
     let sectionCount = {}
     let results = []
     let existingIndexes = []
+    let it = 0
     while (results.length < 80) {
       //random index
       let ri = parseInt(Math.random() * questions.length - 1)
       if (!existingIndexes.includes(ri)) {
         let question = questions[ri]
         if (!sectionCount[question.section]) sectionCount[question.section] = 1
-        if (sectionCount[question.section] < 20 || !question.section) {
+        if ((sectionCount[question.section] < 20 || !question.section) && !answeredQuestions.includes(question.id)) {
           sectionCount[question.section]++
           results.push(question)
+          it = 0
+        } else if (answeredQuestions.includes(question.id)) {
+          it++
+          if (it > 3) {
+            it = 0
+            results.push(question)
+          }
         }
       }
     }
@@ -48,15 +56,9 @@ function App() {
 
   const nextQuestion = () => {
     let answeredQuestions = JSON.parse(localStorage.getItem("answeredQuestions") ?? "[]")
-    do {
-      setCurrent(current + 1);
-      setShowAnswer(false);
-      setSelected(null);
-    } while (answeredQuestions.includes(q.id)) {
-      setCurrent(current + 1);
-      setShowAnswer(false);
-      setSelected(null);
-    }
+    setCurrent(current + 1);
+    setShowAnswer(false);
+    setSelected(null);
     answeredQuestions.push(q.id)
     localStorage.setItem("answeredQuestions", JSON.stringify(answeredQuestions))
   };
