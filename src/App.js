@@ -14,9 +14,29 @@ function App() {
   const [shuffledQuestions, setShuffledQuestions] = useState([]);
 
   useEffect(() => {
-    const shuffled = [...questions].sort(() => Math.random() - 0.5);
-    setShuffledQuestions(shuffled);
+    const randomQuestions = generateRandomQuestions()
+    setShuffledQuestions(randomQuestions);
   }, []);
+
+  function generateRandomQuestions() {
+    let sectionCount = {}
+    let results = []
+    let existingIndexes = []
+    while (results.length < 80) {
+      //random index
+      let ri = parseInt(Math.random() * questions.length - 1)
+      if (!existingIndexes.includes(ri)) {
+        let question = questions[ri]
+        if (!sectionCount[question.section]) sectionCount[question.section] = 1
+        if (sectionCount[question.section] < 20 || !question.section) {
+          sectionCount[question.section]++
+          results.push(question)
+        }
+      }
+    }
+
+    return results
+  }
 
   const handleAnswer = (option) => {
     setSelected(option);
