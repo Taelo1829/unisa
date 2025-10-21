@@ -939,14 +939,22 @@
     },
     {
         "id": 71,
-        "question": "Images can be stored in a computer by using the raster graphics technique. The following statements regarding this technique are TRUE:\nA. Raster graphics is used when we need to store an analog image such as a photograph\nB. The scanning rate in image processing is called resolution\nC. \nD. The number of bits used to represent a pixel depends on how a pixel's colour is handled by different encoding techniques. JPEG (Joint Photographic Experts Group) uses the True-Color scheme, and GIF (Graphic Interchange Format) uses the indexed colour scheme\nE. Raster graphics has two disadvantages: the file size is big and rescaling is troublesome",
+        "question": "Images can be stored in a computer by using the raster graphics technique. The following statements regarding this technique are TRUE:",
         "options": [
             "Only A, B and C",
             "Only B, C and E",
             "Only A, B, C and E",
             "A, B, C, D and E"
         ],
-        "answer": "A, B, C, D and E"
+        "answer": "A, B, C, D and E",
+        "type": "list",
+        "data": [
+            "A. Raster graphics is used when we need to store an analog image such as a photograph",
+            "B. The scanning rate in image processing is called resolution",
+            "C. The number of bits used to represent a pixel depends on how a pixel's colour is handled by different encoding techniques ",
+            "D. The number of bits used to represent a pixel depends on how a pixel's colour is handled by different encoding techniques. JPEG (Joint Photographic Experts Group) uses the True-Color scheme, and GIF (Graphic Interchange Format) uses the indexed colour scheme",
+            "E. Raster graphics has two disadvantages: the file size is big and rescaling is troublesome"
+        ]
     },
     {
         "id": 72,
