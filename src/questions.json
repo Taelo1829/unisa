@@ -1345,6 +1345,7 @@
             "Deletion and searching of elements",
             "Retrieval and searching of elements"
         ],
-        "answer": "Insertion and deletion of elements"
+        "answer": "Insertion and deletion of elements",
+        "explanation": "In an array, elements are stored in contiguous memory locations. When inserting or deleting in the middle, all subsequent elements must be shifted, which makes these operations time-consuming compared to searching or retrieval."
     }
 ]
