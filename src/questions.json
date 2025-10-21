@@ -29,6 +29,7 @@
     },
     {
         "id": 3,
+        "section": "Computer data and file structure, and databases",
         "question": "___ is a declarative programming language used on relational databases.",
         "options": [
             "ANSI",
@@ -95,6 +96,7 @@
     },
     {
         "id": 9,
+        "section": "Computer data and file structure, and databases",
         "question": "Which one of the following is NOT a hashing method for hashed files?",
         "options": [
             "Modulo division hashing",
@@ -161,14 +163,21 @@
     },
     {
         "id": 15,
-        "question": "Which of the following operations can be defined on an array?\nA. Searching\nB. Insertion\nC. Retrieval\nD. Deletion",
+        "question": "Which of the following operations can be defined on an array?",
         "options": [
             "Only A and B",
             "Only A, B and D",
             "Only A, B and C",
             "A, B, C and D"
         ],
-        "answer": "A, B, C and D"
+        "answer": "A, B, C and D",
+        "type": "list",
+        "data": [
+            "A. Searching",
+            "B. Insertion",
+            "C. Retrieval",
+            "D. Deletion"
+        ]
     },
     {
         "id": 16,
@@ -335,6 +344,7 @@
     },
     {
         "id": 28,
+        "section": "Computer systems, organisation and networks",
         "question": "Compilation ____",
         "options": [
             "translates and executes the source code a line at a time",
@@ -415,6 +425,7 @@
     },
     {
         "id": 34,
+        "section": "Computer algorithms, programming and software development",
         "question": "Suppose a list contains the following elements: 47, 98, 22, 13, 93, 8. What is the order of the elements in the list after three passes if bubble sort is used?",
         "options": [
             "8, 13, 22, 47, 98, 93",
@@ -511,6 +522,7 @@
     },
     {
         "id": 42,
+        "section": "Computer systems, organisation and networks",
         "question": "What is the MAIN factor that differentiates a wide area network (WAN) from a local area network (LAN)?",
         "options": [
             "The topology of the networks",
@@ -600,6 +612,7 @@
     },
     {
         "id": 50,
+        "section": "Computer systems, organisation and networks",
         "question": "Where is cache memory located?",
         "options": [
             "in the CPU",
@@ -641,7 +654,65 @@
             "Alternative 4: 1, 0"
         ],
         "answer": "Alternative 2: 1, 1",
-        "answerType": "table"
+        "answerType": "table",
+        "data": [
+            {
+                "header": "",
+                "value": [
+                    "A",
+                    "1",
+                    "0"
+                ]
+            },
+            {
+                "header": "",
+                "value": [
+                    "B",
+                    "1",
+                    "0"
+                ]
+            },
+            {
+                "header": "",
+                "value": [
+                    "C",
+                    "0",
+                    "1"
+                ]
+            },
+            {
+                "header": "Alternative 1",
+                "value": [
+                    "F",
+                    "0",
+                    "0"
+                ]
+            },
+            {
+                "header": "Alternative 2",
+                "value": [
+                    "F",
+                    "1",
+                    "1"
+                ]
+            },
+            {
+                "header": "Alternative 3",
+                "value": [
+                    "F",
+                    "0",
+                    "1"
+                ]
+            },
+            {
+                "header": "Alternative 4",
+                "value": [
+                    "F",
+                    "1",
+                    "0"
+                ]
+            }
+        ]
     },
     {
         "id": 54,
@@ -678,6 +749,7 @@
     },
     {
         "id": 57,
+        "section": "Computer background, number systems, data storage, operations on data and logic",
         "question": "What is the output of Gate 4?",
         "options": [
             "(x y z')' + ((x + y) + z)'",
@@ -790,6 +862,7 @@
     },
     {
         "id": 66,
+        "section": "Computer background, number systems, data storage, operations on data and logic",
         "question": "What is the simplest form of the Boolean function (x + y + z')'?",
         "options": [
             "x' + y' + z''",
@@ -1103,5 +1176,154 @@
         ],
         "answer": "Each node in a linked list has an explicit name",
         "type": "normal"
+    },
+    {
+        "id": 91,
+        "section": "Computer data and file structure, and databases",
+        "question": "What name is given to the total number of rows in a relation in a relational database?",
+        "options": [
+            "Attribute",
+            "Tuple",
+            "Multiplicity",
+            "Cardinality"
+        ],
+        "answer": "Cardinality",
+        "type": "normal"
+    },
+    {
+        "id": 92,
+        "section": "Computer data and file structure, and databases",
+        "question": "In the open addressing collision resolution method, consider the following statements",
+        "options": [
+            "Only 1 is true",
+            "Only 2 is true",
+            "Only 3 is true",
+            "Only 4 is true"
+        ],
+        "answer": "Only 4 is true",
+        "type": "list",
+        "data": [
+            "1. The first record is stored in the home address, but contains a pointer to the second record",
+            "2. Bucket hashing is used",
+            "3. Each collision resolution decreases the probability of future collisions",
+            "4. Data that cannot be stored in the home address can be stored in the next address"
+        ]
+    },
+    {
+        "id": 93,
+        "section": "Computer data and file structure, and databases",
+        "question": "In direct hashing, consider the following statements",
+        "options": [
+            "Only 1 is true",
+            "Only 2 is true",
+            "Only 3 is true",
+            "Only 4 is true"
+        ],
+        "answer": "Only 2 is true",
+        "type": "list",
+        "data": [
+            "1. The key is divided by the file size and the address is the remainder plus I",
+            "2. The key is the address and no algorithm manipulation is necessary",
+            "3. The address is composed of digits selected from the key",
+            "4. Each record must be accessed sequentially"
+        ]
+    },
+    {
+        "id": 94,
+        "section": "Computer data and file structure, and databases",
+        "question": "One of the advantages of an indexed file is that you can have more than one index, each with a different key. What name is usually given to this kind of file?",
+        "options": [
+            "Inverted",
+            "Text",
+            "Sequential",
+            "Hashed"
+        ],
+        "answer": "Inverted",
+        "type": "normal"
+    },
+    {
+        "id": 95,
+        "section": "Computer data and file structure, and databases",
+        "question": "Records can be accessed randomly in the following file structure(s)",
+        "options": [
+            "Only A",
+            "Only B and C",
+            "Only A and B",
+            "Only A and C"
+        ],
+        "answer": "Only A and B",
+        "type": "list",
+        "data": [
+            "A. Indexed",
+            "B. Hashed",
+            "C. Sequential"
+        ]
+    },
+    {
+        "id": 96,
+        "section": "Computer data and file structure, and databases",
+        "question": "The following files are associated with the update program of sequential files",
+        "options": [
+            "Only A and C",
+            "Only A, B and C",
+            "Only A, B and D",
+            "Only B, C and D"
+        ],
+        "answer": "Only A, B and D",
+        "type": "list",
+        "data": [
+            "A. A new master file",
+            "B. An old master file",
+            "C. A translation file",
+            "D. An error report file"
+        ]
+    },
+    {
+        "id": 97,
+        "section": "Computer data and file structure, and databases",
+        "question": "Which one of the following statements regarding linked lists is NOT TRUE?",
+        "options": [
+            "A linked list is a suitable structure if a large number of insertions and deletions are needed",
+            "Each node in a linked list has an explicit name",
+            "The same operations defined for an array can be applied to a linked list",
+            "The name of a linked list is the name of the head pointer that points to the first node of the list"
+        ],
+        "answer": "Each node in a linked list has an explicit name"
+    },
+    {
+        "id": 98,
+        "section": "Computer data and file structure, and databases",
+        "question": "Which two pointers are used when trying to find an element in a linked list?",
+        "options": [
+            "Previous (Pre) and Next (Nex)",
+            "Current (Cur) and Next (Nex)",
+            "Pre and Cur",
+            "Nex and Null (NuL)"
+        ],
+        "answer": "Pre and Cur"
+    },
+    {
+        "id": 99,
+        "section": "Computer algorithms, programming and software development",
+        "question": "Which algorithm must be applied to a linked list before an item is inserted into it?",
+        "options": [
+            "Deletion",
+            "Searching",
+            "Transversal",
+            "Retrieval"
+        ],
+        "answer": "Searching"
+    },
+    {
+        "id": 100,
+        "section": "Computer algorithms, programming and software development",
+        "question": "Which of the following operations are BOTH lengthy and time consuming when the operation has to be done in the middle of an array?",
+        "options": [
+            "Insertion and deletion of elements",
+            "Insertion and retrieval of elements",
+            "Deletion and searching of elements",
+            "Retrieval and searching of elements"
+        ],
+        "answer": "Insertion and deletion of elements"
     }
 ]

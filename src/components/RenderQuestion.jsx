@@ -21,11 +21,11 @@ function RenderType(type, data) {
             </div>))}
         </>)
     if (type === "list")
-        return (<>
+        return (<div className='pt-10'>
             {data.map((item, index) => (<div key={index}>
                 <div>{item}</div>
             </div>))}
-        </>)
+        </div>)
     if (type === "image")
         return (<>
             <img src={data} alt={data} />
