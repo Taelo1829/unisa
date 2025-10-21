@@ -500,14 +500,21 @@
     },
     {
         "id": 40,
-        "question": "An operating system is a(n):\nA. Program that facilitates the execution of other programs\nB. Interface between the hardware of a computer and the user\nC. Program that facilitates access to hardware resources, but not software resources\nD. Interface between networks",
+        "question": "An operating system is a(n):",
         "options": [
             "Only A and B",
             "Only C and D",
             "Only A, B and C",
             "A, B, C and D"
         ],
-        "answer": "Only A and B"
+        "answer": "Only A and B",
+        "type": "list",
+        "data": [
+            "A. Program that facilitates the execution of other programs",
+            "B. Interface between the hardware of a computer and the user",
+            "C. Program that facilitates access to hardware resources, but not software resources",
+            "D. Interface between networks"
+        ]
     },
     {
         "id": 41,
