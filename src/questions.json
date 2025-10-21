@@ -928,5 +928,178 @@
             "Control Unit"
         ],
         "answer": "Control Unit"
+    },
+    {
+        "id": 79,
+        "section": "Computer data and file structure, and databases",
+        "question": "What name is given to the person who has the maximum level of privileges and controls other users' access to a DBMS?",
+        "options": [
+            "Database administrator",
+            "Expert user",
+            "End user",
+            "Technical administrator"
+        ],
+        "answer": "Database administrator",
+        "type": "normal"
+    },
+    {
+        "id": 80,
+        "section": "Computer data and file structure, and databases",
+        "question": "Which of the following statements is TRUE?",
+        "options": [
+            "A database management system (DBMS) defines, creates and maintains a database and allows controlled access to users",
+            "A database is a collection of data that is always logically and physically coherent",
+            "A DBMS is exclusively composed of software, data, users and procedures",
+            "A DBMS has four levels: internal, conceptual, hierarchical and external"
+        ],
+        "answer": "A database management system (DBMS) defines, creates and maintains a database and allows controlled access to users",
+        "type": "normal"
+    },
+    {
+        "id": 81,
+        "section": "Computer data and file structure, and databases",
+        "question": "What language is used in the definition and manipulation of relational databases?",
+        "options": [
+            "ANSI",
+            "SQL",
+            "ISO",
+            "RDB"
+        ],
+        "answer": "SQL",
+        "type": "normal"
+    },
+    {
+        "id": 82,
+        "section": "Computer data and file structure, and databases",
+        "question": "In a relational database, several operations can be defined in order to create new relations out of the existing ones. Select the statement that is NOT TRUE regarding operations on relations within the relational database management system (RDBMS) context.",
+        "options": [
+            "The insert operation is a unary operation",
+            "The select operation is a unary operation",
+            "The join operation is a binary operation",
+            "The update operation is a binary operation"
+        ],
+        "answer": "The update operation is a binary operation",
+        "type": "normal"
+    },
+    {
+        "id": 83,
+        "section": "Computer data and file structure, and databases",
+        "question": "Consider the following statements",
+        "options": [
+            "Only A and B are false",
+            "Only C and D are false",
+            "Only A, B and C are true",
+            "Only A, C and D are true"
+        ],
+        "answer": "Only A, B and C are true",
+        "type": "list",
+        "data": [
+            "A. The distributed database model is based on the relational database model",
+            "B. In a fragmented distributed database, data are localised",
+            "C. In a replicated distributed database, each site holds an exact replica of another site",
+            "D. An object-oriented database tries to keep the advantages of the relational model and, therefore, it does not allow applications to access structured data"
+        ]
+    },
+    {
+        "id": 84,
+        "section": "Computer data and file structure, and databases",
+        "question": "What name is given to the total number of rows in a relation in a relational database?",
+        "options": [
+            "Attribute",
+            "Tuple",
+            "Multiplicity",
+            "Cardinality"
+        ],
+        "answer": "Cardinality",
+        "type": "normal"
+    },
+    {
+        "id": 85,
+        "section": "Computer data and file structure, and databases",
+        "question": "In the open addressing collision resolution method, which statement is correct?",
+        "options": [
+            "The first record is stored in the home address, but contains a pointer to the second record",
+            "Bucket hashing is used",
+            "Each collision resolution decreases the probability of future collisions",
+            "Data that cannot be stored in the home address can be stored in the next address"
+        ],
+        "answer": "Data that cannot be stored in the home address can be stored in the next address",
+        "type": "normal"
+    },
+    {
+        "id": 86,
+        "section": "Computer data and file structure, and databases",
+        "question": "In direct hashing, which statement is correct?",
+        "options": [
+            "The key is divided by the file size and the address is the remainder plus I",
+            "The key is the address and no algorithm manipulation is necessary",
+            "The address is composed of digits selected from the key",
+            "Each record must be accessed sequentially"
+        ],
+        "answer": "The key is the address and no algorithm manipulation is necessary",
+        "type": "normal"
+    },
+    {
+        "id": 87,
+        "section": "Computer data and file structure, and databases",
+        "question": "One of the advantages of an indexed file is that you can have more than one index, each with a different key. What name is usually given to this kind of file?",
+        "options": [
+            "Inverted",
+            "Text",
+            "Sequential",
+            "Hashed"
+        ],
+        "answer": "Inverted",
+        "type": "normal"
+    },
+    {
+        "id": 88,
+        "section": "Computer data and file structure, and databases",
+        "question": "Records can be accessed randomly in the following file structure(s):",
+        "options": [
+            "Only A",
+            "Only B and C",
+            "Only A and B",
+            "Only A and C"
+        ],
+        "answer": "Only A and B",
+        "type": "list",
+        "data": [
+            "A. Indexed",
+            "B. Hashed",
+            "C. Sequential"
+        ]
+    },
+    {
+        "id": 89,
+        "section": "Computer data and file structure, and databases",
+        "question": "The following files are associated with the update program of sequential files:",
+        "options": [
+            "Only A and C",
+            "Only A, B and C",
+            "Only A, B and D",
+            "Only B, C and D"
+        ],
+        "answer": "Only A, B and D",
+        "type": "list",
+        "data": [
+            "A. A new master file",
+            "B. An old master file",
+            "C. A translation file",
+            "D. An error report file"
+        ]
+    },
+    {
+        "id": 90,
+        "section": "Computer data and file structure, and databases",
+        "question": "Which one of the following statements regarding linked lists is NOT TRUE?",
+        "options": [
+            "A linked list is a suitable structure if a large number of insertions and deletions are needed",
+            "Each node in a linked list has an explicit name",
+            "The same operations defined for an array can be applied to a linked list",
+            "The name of a linked list is the name of the head pointer that points to the first node of the list"
+        ],
+        "answer": "Each node in a linked list has an explicit name",
+        "type": "normal"
     }
 ]
