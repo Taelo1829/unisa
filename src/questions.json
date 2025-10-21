@@ -794,7 +794,7 @@
     },
     {
         "id": 60,
-        "question": "What is the output of Gate 19?",
+        "question": "What is the output of Gate 1?",
         "options": [
             "(x y z')",
             "(x + y + z')\"",
