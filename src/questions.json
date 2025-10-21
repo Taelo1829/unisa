@@ -553,14 +553,21 @@
     },
     {
         "id": 44,
-        "question": "A network consists of two or more devices connected through links. Dedicated point-to-point links are used in the following topologies:\nA. Ring\nB. Star\nC. Mesh\nD. Bus",
+        "question": "A network consists of two or more devices connected through links, Dedicated point-to-point links are used in the following topologies:",
         "options": [
             "Only A, B and D",
             "Only A, B and C",
             "Only B, C and D",
             "A, B, C and D"
         ],
-        "answer": "Only A, B and C"
+        "answer": "Only A, B and C",
+        "type": "list",
+        "data": [
+            "A. Ring",
+            "B. Star",
+            "C. Mesh",
+            "D. Bus"
+        ]
     },
     {
         "id": 45,
