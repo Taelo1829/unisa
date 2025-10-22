@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "section": "Computer data and file structure, and databases",
         "question": "An object-oriented database tries to keep the advantages of a ___ model and at the same time allows the applications to access structured data.",
         "options": [
             "relational",
@@ -119,6 +120,7 @@
     },
     {
         "id": 11,
+        "section": "Computer data and file structure, and databases",
         "question": "Which one of the following statements regarding sequential files is NOT TRUE?",
         "options": [
             "There are four files associated with an update program: the old and new master files, transaction file, and error report file",
@@ -163,6 +165,7 @@
     },
     {
         "id": 15,
+        "section": "Computer algorithms, programming and software development",
         "question": "Which of the following operations can be defined on an array?",
         "options": [
             "Only A and B",
@@ -403,6 +406,7 @@
     },
     {
         "id": 32,
+        "section": "Computer algorithms, programming and software development",
         "question": "Which high-level design tool would be most appropriate to use to show relationship between different modules in an algorithm?",
         "options": [
             "A flowchart",
@@ -984,6 +988,7 @@
     },
     {
         "id": 75,
+        "section": "Computer background, number systems, data storage, operations on data and logic",
         "question": "Convert (11111)₂ to an octal number",
         "options": [
             "(15 1)₈",
@@ -1006,6 +1011,7 @@
     },
     {
         "id": 77,
+        "section": "Computer background, number systems, data storage, operations on data and logic",
         "question": "Historians have since 1950 divided computer software and hardware into generations. In which generation are we currently (as of 2011)?",
         "options": [
             "Second",
@@ -1348,5 +1354,57 @@
         ],
         "answer": "Insertion and deletion of elements",
         "explanation": "In an array, elements are stored in contiguous memory locations. When inserting or deleting in the middle, all subsequent elements must be shifted, which makes these operations time-consuming compared to searching or retrieval."
+    },
+    {
+        "id": 101,
+        "section": "Computer algorithms, programming and software development",
+        "question": "Which of the following is NOT a possible dimension of an array?",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "5"
+        ],
+        "answer": "0",
+        "explanation": "An array must have at least one dimension to store elements. A zero-dimensional array does not exist because it would mean there is no space to hold any data. Arrays can be one-dimensional, two-dimensional, or multidimensional."
+    },
+    {
+        "id": 102,
+        "section": "Computer algorithms, programming and software development",
+        "question": "Which of the following best describes an array?",
+        "options": [
+            "It is a collection of fields that are all related to one object",
+            "It is a linear collection of objects",
+            "It is a sequenced collection of elements, normally of the same data type",
+            "It is a collection of elements called fields"
+        ],
+        "answer": "It is a sequenced collection of elements, normally of the same data type",
+        "explanation": "An array is a data structure that stores multiple elements of the same data type in a sequential manner, where each element can be accessed using its index. This allows efficient access and manipulation of data elements."
+    },
+    {
+        "id": 103,
+        "section": "Computer algorithms, programming and software development",
+        "question": "Which one of the following statements regarding documentation in the software lifecycle is NOT TRUE?",
+        "options": [
+            "Documentation should be written for expert but not novice users",
+            "Service documentation defines how the system should be maintained and updated if necessary",
+            "System documentation shows us, step by step, how to use the software",
+            "Technical documentation describes the installation and servicing of a software system"
+        ],
+        "answer": "Documentation should be written for expert but not novice users",
+        "explanation": "Documentation should be written for both expert and novice users to ensure that everyone involved can understand and use the system effectively. Limiting documentation to expert users would make the software harder to use, maintain, and support."
+    },
+    {
+        "id": 104,
+        "question": "Basis path testing is a method in which each statement in the software is executed",
+        "options": [
+            "only once",
+            "at least once",
+            "at least twice",
+            "at least three times"
+        ],
+        "answer": "at least once",
+        "explanation": "Basis path testing is a white-box testing technique that ensures every statement and branch in a program is executed at least once to verify logical correctness and ensure all possible paths are covered.",
+        "section": "Computer algorithms, programming and software development"
     }
 ]
