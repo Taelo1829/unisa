@@ -1,6 +1,6 @@
 import React from 'react'
 
-const RenderAnswers = ({ answer, handleAnswer, options, selected, showAnswer, type }) => {
+const RenderAnswers = ({ answer, data, handleAnswer, options, selected, showAnswer, type }) => {
     return options.map((opt, idx) => (
         <div key={idx}
             onClick={() => handleAnswer(opt)}
@@ -12,15 +12,17 @@ const RenderAnswers = ({ answer, handleAnswer, options, selected, showAnswer, ty
                         opt === selected ? 'red' : '' : '',
                 color: showAnswer && (opt === answer || opt === selected) ? "#fff" : ''
             }}>
-            {(RenderType(type, opt))}
+            {(RenderType(type, data))}
             {opt}
         </div>
     ))
 }
 
-function RenderType(type, answer) {
+function RenderType(type, data = []) {
     if (type === "table")
-        return <div></div>
+        return data.map((opt, index) => {
+            return <div>{opt.header}</div>
+        })
 }
 
 export default RenderAnswers

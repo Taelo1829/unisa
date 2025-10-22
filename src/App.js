@@ -86,7 +86,7 @@ function App() {
       <Header />
       <div className='card'>
         <RenderQuestion question={q.question} type={q.type} data={q.data} section={q.section} />
-        <RenderAnswers answer={q.answer} handleAnswer={handleAnswer} options={q.options} selected={selected}
+        <RenderAnswers answer={q.answer} data={q.data} handleAnswer={handleAnswer} options={q.options} selected={selected}
           showAnswer={showAnswer} type={q.answerType} />
       </div>
       <div className='next'>
