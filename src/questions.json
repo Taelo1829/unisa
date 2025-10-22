@@ -846,7 +846,8 @@
             "A'D'"
         ],
         "answer": "CD",
-        "url": "https://i.ibb.co/PsshyGKv/image.png"
+        "data": "https://i.ibb.co/PsshyGKv/image.png",
+        "type": "image"
     },
     {
         "id": 63,
