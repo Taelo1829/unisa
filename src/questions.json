@@ -738,18 +738,6 @@
         ]
     },
     {
-        "id": 54,
-        "question": "A function F(A, B, C) accepts a decimal number between 0 and 7 as input and outputs 1 if the number is 1 or a prime number. The following table shows different combinations of binary inputs for A, B, and C. Which alternative shows the correct outputs for F for each row?",
-        "options": [
-            "Alternative 1: F = 0, 0",
-            "Alternative 2: F = 1, 1",
-            "Alternative 3: F = 0, 1",
-            "Alternative 4: F = 1, 0"
-        ],
-        "answer": "Alternative 2: F = 1, 1",
-        "answerType": "table"
-    },
-    {
         "id": 55,
         "question": "A function F(A, B, C) accepts a decimal number between 0 and 7 as input and outputs 1 if the number is 1 or a prime number. The following table shows different combinations of binary inputs for A, B, and C. Which alternative shows the correct outputs for F for each row?",
         "options": [
