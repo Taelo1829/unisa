@@ -787,7 +787,7 @@
     },
     {
         "id": 58,
-        "question": "What is the output of Gate 32?",
+        "question": "What is the output of Gate 3?",
         "options": [
             "x + y + z",
             "((x y) z)'",
@@ -795,7 +795,8 @@
             "((x + y) z)"
         ],
         "answer": "((x + y) + z)'",
-        "url": "https://ibb.co/6cMd10hS"
+        "data": "https://i.ibb.co/Gf6htQwD/image.png",
+        "type": "image"
     },
     {
         "id": 59,
