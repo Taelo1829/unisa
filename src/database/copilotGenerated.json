@@ -967,18 +967,6 @@
     "answer": "instances"
   },
   {
-    "id": 85,
-    "section": "Programming Languages",
-    "question": "Static typing checks types at __________.",
-    "options": [
-      "runtime",
-      "compile time",
-      "link time",
-      "deploy time"
-    ],
-    "answer": "compile time"
-  },
-  {
     "id": 86,
     "section": "Programming Languages",
     "question": "A language’s syntax is its form; semantics is its __________.",
