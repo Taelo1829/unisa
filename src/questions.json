@@ -585,6 +585,7 @@
     },
     {
         "id": 45,
+        "section": "Computer systems, organisation and networks",
         "question": "What is the most common high-speed LAN (local area network) topology currently in use?",
         "options": [
             "Bus",
@@ -783,11 +784,11 @@
         "question": "What is the output of Gate 3?",
         "options": [
             "x + y + z",
-            "((x y) z)'",
-            "((x + y) + z)'",
-            "((x + y) z)"
+            "((x y).z)'",
+            "((x + y).z)'",
+            "((x + y).z)"
         ],
-        "answer": "((x + y) + z)'",
+        "answer": "((x + y).z)'",
         "data": "https://i.ibb.co/Gf6htQwD/image.png",
         "type": "image"
     },
