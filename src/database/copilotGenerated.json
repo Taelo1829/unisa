@@ -1004,18 +1004,6 @@
     "answer": "meaning"
   },
   {
-    "id": 87,
-    "section": "Programming Languages",
-    "question": "Functional programming emphasizes __________ functions.",
-    "options": [
-      "stateful",
-      "impure",
-      "pure",
-      "void"
-    ],
-    "answer": "pure"
-  },
-  {
     "id": 88,
     "section": "Programming Languages",
     "question": "Lexical scope binds names based on __________ structure.",
