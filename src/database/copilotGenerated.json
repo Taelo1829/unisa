@@ -821,18 +821,6 @@
     ],
     "answer": "synchronization"
   },
-  {
-    "id": 70,
-    "section": "Operating Systems",
-    "question": "Thrashing occurs when the system spends most time __________.",
-    "options": [
-      "in CPU",
-      "paging",
-      "idling",
-      "compiling"
-    ],
-    "answer": "paging"
-  },
 
   {
     "id": 71,
