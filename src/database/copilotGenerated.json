@@ -1633,18 +1633,6 @@
     "answer": "retrieve"
   },
   {
-    "id": 136,
-    "section": "Databases",
-    "question": "ACID stands for Atomicity, Consistency, Isolation, and __________.",
-    "options": [
-      "Durability",
-      "Distribution",
-      "Decomposition",
-      "Duplication"
-    ],
-    "answer": "Durability"
-  },
-  {
     "id": 137,
     "section": "Databases",
     "question": "An object-oriented database integrates database features with __________ concepts.",
