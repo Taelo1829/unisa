@@ -843,7 +843,7 @@
     },
     {
         "id": 63,
-        "question": "Which term represents Group 32?",
+        "question": "Which term represents Group 3?",
         "options": [
             "ABD",
             "ABC",
@@ -852,7 +852,7 @@
         ],
         "answer": "BC",
         "type": "image",
-        "url": "https://i.ibb.co/PsshyGKv/image.png"
+        "data": "https://i.ibb.co/PsshyGKv/image.png",
     },
     {
         "id": 64,
