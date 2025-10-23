@@ -12,12 +12,12 @@ const RenderAnswers = ({ answer, data, handleAnswer, options, selected, showAnsw
                         opt === selected ? 'red' : '' : '',
                 color: showAnswer && (opt === answer || opt === selected) ? "#fff" : ''
             }}>
-            {(RenderType(type, data))}
+            {(RenderType(type, data, opt))}
         </div>
     ))
 }
 
-function RenderType(type, data = []) {
+function RenderType(type, data = [], opt) {
     if (type === "table") {
         return <div className='d-flex justify-content-between'>
             {data.map((opt, index) => {

@@ -683,7 +683,7 @@
             "Alternative 3: 0, 1",
             "Alternative 4: 1, 0"
         ],
-        "answer": "Alternative 2: 1, 1",
+        "answer": "Alternative 3: 0, 1",
         "answerType": "table",
         "data": [
             {
@@ -743,17 +743,213 @@
                 ]
             }
         ]
-    },
-    {
-        "id": 56,
-        "question": "A function F(A, B, C) accepts a decimal number between 0 and 7 as input and outputs 1 if the number is 1 or a prime number. The following table shows different combinations of binary inputs for A, B, and C. Which alternative shows the correct outputs for F for each row?",
+    }, {
+        "id": 54,
+        "question": "A function F(A, B, C) accepts a decimal number between 0 and 7 as input and outputs 1 if the number is 1 or a prime number. The following table shows different combinations of binary inputs for A, B, and C. Which alternative shows the correct outputs for F?",
         "options": [
-            "Alternative 1: F = 0, 0",
-            "Alternative 2: F = 1, 1",
-            "Alternative 3: F = 0, 1",
-            "Alternative 4: F = 1, 0"
+            "Alternative 1: 0, 0",
+            "Alternative 2: 1, 1",
+            "Alternative 3: 0, 1",
+            "Alternative 4: 1, 0"
         ],
-        "answer": "Alternative 2: F = 1, 1"
+        "answer": "Alternative 2: 1, 1",
+        "answerType": "table",
+        "data": [
+            {
+                "header": "",
+                "value": [
+                    "A",
+                    "0",
+                    "0"
+                ]
+            },
+            {
+                "header": "",
+                "value": [
+                    "B",
+                    "1",
+                    "1"
+                ]
+            },
+            {
+                "header": "",
+                "value": [
+                    "C",
+                    "1",
+                    "0"
+                ]
+            },
+            {
+                "header": "Alternative 1",
+                "value": [
+                    "F",
+                    "0",
+                    "0"
+                ]
+            },
+            {
+                "header": "Alternative 2",
+                "value": [
+                    "F",
+                    "1",
+                    "1"
+                ]
+            },
+            {
+                "header": "Alternative 3",
+                "value": [
+                    "F",
+                    "0",
+                    "1"
+                ]
+            },
+            {
+                "header": "Alternative 4",
+                "value": [
+                    "F",
+                    "1",
+                    "0"
+                ]
+            }
+        ]
+    }, {
+        "id": 55,
+        "question": "A function F(A, B, C) accepts a decimal number between 0 and 7 as input and outputs 1 if the number is 1 or a prime number. The following table shows different combinations of binary inputs for A, B, and C. Which alternative shows the correct outputs for F?",
+        "options": [
+            "Alternative 1: 0, 0",
+            "Alternative 2: 1, 1",
+            "Alternative 3: 0, 1",
+            "Alternative 4: 1, 0"
+        ],
+        "answer": "Alternative 4: 1, 0",
+        "answerType": "table",
+        "data": [
+            {
+                "header": "",
+                "value": [
+                    "A",
+                    "1",
+                    "0"
+                ]
+            },
+            {
+                "header": "",
+                "value": [
+                    "B",
+                    "0",
+                    "0"
+                ]
+            },
+            {
+                "header": "",
+                "value": [
+                    "C",
+                    "1",
+                    "0"
+                ]
+            },
+            {
+                "header": "Alternative 1",
+                "value": [
+                    "F",
+                    "0",
+                    "0"
+                ]
+            },
+            {
+                "header": "Alternative 2",
+                "value": [
+                    "F",
+                    "1",
+                    "1"
+                ]
+            },
+            {
+                "header": "Alternative 3",
+                "value": [
+                    "F",
+                    "0",
+                    "1"
+                ]
+            },
+            {
+                "header": "Alternative 4",
+                "value": [
+                    "F",
+                    "1",
+                    "0"
+                ]
+            }
+        ]
+    }, {
+        "id": 56,
+        "question": "A function F(A, B, C) accepts a decimal number between 0 and 7 as input and outputs 1 if the number is 1 or a prime number. The following table shows different combinations of binary inputs for A, B, and C. Which alternative shows the correct outputs for F?",
+        "options": [
+            "Alternative 1: 0, 0",
+            "Alternative 2: 1, 1",
+            "Alternative 3: 0, 1",
+            "Alternative 4: 1, 0"
+        ],
+        "answer": "Alternative 2: 1, 1",
+        "answerType": "table",
+        "data": [
+            {
+                "header": "",
+                "value": [
+                    "A",
+                    "1",
+                    "0"
+                ]
+            },
+            {
+                "header": "",
+                "value": [
+                    "B",
+                    "0",
+                    "0"
+                ]
+            },
+            {
+                "header": "",
+                "value": [
+                    "C",
+                    "1",
+                    "0"
+                ]
+            },
+            {
+                "header": "Alternative 1",
+                "value": [
+                    "F",
+                    "0",
+                    "0"
+                ]
+            },
+            {
+                "header": "Alternative 2",
+                "value": [
+                    "F",
+                    "1",
+                    "1"
+                ]
+            },
+            {
+                "header": "Alternative 3",
+                "value": [
+                    "F",
+                    "0",
+                    "1"
+                ]
+            },
+            {
+                "header": "Alternative 4",
+                "value": [
+                    "F",
+                    "1",
+                    "0"
+                ]
+            }
+        ]
     },
     {
         "id": 57,
