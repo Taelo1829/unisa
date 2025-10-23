@@ -878,7 +878,65 @@
             "4.\n       y'z'   y'z    yz    yz'\n   x'  1       1       1     \n   x                     1"
         ],
         "answer": "1.\n       y'z'   y'z    yz    yz'\n   x'         1             1\n   x     1                 1",
-        "answerType": "table"
+        "answerType": "table",
+        "data": [
+            {
+                "header": "y'z'",
+                "value": [
+                    "A",
+                    "1",
+                    "0"
+                ]
+            },
+            {
+                "header": "",
+                "value": [
+                    "B",
+                    "1",
+                    "0"
+                ]
+            },
+            {
+                "header": "",
+                "value": [
+                    "C",
+                    "0",
+                    "1"
+                ]
+            },
+            {
+                "header": "Alternative 1",
+                "value": [
+                    "F",
+                    "0",
+                    "0"
+                ]
+            },
+            {
+                "header": "Alternative 2",
+                "value": [
+                    "F",
+                    "1",
+                    "1"
+                ]
+            },
+            {
+                "header": "Alternative 3",
+                "value": [
+                    "F",
+                    "0",
+                    "1"
+                ]
+            },
+            {
+                "header": "Alternative 4",
+                "value": [
+                    "F",
+                    "1",
+                    "0"
+                ]
+            }
+        ]
     },
     {
         "id": 66,
