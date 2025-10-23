@@ -1827,18 +1827,6 @@
     "answer": "a public/private pair"
   },
   {
-    "id": 154,
-    "section": "Security",
-    "question": "A hash function maps data to a fixed-size __________.",
-    "options": [
-      "cipher",
-      "signature",
-      "digest",
-      "nonce"
-    ],
-    "answer": "digest"
-  },
-  {
     "id": 155,
     "section": "Security",
     "question": "Digital signatures provide integrity and __________.",
