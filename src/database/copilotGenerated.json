@@ -750,18 +750,6 @@
     "answer": "execution"
   },
   {
-    "id": 63,
-    "section": "Operating Systems",
-    "question": "Round-robin is a __________ scheduling algorithm.",
-    "options": [
-      "priority preemptive",
-      "FIFO non-preemptive",
-      "time-sliced",
-      "shortest-job-first"
-    ],
-    "answer": "time-sliced"
-  },
-  {
     "id": 64,
     "section": "Operating Systems",
     "question": "Deadlock involves a set of processes that are __________.",
