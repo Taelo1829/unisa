@@ -1632,92 +1632,6 @@
     ],
     "answer": "relationships"
   },
-
-  {
-    "id": 152,
-    "section": "Security",
-    "question": "Symmetric encryption uses __________ key(s).",
-    "options": [
-      "no",
-      "one shared",
-      "two public keys",
-      "a pair (public/private) only"
-    ],
-    "answer": "one shared"
-  },
-  {
-    "id": 155,
-    "section": "Security",
-    "question": "Digital signatures provide integrity and __________.",
-    "options": [
-      "confidentiality",
-      "non-repudiation",
-      "availability",
-      "compression"
-    ],
-    "answer": "non-repudiation"
-  },
-  {
-    "id": 156,
-    "section": "Security",
-    "question": "A firewall enforces a network’s __________ policy.",
-    "options": [
-      "storage",
-      "access control",
-      "power",
-      "license"
-    ],
-    "answer": "access control"
-  },
-  {
-    "id": 157,
-    "section": "Security",
-    "question": "Multi-factor authentication combines two or more of: something you know, have, and __________.",
-    "options": [
-      "want",
-      "are",
-      "buy",
-      "log"
-    ],
-    "answer": "are"
-  },
-  {
-    "id": 158,
-    "section": "Security",
-    "question": "TLS is used to secure __________ communications.",
-    "options": [
-      "email only",
-      "transport-layer",
-      "disk",
-      "firmware"
-    ],
-    "answer": "transport-layer"
-  },
-  {
-    "id": 159,
-    "section": "Security",
-    "question": "Access control lists (ACLs) are attached to __________.",
-    "options": [
-      "users only",
-      "objects/resources",
-      "switches",
-      "CPUs"
-    ],
-    "answer": "objects/resources"
-  },
-  {
-    "id": 160,
-    "section": "Security",
-    "question": "A vulnerability is a weakness; an exploit is a method to __________ it.",
-    "options": [
-      "patch",
-      "mitigate",
-      "leverage",
-      "log"
-    ],
-    "answer": "leverage"
-  },
-
   {
     "id": 161,
     "section": "Theory of Computation",
@@ -2018,18 +1932,6 @@
       "encryption"
     ],
     "answer": "transformative purposes like education"
-  },
-  {
-    "id": 198,
-    "section": "Social and Ethical Issues",
-    "question": "Security measures should balance protection with user __________.",
-    "options": [
-      "confusion",
-      "inconvenience",
-      "usability",
-      "data hoarding"
-    ],
-    "answer": "usability"
   },
   {
     "id": 199,
