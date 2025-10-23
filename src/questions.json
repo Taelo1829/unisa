@@ -804,7 +804,7 @@
             "x + y + z'",
             "x + y"
         ],
-        "answer": "x + y + z'",
+        "answer": "(x + y + z')\"",
         "data": "https://i.ibb.co/Gf6htQwD/image.png",
         "type": "image"
     },
