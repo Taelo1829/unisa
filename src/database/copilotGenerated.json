@@ -1803,18 +1803,6 @@
     "answer": "one shared"
   },
   {
-    "id": 153,
-    "section": "Security",
-    "question": "Public-key cryptography uses __________ keys.",
-    "options": [
-      "a shared secret",
-      "no",
-      "a public/private pair",
-      "rotating symmetric"
-    ],
-    "answer": "a public/private pair"
-  },
-  {
     "id": 155,
     "section": "Security",
     "question": "Digital signatures provide integrity and __________.",
