@@ -1682,18 +1682,6 @@
     "answer": "restoration"
   },
   {
-    "id": 142,
-    "section": "Data Compression",
-    "question": "Huffman coding assigns shorter codes to more __________ symbols.",
-    "options": [
-      "rare",
-      "frequent",
-      "random",
-      "ordered"
-    ],
-    "answer": "frequent"
-  },
-  {
     "id": 143,
     "section": "Data Compression",
     "question": "LZW is a dictionary-based __________ compression method.",
