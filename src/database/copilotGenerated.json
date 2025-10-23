@@ -2166,18 +2166,6 @@
     "answer": "comments"
   },
   {
-    "id": 186,
-    "section": "Introduction to Social Media",
-    "question": "Privacy settings control who can __________ content.",
-    "options": [
-      "compile",
-      "view/interact with",
-      "encrypt",
-      "hash"
-    ],
-    "answer": "view/interact with"
-  },
-  {
     "id": 187,
     "section": "Introduction to Social Media",
     "question": "A 'profile' aggregates a user’s __________.",
@@ -2237,18 +2225,6 @@
       "random data"
     ],
     "answer": "creations of the mind"
-  },
-  {
-    "id": 192,
-    "section": "Social and Ethical Issues",
-    "question": "Privacy relates to control over personal __________.",
-    "options": [
-      "bandwidth",
-      "data",
-      "kernels",
-      "licenses"
-    ],
-    "answer": "data"
   },
   {
     "id": 193,
