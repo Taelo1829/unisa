@@ -810,19 +810,6 @@
     "answer": "kernel"
   },
   {
-    "id": 69,
-    "section": "Operating Systems",
-    "question": "Mutexes and semaphores are used for __________.",
-    "options": [
-      "I/O mapping",
-      "memory allocation",
-      "synchronization",
-      "filesystem journaling"
-    ],
-    "answer": "synchronization"
-  },
-
-  {
     "id": 71,
     "section": "Algorithms",
     "question": "An algorithm must be finite, effective, and __________.",
