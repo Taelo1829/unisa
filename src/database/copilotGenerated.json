@@ -1,0 +1,2421 @@
+[
+  {
+    "id": 1,
+    "section": "Introduction",
+    "question": "The Turing model views a computer primarily as a __________.",
+    "options": [
+      "programmable data processor",
+      "specific-purpose calculator",
+      "network switch",
+      "mechanical automaton"
+    ],
+    "answer": "programmable data processor"
+  },
+  {
+    "id": 2,
+    "section": "Introduction",
+    "question": "In the von Neumann model, programs and data are both stored in __________.",
+    "options": [
+      "cache only",
+      "registers only",
+      "the same memory",
+      "separate ROM chips"
+    ],
+    "answer": "the same memory"
+  },
+  {
+    "id": 3,
+    "section": "Introduction",
+    "question": "Which unit performs arithmetic and logical operations?",
+    "options": [
+      "ALU",
+      "Control Unit",
+      "I/O Controller",
+      "DMA"
+    ],
+    "answer": "ALU"
+  },
+  {
+    "id": 4,
+    "section": "Introduction",
+    "question": "The control unit’s main role is to __________.",
+    "options": [
+      "store data permanently",
+      "execute user applications directly",
+      "coordinate and sequence operations",
+      "compress instructions"
+    ],
+    "answer": "coordinate and sequence operations"
+  },
+  {
+    "id": 5,
+    "section": "Introduction",
+    "question": "Which early device used punched cards to 'program' a weaving pattern?",
+    "options": [
+      "Jacquard loom",
+      "Difference Engine",
+      "ENIAC",
+      "Colossus"
+    ],
+    "answer": "Jacquard loom"
+  },
+  {
+    "id": 6,
+    "section": "Introduction",
+    "question": "The stored-program concept is attributed to __________.",
+    "options": [
+      "Alan Turing",
+      "John von Neumann",
+      "Charles Babbage",
+      "Ada Lovelace"
+    ],
+    "answer": "John von Neumann"
+  },
+  {
+    "id": 7,
+    "section": "Introduction",
+    "question": "A universal Turing machine can compute __________.",
+    "options": [
+      "only arithmetic functions",
+      "any computable function",
+      "only logic functions",
+      "only polynomial-time functions"
+    ],
+    "answer": "any computable function"
+  },
+  {
+    "id": 8,
+    "section": "Introduction",
+    "question": "Which component defines inputs/outputs to the outside world?",
+    "options": [
+      "Main memory",
+      "Input/Output subsystem",
+      "Program counter",
+      "Instruction register"
+    ],
+    "answer": "Input/Output subsystem"
+  },
+  {
+    "id": 9,
+    "section": "Introduction",
+    "question": "First-generation computers primarily used __________.",
+    "options": [
+      "vacuum tubes",
+      "transistors",
+      "integrated circuits",
+      "microprocessors"
+    ],
+    "answer": "vacuum tubes"
+  },
+  {
+    "id": 10,
+    "section": "Introduction",
+    "question": "Computer science broadly divides into systems and __________ areas.",
+    "options": [
+      "business",
+      "applications",
+      "hardware",
+      "mathematics"
+    ],
+    "answer": "applications"
+  },
+
+  {
+    "id": 11,
+    "section": "Number Systems",
+    "question": "In a positional number system, the value of a digit depends on the digit and its __________.",
+    "options": [
+      "color",
+      "position (place value)",
+      "parity",
+      "prefix"
+    ],
+    "answer": "position (place value)"
+  },
+  {
+    "id": 12,
+    "section": "Number Systems",
+    "question": "Binary digits are also called __________.",
+    "options": [
+      "nybbles",
+      "bytes",
+      "bits",
+      "words"
+    ],
+    "answer": "bits"
+  },
+  {
+    "id": 13,
+    "section": "Number Systems",
+    "question": "Which base is hexadecimal?",
+    "options": [
+      "8",
+      "10",
+      "16",
+      "32"
+    ],
+    "answer": "16"
+  },
+  {
+    "id": 14,
+    "section": "Number Systems",
+    "question": "Four binary bits map neatly to one __________ digit.",
+    "options": [
+      "octal",
+      "decimal",
+      "hexadecimal",
+      "Roman"
+    ],
+    "answer": "hexadecimal"
+  },
+  {
+    "id": 15,
+    "section": "Number Systems",
+    "question": "Three binary bits map neatly to one __________ digit.",
+    "options": [
+      "octal",
+      "decimal",
+      "hexadecimal",
+      "ternary"
+    ],
+    "answer": "octal"
+  },
+  {
+    "id": 16,
+    "section": "Number Systems",
+    "question": "The maximum value of a K-bit unsigned binary integer is __________.",
+    "options": [
+      "2^K",
+      "2^K − 1",
+      "2^(K−1)",
+      "2^(K−1) − 1"
+    ],
+    "answer": "2^K − 1"
+  },
+  {
+    "id": 17,
+    "section": "Number Systems",
+    "question": "To convert base-b to decimal, multiply digits by powers of b and __________.",
+    "options": [
+      "divide",
+      "subtract",
+      "sum",
+      "XOR"
+    ],
+    "answer": "sum"
+  },
+  {
+    "id": 18,
+    "section": "Number Systems",
+    "question": "The Roman numeral system is a __________ number system.",
+    "options": [
+      "positional",
+      "floating",
+      "nonpositional",
+      "binary"
+    ],
+    "answer": "nonpositional"
+  },
+  {
+    "id": 19,
+    "section": "Number Systems",
+    "question": "The number (101.11)_2 equals __________ in decimal.",
+    "options": [
+      "5.25",
+      "5.5",
+      "5.75",
+      "6.25"
+    ],
+    "answer": "5.75"
+  },
+  {
+    "id": 20,
+    "section": "Number Systems",
+    "question": "The number of digits needed to represent decimal N in base b is ⌈log_b(N+1)⌉ (approximately). What function symbol denotes 'ceiling'?",
+    "options": [
+      "⌊ ⌋",
+      "⌈ ⌉",
+      "| |",
+      "⟨ ⟩"
+    ],
+    "answer": "⌈ ⌉"
+  },
+
+  {
+    "id": 21,
+    "section": "Data Storage",
+    "question": "Inside a computer, all data types are represented as __________.",
+    "options": [
+      "Unicode strings",
+      "ASCII codes only",
+      "bit patterns",
+      "floating-point vectors"
+    ],
+    "answer": "bit patterns"
+  },
+  {
+    "id": 22,
+    "section": "Data Storage",
+    "question": "An unsigned 8-bit value can represent integers from __________.",
+    "options": [
+      "−128 to 127",
+      "0 to 255",
+      "1 to 256",
+      "−255 to 255"
+    ],
+    "answer": "0 to 255"
+  },
+  {
+    "id": 23,
+    "section": "Data Storage",
+    "question": "In sign-and-magnitude, the leftmost bit stores the __________.",
+    "options": [
+      "parity",
+      "LSB",
+      "sign",
+      "overflow flag"
+    ],
+    "answer": "sign"
+  },
+  {
+    "id": 24,
+    "section": "Data Storage",
+    "question": "Two’s complement has how many representations of zero?",
+    "options": [
+      "2",
+      "1",
+      "0",
+      "depends on word size"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": 25,
+    "section": "Data Storage",
+    "question": "IEEE 754 single precision uses __________ bits.",
+    "options": [
+      "16",
+      "32",
+      "48",
+      "64"
+    ],
+    "answer": "32"
+  },
+  {
+    "id": 26,
+    "section": "Data Storage",
+    "question": "In IEEE single precision, the exponent uses a bias of __________.",
+    "options": [
+      "63",
+      "127",
+      "255",
+      "1023"
+    ],
+    "answer": "127"
+  },
+  {
+    "id": 27,
+    "section": "Data Storage",
+    "question": "ASCII originally used __________ bits per character.",
+    "options": [
+      "5",
+      "7",
+      "8",
+      "16"
+    ],
+    "answer": "7"
+  },
+  {
+    "id": 28,
+    "section": "Data Storage",
+    "question": "Audio storage typically involves sampling, quantization, and __________.",
+    "options": [
+      "hashing",
+      "encryption",
+      "encoding",
+      "fragmentation"
+    ],
+    "answer": "encoding"
+  },
+  {
+    "id": 29,
+    "section": "Data Storage",
+    "question": "Raster graphics store images as a grid of __________.",
+    "options": [
+      "vectors",
+      "polygons",
+      "pixels",
+      "splines"
+    ],
+    "answer": "pixels"
+  },
+  {
+    "id": 30,
+    "section": "Data Storage",
+    "question": "Vector graphics are best for images composed of __________ primitives.",
+    "options": [
+      "geometric",
+      "noisy",
+      "random",
+      "photographic"
+    ],
+    "answer": "geometric"
+  },
+
+  {
+    "id": 31,
+    "section": "Operations on Data",
+    "question": "NOT, AND, OR, and XOR are examples of __________ operations.",
+    "options": [
+      "arithmetic",
+      "logical",
+      "relational",
+      "storage"
+    ],
+    "answer": "logical"
+  },
+  {
+    "id": 32,
+    "section": "Operations on Data",
+    "question": "In a bitwise AND with a mask, a mask bit of 0 will __________ the corresponding bit.",
+    "options": [
+      "set",
+      "unset (clear)",
+      "flip",
+      "rotate"
+    ],
+    "answer": "unset (clear)"
+  },
+  {
+    "id": 33,
+    "section": "Operations on Data",
+    "question": "A logical left shift on an 8-bit pattern drops the leftmost bit and inserts __________ on the right.",
+    "options": [
+      "1",
+      "parity",
+      "0",
+      "sign bit"
+    ],
+    "answer": "0"
+  },
+  {
+    "id": 34,
+    "section": "Operations on Data",
+    "question": "An arithmetic right shift on two’s complement integers copies the __________.",
+    "options": [
+      "LSB to MSB",
+      "MSB (sign bit)",
+      "parity to all bits",
+      "carry into MSB"
+    ],
+    "answer": "MSB (sign bit)"
+  },
+  {
+    "id": 35,
+    "section": "Operations on Data",
+    "question": "In two’s complement arithmetic, subtraction A − B is performed as A plus __________.",
+    "options": [
+      "one’s complement of B",
+      "two’s complement of B",
+      "B shifted right",
+      "B rotated left"
+    ],
+    "answer": "two’s complement of B"
+  },
+  {
+    "id": 36,
+    "section": "Operations on Data",
+    "question": "Overflow in two’s complement addition occurs when adding two numbers of the same sign yields a result with __________.",
+    "options": [
+      "the same sign",
+      "opposite sign",
+      "zero",
+      "carry cleared"
+    ],
+    "answer": "opposite sign"
+  },
+  {
+    "id": 37,
+    "section": "Operations on Data",
+    "question": "XOR with a mask bit of 1 will __________ the targeted bit.",
+    "options": [
+      "set",
+      "clear",
+      "flip",
+      "copy"
+    ],
+    "answer": "flip"
+  },
+  {
+    "id": 38,
+    "section": "Operations on Data",
+    "question": "Circular (rotate) shifts differ from simple shifts because they __________.",
+    "options": [
+      "preserve carry",
+      "do not lose bits",
+      "reverse bit order",
+      "sign-extend"
+    ],
+    "answer": "do not lose bits"
+  },
+  {
+    "id": 39,
+    "section": "Operations on Data",
+    "question": "Arithmetic left shift of a valid two’s complement value corresponds to __________ by 2 (if no overflow).",
+    "options": [
+      "division",
+      "negation",
+      "multiplication",
+      "rounding"
+    ],
+    "answer": "multiplication"
+  },
+  {
+    "id": 40,
+    "section": "Operations on Data",
+    "question": "Bit masks are commonly used to __________ specific bits.",
+    "options": [
+      "allocate",
+      "address",
+      "set/clear/test",
+      "encrypt"
+    ],
+    "answer": "set/clear/test"
+  },
+
+  {
+    "id": 41,
+    "section": "Computer Organization",
+    "question": "Registers are small, fast storage locations inside the __________.",
+    "options": [
+      "cache",
+      "main memory",
+      "CPU",
+      "I/O bus"
+    ],
+    "answer": "CPU"
+  },
+  {
+    "id": 42,
+    "section": "Computer Organization",
+    "question": "The program counter (PC) holds the address of the __________ instruction.",
+    "options": [
+      "previous",
+      "current/next",
+      "first only",
+      "last"
+    ],
+    "answer": "current/next"
+  },
+  {
+    "id": 43,
+    "section": "Computer Organization",
+    "question": "The fetch–decode–execute sequence is performed by the __________.",
+    "options": [
+      "compiler",
+      "linker",
+      "CPU",
+      "DMA controller"
+    ],
+    "answer": "CPU"
+  },
+  {
+    "id": 44,
+    "section": "Computer Organization",
+    "question": "Cache memory is __________ than main memory and __________ in size.",
+    "options": [
+      "slower; larger",
+      "faster; smaller",
+      "same speed; larger",
+      "nonvolatile; larger"
+    ],
+    "answer": "faster; smaller"
+  },
+  {
+    "id": 45,
+    "section": "Computer Organization",
+    "question": "DRAM stores bits using __________.",
+    "options": [
+      "flip-flops",
+      "capacitors",
+      "magnetic cores",
+      "diodes"
+    ],
+    "answer": "capacitors"
+  },
+  {
+    "id": 46,
+    "section": "Computer Organization",
+    "question": "SRAM is typically used for __________.",
+    "options": [
+      "virtual memory",
+      "bulk storage",
+      "cache",
+      "optical buffers"
+    ],
+    "answer": "cache"
+  },
+  {
+    "id": 47,
+    "section": "Computer Organization",
+    "question": "ROM is __________ and typically holds firmware.",
+    "options": [
+      "volatile",
+      "nonvolatile",
+      "erasable by power cycling",
+      "magnetic"
+    ],
+    "answer": "nonvolatile"
+  },
+  {
+    "id": 48,
+    "section": "Computer Organization",
+    "question": "Address space refers to the number of uniquely addressable __________.",
+    "options": [
+      "ports",
+      "devices",
+      "memory locations",
+      "registers"
+    ],
+    "answer": "memory locations"
+  },
+  {
+    "id": 49,
+    "section": "Computer Organization",
+    "question": "Pipelining improves CPU __________.",
+    "options": [
+      "latency",
+      "throughput",
+      "voltage",
+      "temperature"
+    ],
+    "answer": "throughput"
+  },
+  {
+    "id": 50,
+    "section": "Computer Organization",
+    "question": "RISC architectures typically emphasize __________ instructions.",
+    "options": [
+      "complex, variable-length",
+      "microcoded only",
+      "simple, fixed-length",
+      "string-only"
+    ],
+    "answer": "simple, fixed-length"
+  },
+
+  {
+    "id": 51,
+    "section": "Computer Networks and Internet",
+    "question": "The Internet protocol suite is commonly described in __________ layers.",
+    "options": [
+      "2",
+      "4",
+      "5",
+      "7"
+    ],
+    "answer": "5"
+  },
+  {
+    "id": 52,
+    "section": "Computer Networks and Internet",
+    "question": "HTTP primarily operates at the __________ layer.",
+    "options": [
+      "Physical",
+      "Data-Link",
+      "Transport",
+      "Application"
+    ],
+    "answer": "Application"
+  },
+  {
+    "id": 53,
+    "section": "Computer Networks and Internet",
+    "question": "TCP provides __________, whereas UDP is __________.",
+    "options": [
+      "connectionless; reliable",
+      "reliable; connectionless",
+      "stateless; reliable",
+      "encrypted; plaintext"
+    ],
+    "answer": "reliable; connectionless"
+  },
+  {
+    "id": 54,
+    "section": "Computer Networks and Internet",
+    "question": "IP addresses in dotted decimal are an example of __________ notation.",
+    "options": [
+      "hex",
+      "octal",
+      "base-256",
+      "binary"
+    ],
+    "answer": "base-256"
+  },
+  {
+    "id": 55,
+    "section": "Computer Networks and Internet",
+    "question": "Routers operate mainly at the __________ layer.",
+    "options": [
+      "Application",
+      "Transport",
+      "Network",
+      "Data-Link"
+    ],
+    "answer": "Network"
+  },
+  {
+    "id": 56,
+    "section": "Computer Networks and Internet",
+    "question": "Ethernet MAC addresses belong to the __________ layer.",
+    "options": [
+      "Application",
+      "Transport",
+      "Network",
+      "Data-Link"
+    ],
+    "answer": "Data-Link"
+  },
+  {
+    "id": 57,
+    "section": "Computer Networks and Internet",
+    "question": "Twisted pair, coaxial cable, and fiber are examples of __________.",
+    "options": [
+      "protocols",
+      "transmission media",
+      "applications",
+      "codecs"
+    ],
+    "answer": "transmission media"
+  },
+  {
+    "id": 58,
+    "section": "Computer Networks and Internet",
+    "question": "DNS resolves __________ to IP addresses.",
+    "options": [
+      "MAC addresses",
+      "domain names",
+      "ports",
+      "URLs only"
+    ],
+    "answer": "domain names"
+  },
+  {
+    "id": 59,
+    "section": "Computer Networks and Internet",
+    "question": "A switch primarily forwards frames based on __________.",
+    "options": [
+      "IP address",
+      "port numbers",
+      "MAC address",
+      "hostnames"
+    ],
+    "answer": "MAC address"
+  },
+  {
+    "id": 60,
+    "section": "Computer Networks and Internet",
+    "question": "SMTP is used for __________.",
+    "options": [
+      "file transfer",
+      "web browsing",
+      "email transmission",
+      "remote login"
+    ],
+    "answer": "email transmission"
+  },
+
+  {
+    "id": 61,
+    "section": "Operating Systems",
+    "question": "An operating system acts primarily as a __________.",
+    "options": [
+      "compiler",
+      "hardware manager",
+      "database engine",
+      "router"
+    ],
+    "answer": "hardware manager"
+  },
+  {
+    "id": 62,
+    "section": "Operating Systems",
+    "question": "A process is a program in __________.",
+    "options": [
+      "ROM",
+      "cache",
+      "execution",
+      "storage"
+    ],
+    "answer": "execution"
+  },
+  {
+    "id": 63,
+    "section": "Operating Systems",
+    "question": "Round-robin is a __________ scheduling algorithm.",
+    "options": [
+      "priority preemptive",
+      "FIFO non-preemptive",
+      "time-sliced",
+      "shortest-job-first"
+    ],
+    "answer": "time-sliced"
+  },
+  {
+    "id": 64,
+    "section": "Operating Systems",
+    "question": "Deadlock involves a set of processes that are __________.",
+    "options": [
+      "terminated",
+      "waiting indefinitely",
+      "preempted",
+      "thrashing"
+    ],
+    "answer": "waiting indefinitely"
+  },
+  {
+    "id": 65,
+    "section": "Operating Systems",
+    "question": "Virtual memory commonly combines RAM with __________.",
+    "options": [
+      "cache",
+      "registers",
+      "disk storage",
+      "ROM"
+    ],
+    "answer": "disk storage"
+  },
+  {
+    "id": 66,
+    "section": "Operating Systems",
+    "question": "A context switch saves and restores __________ state.",
+    "options": [
+      "filesystem",
+      "process",
+      "network",
+      "BIOS"
+    ],
+    "answer": "process"
+  },
+  {
+    "id": 67,
+    "section": "Operating Systems",
+    "question": "A file system manages files and __________.",
+    "options": [
+      "databases",
+      "tables",
+      "directories",
+      "sockets"
+    ],
+    "answer": "directories"
+  },
+  {
+    "id": 68,
+    "section": "Operating Systems",
+    "question": "Monolithic kernels run most services in __________ space.",
+    "options": [
+      "user",
+      "kernel",
+      "hypervisor",
+      "virtual"
+    ],
+    "answer": "kernel"
+  },
+  {
+    "id": 69,
+    "section": "Operating Systems",
+    "question": "Mutexes and semaphores are used for __________.",
+    "options": [
+      "I/O mapping",
+      "memory allocation",
+      "synchronization",
+      "filesystem journaling"
+    ],
+    "answer": "synchronization"
+  },
+  {
+    "id": 70,
+    "section": "Operating Systems",
+    "question": "Thrashing occurs when the system spends most time __________.",
+    "options": [
+      "in CPU",
+      "paging",
+      "idling",
+      "compiling"
+    ],
+    "answer": "paging"
+  },
+
+  {
+    "id": 71,
+    "section": "Algorithms",
+    "question": "An algorithm must be finite, effective, and __________.",
+    "options": [
+      "deterministic",
+      "probabilistic",
+      "approximate",
+      "parallel"
+    ],
+    "answer": "deterministic"
+  },
+  {
+    "id": 72,
+    "section": "Algorithms",
+    "question": "The three basic control structures are sequence, selection, and __________.",
+    "options": [
+      "iteration",
+      "compilation",
+      "recursion only",
+      "allocation"
+    ],
+    "answer": "iteration"
+  },
+  {
+    "id": 73,
+    "section": "Algorithms",
+    "question": "Pseudocode is used to express algorithms at a level independent of __________.",
+    "options": [
+      "logic",
+      "language syntax",
+      "data",
+      "problem"
+    ],
+    "answer": "language syntax"
+  },
+  {
+    "id": 74,
+    "section": "Algorithms",
+    "question": "Big-O notation describes __________ complexity.",
+    "options": [
+      "exact",
+      "lower-bound",
+      "upper-bound asymptotic",
+      "average-case exact"
+    ],
+    "answer": "upper-bound asymptotic"
+  },
+  {
+    "id": 75,
+    "section": "Algorithms",
+    "question": "Binary search requires the input to be __________.",
+    "options": [
+      "randomized",
+      "sorted",
+      "hashed",
+      "balanced"
+    ],
+    "answer": "sorted"
+  },
+  {
+    "id": 76,
+    "section": "Algorithms",
+    "question": "Recursion solves a problem by solving __________.",
+    "options": [
+      "unrelated tasks",
+      "larger instances directly",
+      "smaller subproblems",
+      "only base cases"
+    ],
+    "answer": "smaller subproblems"
+  },
+  {
+    "id": 77,
+    "section": "Algorithms",
+    "question": "Stable sorting maintains the relative order of records with equal __________.",
+    "options": [
+      "values",
+      "addresses",
+      "types",
+      "lengths"
+    ],
+    "answer": "values"
+  },
+  {
+    "id": 78,
+    "section": "Algorithms",
+    "question": "A flowchart uses standard __________ to visualize control flow.",
+    "options": [
+      "ASCII art",
+      "UML class symbols",
+      "diagrammatic symbols",
+      "ER notations"
+    ],
+    "answer": "diagrammatic symbols"
+  },
+  {
+    "id": 79,
+    "section": "Algorithms",
+    "question": "Divide-and-conquer splits a problem, solves parts, and then __________.",
+    "options": [
+      "repeats indefinitely",
+      "merges results",
+      "ignores base cases",
+      "sorts input"
+    ],
+    "answer": "merges results"
+  },
+  {
+    "id": 80,
+    "section": "Algorithms",
+    "question": "Greedy algorithms make __________ choices at each step.",
+    "options": [
+      "random",
+      "locally optimal",
+      "global-optimal",
+      "backtracked"
+    ],
+    "answer": "locally optimal"
+  },
+
+  {
+    "id": 81,
+    "section": "Programming Languages",
+    "question": "A compiler translates source code into __________.",
+    "options": [
+      "tokens only",
+      "bytecode always",
+      "machine code",
+      "comments"
+    ],
+    "answer": "machine code"
+  },
+  {
+    "id": 82,
+    "section": "Programming Languages",
+    "question": "An interpreter executes programs by __________.",
+    "options": [
+      "offline linking",
+      "runtime translation",
+      "microcoding",
+      "JIT only"
+    ],
+    "answer": "runtime translation"
+  },
+  {
+    "id": 83,
+    "section": "Programming Languages",
+    "question": "Procedural languages primarily follow the __________ paradigm.",
+    "options": [
+      "functional",
+      "imperative",
+      "logic",
+      "declarative only"
+    ],
+    "answer": "imperative"
+  },
+  {
+    "id": 84,
+    "section": "Programming Languages",
+    "question": "In OOP, a class defines a type and objects are its __________.",
+    "options": [
+      "methods",
+      "instances",
+      "namespaces",
+      "packages"
+    ],
+    "answer": "instances"
+  },
+  {
+    "id": 85,
+    "section": "Programming Languages",
+    "question": "Static typing checks types at __________.",
+    "options": [
+      "runtime",
+      "compile time",
+      "link time",
+      "deploy time"
+    ],
+    "answer": "compile time"
+  },
+  {
+    "id": 86,
+    "section": "Programming Languages",
+    "question": "A language’s syntax is its form; semantics is its __________.",
+    "options": [
+      "speed",
+      "meaning",
+      "libraries",
+      "tooling"
+    ],
+    "answer": "meaning"
+  },
+  {
+    "id": 87,
+    "section": "Programming Languages",
+    "question": "Functional programming emphasizes __________ functions.",
+    "options": [
+      "stateful",
+      "impure",
+      "pure",
+      "void"
+    ],
+    "answer": "pure"
+  },
+  {
+    "id": 88,
+    "section": "Programming Languages",
+    "question": "Lexical scope binds names based on __________ structure.",
+    "options": [
+      "call",
+      "dynamic",
+      "static program",
+      "heap"
+    ],
+    "answer": "static program"
+  },
+  {
+    "id": 89,
+    "section": "Programming Languages",
+    "question": "A linker resolves references between __________ units.",
+    "options": [
+      "hardware",
+      "source",
+      "object",
+      "scripts"
+    ],
+    "answer": "object"
+  },
+  {
+    "id": 90,
+    "section": "Programming Languages",
+    "question": "Bytecode is typically executed by a __________.",
+    "options": [
+      "native CPU directly",
+      "virtual machine",
+      "ROM monitor",
+      "ASIC"
+    ],
+    "answer": "virtual machine"
+  },
+
+  {
+    "id": 91,
+    "section": "Software Engineering",
+    "question": "The SDLC commonly includes analysis, design, implementation, testing, and __________.",
+    "options": [
+      "obfuscation",
+      "deployment/maintenance",
+      "encryption",
+      "minification"
+    ],
+    "answer": "deployment/maintenance"
+  },
+  {
+    "id": 92,
+    "section": "Software Engineering",
+    "question": "Requirements engineering produces a __________.",
+    "options": [
+      "test plan",
+      "requirements specification",
+      "class diagram only",
+      "style guide"
+    ],
+    "answer": "requirements specification"
+  },
+  {
+    "id": 93,
+    "section": "Software Engineering",
+    "question": "Unit testing targets __________ components.",
+    "options": [
+      "integrated systems",
+      "individual units",
+      "user interfaces only",
+      "databases only"
+    ],
+    "answer": "individual units"
+  },
+  {
+    "id": 94,
+    "section": "Software Engineering",
+    "question": "Black-box testing focuses on __________.",
+    "options": [
+      "internal code paths",
+      "input-output behavior",
+      "memory layout",
+      "compiler phases"
+    ],
+    "answer": "input-output behavior"
+  },
+  {
+    "id": 95,
+    "section": "Software Engineering",
+    "question": "UML stands for Unified Modeling __________.",
+    "options": [
+      "Language",
+      "Library",
+      "Lookup",
+      "Layout"
+    ],
+    "answer": "Language"
+  },
+  {
+    "id": 96,
+    "section": "Software Engineering",
+    "question": "A use case diagram captures __________ interactions.",
+    "options": [
+      "deployment",
+      "build",
+      "actor–system",
+      "package"
+    ],
+    "answer": "actor–system"
+  },
+  {
+    "id": 97,
+    "section": "Software Engineering",
+    "question": "Agile methods emphasize __________ feedback and iteration.",
+    "options": [
+      "infrequent",
+      "heavy upfront",
+      "continuous",
+      "document-only"
+    ],
+    "answer": "continuous"
+  },
+  {
+    "id": 98,
+    "section": "Software Engineering",
+    "question": "Version control systems manage __________.",
+    "options": [
+      "test cases only",
+      "source code changes",
+      "deployment servers",
+      "OS kernels"
+    ],
+    "answer": "source code changes"
+  },
+  {
+    "id": 99,
+    "section": "Software Engineering",
+    "question": "Refactoring aims to improve code __________ without changing behavior.",
+    "options": [
+      "performance only",
+      "readability/structure",
+      "binary size only",
+      "API semantics"
+    ],
+    "answer": "readability/structure"
+  },
+  {
+    "id": 100,
+    "section": "Software Engineering",
+    "question": "Integration testing checks interactions between __________.",
+    "options": [
+      "users",
+      "modules",
+      "requirements",
+      "compilers"
+    ],
+    "answer": "modules"
+  },
+
+  {
+    "id": 101,
+    "section": "Data Structure",
+    "question": "An array provides __________ access by index.",
+    "options": [
+      "sequential-only",
+      "random (direct)",
+      "hashed",
+      "tree-based"
+    ],
+    "answer": "random (direct)"
+  },
+  {
+    "id": 102,
+    "section": "Data Structure",
+    "question": "A record (struct) groups fields of possibly __________ types.",
+    "options": [
+      "identical",
+      "different",
+      "numeric-only",
+      "pointer-only"
+    ],
+    "answer": "different"
+  },
+  {
+    "id": 103,
+    "section": "Data Structure",
+    "question": "A singly linked list node contains data and a pointer to the __________ node.",
+    "options": [
+      "previous",
+      "random",
+      "next",
+      "parent"
+    ],
+    "answer": "next"
+  },
+  {
+    "id": 104,
+    "section": "Data Structure",
+    "question": "The time to access the i-th element in an array is typically __________.",
+    "options": [
+      "O(log n)",
+      "O(1)",
+      "O(n)",
+      "O(n log n)"
+    ],
+    "answer": "O(1)"
+  },
+  {
+    "id": 105,
+    "section": "Data Structure",
+    "question": "In a linked list, insertion at head can be done in __________ time.",
+    "options": [
+      "O(1)",
+      "O(n)",
+      "O(log n)",
+      "O(n log n)"
+    ],
+    "answer": "O(1)"
+  },
+  {
+    "id": 106,
+    "section": "Data Structure",
+    "question": "A dynamic array grows by allocating a larger block and __________ elements.",
+    "options": [
+      "hashing",
+      "copying",
+      "encrypting",
+      "sorting"
+    ],
+    "answer": "copying"
+  },
+  {
+    "id": 107,
+    "section": "Data Structure",
+    "question": "A circular linked list’s tail points to the __________.",
+    "options": [
+      "NULL",
+      "head",
+      "middle",
+      "sentinel only"
+    ],
+    "answer": "head"
+  },
+  {
+    "id": 108,
+    "section": "Data Structure",
+    "question": "A doubly linked list enables traversal in __________ directions.",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": 109,
+    "section": "Data Structure",
+    "question": "An array is best when frequent operations are __________.",
+    "options": [
+      "random access",
+      "insertions in middle",
+      "deletions in middle",
+      "concatenations"
+    ],
+    "answer": "random access"
+  },
+  {
+    "id": 110,
+    "section": "Data Structure",
+    "question": "Linked lists are best when frequent operations are __________.",
+    "options": [
+      "random access",
+      "inserting/removing at ends",
+      "indexing",
+      "binary search"
+    ],
+    "answer": "inserting/removing at ends"
+  },
+
+  {
+    "id": 111,
+    "section": "Abstract Data Types",
+    "question": "A stack supports which primary operations?",
+    "options": [
+      "enqueue/dequeue",
+      "push/pop",
+      "insert/delete at index",
+      "hash/re-hash"
+    ],
+    "answer": "push/pop"
+  },
+  {
+    "id": 112,
+    "section": "Abstract Data Types",
+    "question": "Stacks follow __________ order.",
+    "options": [
+      "FIFO",
+      "LIFO",
+      "random",
+      "priority"
+    ],
+    "answer": "LIFO"
+  },
+  {
+    "id": 113,
+    "section": "Abstract Data Types",
+    "question": "Queues follow __________ order.",
+    "options": [
+      "LIFO",
+      "FIFO",
+      "priority",
+      "random"
+    ],
+    "answer": "FIFO"
+  },
+  {
+    "id": 114,
+    "section": "Abstract Data Types",
+    "question": "A binary tree node has at most __________ children.",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "n"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": 115,
+    "section": "Abstract Data Types",
+    "question": "In-order traversal of a BST yields nodes in __________ order.",
+    "options": [
+      "random",
+      "decreasing",
+      "increasing",
+      "level"
+    ],
+    "answer": "increasing"
+  },
+  {
+    "id": 116,
+    "section": "Abstract Data Types",
+    "question": "A graph with edges but no directions is __________.",
+    "options": [
+      "directed",
+      "weighted",
+      "undirected",
+      "bipartite"
+    ],
+    "answer": "undirected"
+  },
+  {
+    "id": 117,
+    "section": "Abstract Data Types",
+    "question": "Topological sorting applies to __________ graphs.",
+    "options": [
+      "undirected",
+      "cyclic",
+      "DAG (directed acyclic)",
+      "complete"
+    ],
+    "answer": "DAG (directed acyclic)"
+  },
+  {
+    "id": 118,
+    "section": "Abstract Data Types",
+    "question": "A heap is a specialized __________ structure.",
+    "options": [
+      "queue",
+      "stack",
+      "tree",
+      "array of records only"
+    ],
+    "answer": "tree"
+  },
+  {
+    "id": 119,
+    "section": "Abstract Data Types",
+    "question": "Breadth-first search uses a __________ internally.",
+    "options": [
+      "stack",
+      "queue",
+      "priority queue",
+      "set"
+    ],
+    "answer": "queue"
+  },
+  {
+    "id": 120,
+    "section": "Abstract Data Types",
+    "question": "Depth-first search typically uses a __________ or recursion.",
+    "options": [
+      "queue",
+      "stack",
+      "heap",
+      "dictionary"
+    ],
+    "answer": "stack"
+  },
+
+  {
+    "id": 121,
+    "section": "File Structure",
+    "question": "Sequential files are best suited for __________ access.",
+    "options": [
+      "random",
+      "sequential",
+      "indexed",
+      "hashed"
+    ],
+    "answer": "sequential"
+  },
+  {
+    "id": 122,
+    "section": "File Structure",
+    "question": "Indexed files use a(n) __________ to locate records quickly.",
+    "options": [
+      "hash function",
+      "index",
+      "checksum",
+      "compression"
+    ],
+    "answer": "index"
+  },
+  {
+    "id": 123,
+    "section": "File Structure",
+    "question": "Hashed files compute a storage location using a __________.",
+    "options": [
+      "record length",
+      "sort key",
+      "hash function",
+      "page table"
+    ],
+    "answer": "hash function"
+  },
+  {
+    "id": 124,
+    "section": "File Structure",
+    "question": "Directories maintain mappings from names to __________.",
+    "options": [
+      "protocols",
+      "file descriptors or locations",
+      "checksums",
+      "encodings"
+    ],
+    "answer": "file descriptors or locations"
+  },
+  {
+    "id": 125,
+    "section": "File Structure",
+    "question": "Text files store data as __________ characters.",
+    "options": [
+      "binary only",
+      "encoded",
+      "floating point",
+      "vector"
+    ],
+    "answer": "encoded"
+  },
+  {
+    "id": 126,
+    "section": "File Structure",
+    "question": "Binary files store data in the form of __________.",
+    "options": [
+      "ASCII only",
+      "raw bit patterns",
+      "images only",
+      "delimited strings"
+    ],
+    "answer": "raw bit patterns"
+  },
+  {
+    "id": 127,
+    "section": "File Structure",
+    "question": "Record-oriented files group data into fixed or variable-length __________.",
+    "options": [
+      "pages",
+      "blocks",
+      "records",
+      "keys"
+    ],
+    "answer": "records"
+  },
+  {
+    "id": 128,
+    "section": "File Structure",
+    "question": "A primary index is typically built on a file’s __________ key.",
+    "options": [
+      "foreign",
+      "surrogate",
+      "primary",
+      "composite only"
+    ],
+    "answer": "primary"
+  },
+  {
+    "id": 129,
+    "section": "File Structure",
+    "question": "Overflow areas in hashing handle __________.",
+    "options": [
+      "compression",
+      "collisions",
+      "encryption",
+      "deletions only"
+    ],
+    "answer": "collisions"
+  },
+  {
+    "id": 130,
+    "section": "File Structure",
+    "question": "B+ trees are widely used for __________ files.",
+    "options": [
+      "sequential-only",
+      "indexed",
+      "hashed-only",
+      "text-only"
+    ],
+    "answer": "indexed"
+  },
+
+  {
+    "id": 131,
+    "section": "Databases",
+    "question": "The relational model organizes data into __________.",
+    "options": [
+      "graphs",
+      "trees",
+      "tables (relations)",
+      "documents"
+    ],
+    "answer": "tables (relations)"
+  },
+  {
+    "id": 132,
+    "section": "Databases",
+    "question": "A primary key uniquely identifies a __________ in a table.",
+    "options": [
+      "column",
+      "row (tuple)",
+      "schema",
+      "index"
+    ],
+    "answer": "row (tuple)"
+  },
+  {
+    "id": 133,
+    "section": "Databases",
+    "question": "A foreign key references a primary key in a(n) __________ table.",
+    "options": [
+      "same",
+      "different (related)",
+      "temporary",
+      "index"
+    ],
+    "answer": "different (related)"
+  },
+  {
+    "id": 134,
+    "section": "Databases",
+    "question": "Normalization primarily reduces __________.",
+    "options": [
+      "availability",
+      "redundancy",
+      "indexes",
+      "keys"
+    ],
+    "answer": "redundancy"
+  },
+  {
+    "id": 135,
+    "section": "Databases",
+    "question": "SQL SELECT is used to __________ data.",
+    "options": [
+      "define",
+      "retrieve",
+      "delete",
+      "backup"
+    ],
+    "answer": "retrieve"
+  },
+  {
+    "id": 136,
+    "section": "Databases",
+    "question": "ACID stands for Atomicity, Consistency, Isolation, and __________.",
+    "options": [
+      "Durability",
+      "Distribution",
+      "Decomposition",
+      "Duplication"
+    ],
+    "answer": "Durability"
+  },
+  {
+    "id": 137,
+    "section": "Databases",
+    "question": "An object-oriented database integrates database features with __________ concepts.",
+    "options": [
+      "functional",
+      "object",
+      "logic",
+      "relational-only"
+    ],
+    "answer": "object"
+  },
+  {
+    "id": 138,
+    "section": "Databases",
+    "question": "An object-relational database aims to keep relational advantages and support __________ data.",
+    "options": [
+      "unstructured only",
+      "flat text",
+      "structured complex (objects)",
+      "binary only"
+    ],
+    "answer": "structured complex (objects)"
+  },
+  {
+    "id": 139,
+    "section": "Databases",
+    "question": "Indexes primarily speed up __________.",
+    "options": [
+      "updates",
+      "queries",
+      "backups",
+      "constraints"
+    ],
+    "answer": "queries"
+  },
+  {
+    "id": 140,
+    "section": "Databases",
+    "question": "ER modeling captures entities, attributes, and __________.",
+    "options": [
+      "procedures",
+      "relationships",
+      "files",
+      "sockets"
+    ],
+    "answer": "relationships"
+  },
+
+  {
+    "id": 141,
+    "section": "Data Compression",
+    "question": "Lossless compression allows exact __________ upon decompression.",
+    "options": [
+      "approximation",
+      "restoration",
+      "quantization",
+      "filtering"
+    ],
+    "answer": "restoration"
+  },
+  {
+    "id": 142,
+    "section": "Data Compression",
+    "question": "Huffman coding assigns shorter codes to more __________ symbols.",
+    "options": [
+      "rare",
+      "frequent",
+      "random",
+      "ordered"
+    ],
+    "answer": "frequent"
+  },
+  {
+    "id": 143,
+    "section": "Data Compression",
+    "question": "LZW is a dictionary-based __________ compression method.",
+    "options": [
+      "lossy",
+      "lossless",
+      "predictive only",
+      "transform-only"
+    ],
+    "answer": "lossless"
+  },
+  {
+    "id": 144,
+    "section": "Data Compression",
+    "question": "JPEG typically applies a block-wise __________ transform.",
+    "options": [
+      "Fourier",
+      "Hadamard",
+      "Discrete Cosine (DCT)",
+      "Wavelet only"
+    ],
+    "answer": "Discrete Cosine (DCT)"
+  },
+  {
+    "id": 145,
+    "section": "Data Compression",
+    "question": "MP3 compression is primarily __________.",
+    "options": [
+      "lossless",
+      "lossy",
+      "reversible",
+      "run-length only"
+    ],
+    "answer": "lossy"
+  },
+  {
+    "id": 146,
+    "section": "Data Compression",
+    "question": "Run-length encoding is effective on data with long __________.",
+    "options": [
+      "random noise",
+      "repeating runs",
+      "prime sequences",
+      "hash keys"
+    ],
+    "answer": "repeating runs"
+  },
+  {
+    "id": 147,
+    "section": "Data Compression",
+    "question": "Entropy sets a lower bound on achievable compression for a given __________.",
+    "options": [
+      "CPU",
+      "distribution",
+      "network",
+      "filesystem"
+    ],
+    "answer": "distribution"
+  },
+  {
+    "id": 148,
+    "section": "Data Compression",
+    "question": "Quantization is a key step in many __________ codecs.",
+    "options": [
+      "lossless",
+      "lossy",
+      "text-only",
+      "database"
+    ],
+    "answer": "lossy"
+  },
+  {
+    "id": 149,
+    "section": "Data Compression",
+    "question": "Arithmetic coding encodes a message as a subinterval of __________.",
+    "options": [
+      "integers",
+      "reals [0,1)",
+      "complex plane",
+      "binary trees"
+    ],
+    "answer": "reals [0,1)"
+  },
+  {
+    "id": 150,
+    "section": "Data Compression",
+    "question": "MPEG video uses both spatial and __________ compression.",
+    "options": [
+      "temporal",
+      "spectral",
+      "quantum",
+      "logical"
+    ],
+    "answer": "temporal"
+  },
+
+  {
+    "id": 151,
+    "section": "Security",
+    "question": "The CIA triad stands for Confidentiality, Integrity, and __________.",
+    "options": [
+      "Authentication",
+      "Availability",
+      "Authorization",
+      "Accounting"
+    ],
+    "answer": "Availability"
+  },
+  {
+    "id": 152,
+    "section": "Security",
+    "question": "Symmetric encryption uses __________ key(s).",
+    "options": [
+      "no",
+      "one shared",
+      "two public keys",
+      "a pair (public/private) only"
+    ],
+    "answer": "one shared"
+  },
+  {
+    "id": 153,
+    "section": "Security",
+    "question": "Public-key cryptography uses __________ keys.",
+    "options": [
+      "a shared secret",
+      "no",
+      "a public/private pair",
+      "rotating symmetric"
+    ],
+    "answer": "a public/private pair"
+  },
+  {
+    "id": 154,
+    "section": "Security",
+    "question": "A hash function maps data to a fixed-size __________.",
+    "options": [
+      "cipher",
+      "signature",
+      "digest",
+      "nonce"
+    ],
+    "answer": "digest"
+  },
+  {
+    "id": 155,
+    "section": "Security",
+    "question": "Digital signatures provide integrity and __________.",
+    "options": [
+      "confidentiality",
+      "non-repudiation",
+      "availability",
+      "compression"
+    ],
+    "answer": "non-repudiation"
+  },
+  {
+    "id": 156,
+    "section": "Security",
+    "question": "A firewall enforces a network’s __________ policy.",
+    "options": [
+      "storage",
+      "access control",
+      "power",
+      "license"
+    ],
+    "answer": "access control"
+  },
+  {
+    "id": 157,
+    "section": "Security",
+    "question": "Multi-factor authentication combines two or more of: something you know, have, and __________.",
+    "options": [
+      "want",
+      "are",
+      "buy",
+      "log"
+    ],
+    "answer": "are"
+  },
+  {
+    "id": 158,
+    "section": "Security",
+    "question": "TLS is used to secure __________ communications.",
+    "options": [
+      "email only",
+      "transport-layer",
+      "disk",
+      "firmware"
+    ],
+    "answer": "transport-layer"
+  },
+  {
+    "id": 159,
+    "section": "Security",
+    "question": "Access control lists (ACLs) are attached to __________.",
+    "options": [
+      "users only",
+      "objects/resources",
+      "switches",
+      "CPUs"
+    ],
+    "answer": "objects/resources"
+  },
+  {
+    "id": 160,
+    "section": "Security",
+    "question": "A vulnerability is a weakness; an exploit is a method to __________ it.",
+    "options": [
+      "patch",
+      "mitigate",
+      "leverage",
+      "log"
+    ],
+    "answer": "leverage"
+  },
+
+  {
+    "id": 161,
+    "section": "Theory of Computation",
+    "question": "A Turing machine is a formal model of __________.",
+    "options": [
+      "storage",
+      "computation",
+      "networks",
+      "databases"
+    ],
+    "answer": "computation"
+  },
+  {
+    "id": 162,
+    "section": "Theory of Computation",
+    "question": "The halting problem is __________.",
+    "options": [
+      "decidable",
+      "undecidable",
+      "polynomial-time",
+      "NP-complete"
+    ],
+    "answer": "undecidable"
+  },
+  {
+    "id": 163,
+    "section": "Theory of Computation",
+    "question": "Complexity class P consists of problems solvable in __________ time.",
+    "options": [
+      "exponential",
+      "polynomial",
+      "constant",
+      "logarithmic only"
+    ],
+    "answer": "polynomial"
+  },
+  {
+    "id": 164,
+    "section": "Theory of Computation",
+    "question": "NP stands for __________.",
+    "options": [
+      "Non-Polynomial",
+      "Non-deterministic Polynomial time",
+      "New Polynomial",
+      "Non-Partial"
+    ],
+    "answer": "Non-deterministic Polynomial time"
+  },
+  {
+    "id": 165,
+    "section": "Theory of Computation",
+    "question": "If a problem A reduces to problem B in polynomial time and B is solvable in polynomial time, then A is __________.",
+    "options": [
+      "undecidable",
+      "also solvable in polynomial time",
+      "NP-hard",
+      "exponential"
+    ],
+    "answer": "also solvable in polynomial time"
+  },
+  {
+    "id": 166,
+    "section": "Theory of Computation",
+    "question": "A language is decidable if some Turing machine __________ on every input.",
+    "options": [
+      "loops",
+      "halts",
+      "parses",
+      "encrypts"
+    ],
+    "answer": "halts"
+  },
+  {
+    "id": 167,
+    "section": "Theory of Computation",
+    "question": "Gödel numbering encodes formal objects as __________.",
+    "options": [
+      "graphs",
+      "numbers",
+      "trees",
+      "strings only"
+    ],
+    "answer": "numbers"
+  },
+  {
+    "id": 168,
+    "section": "Theory of Computation",
+    "question": "Regular languages are recognized by __________ automata.",
+    "options": [
+      "pushdown",
+      "Turing",
+      "finite",
+      "linear bounded"
+    ],
+    "answer": "finite"
+  },
+  {
+    "id": 169,
+    "section": "Theory of Computation",
+    "question": "Context-free languages are generated by __________ grammars.",
+    "options": [
+      "regular",
+      "type-2",
+      "context-sensitive",
+      "type-0"
+    ],
+    "answer": "type-2"
+  },
+  {
+    "id": 170,
+    "section": "Theory of Computation",
+    "question": "Decidability distinguishes problems that can be __________.",
+    "options": [
+      "optimized",
+      "solved by any algorithm",
+      "proved correct",
+      "encoded"
+    ],
+    "answer": "solved by any algorithm"
+  },
+
+  {
+    "id": 171,
+    "section": "Artificial Intelligence",
+    "question": "Knowledge representation includes logic, frames, and __________.",
+    "options": [
+      "pixels",
+      "semantic networks",
+      "packets",
+      "registers"
+    ],
+    "answer": "semantic networks"
+  },
+  {
+    "id": 172,
+    "section": "Artificial Intelligence",
+    "question": "An expert system typically has a knowledge base and an __________ engine.",
+    "options": [
+      "indexing",
+      "inference",
+      "encryption",
+      "I/O"
+    ],
+    "answer": "inference"
+  },
+  {
+    "id": 173,
+    "section": "Artificial Intelligence",
+    "question": "Heuristic search uses rules of thumb to guide __________.",
+    "options": [
+      "compilation",
+      "exploration",
+      "encryption",
+      "compression"
+    ],
+    "answer": "exploration"
+  },
+  {
+    "id": 174,
+    "section": "Artificial Intelligence",
+    "question": "A perceptron is a basic model of a __________ neuron.",
+    "options": [
+      "chemical",
+      "biological-inspired",
+      "optical",
+      "quantum"
+    ],
+    "answer": "biological-inspired"
+  },
+  {
+    "id": 175,
+    "section": "Artificial Intelligence",
+    "question": "Backpropagation is used to train __________ networks.",
+    "options": [
+      "rule-based",
+      "Bayesian",
+      "neural",
+      "finite-state"
+    ],
+    "answer": "neural"
+  },
+  {
+    "id": 176,
+    "section": "Artificial Intelligence",
+    "question": "Perception in AI often includes __________ processing.",
+    "options": [
+      "image and speech",
+      "sorting",
+      "paging",
+      "indexing"
+    ],
+    "answer": "image and speech"
+  },
+  {
+    "id": 177,
+    "section": "Artificial Intelligence",
+    "question": "State-space search explores nodes connected by __________.",
+    "options": [
+      "tables",
+      "edges (operators)",
+      "datagrams",
+      "pages"
+    ],
+    "answer": "edges (operators)"
+  },
+  {
+    "id": 178,
+    "section": "Artificial Intelligence",
+    "question": "A* search combines path cost and __________.",
+    "options": [
+      "randomization",
+      "heuristic estimate",
+      "compression",
+      "encryption"
+    ],
+    "answer": "heuristic estimate"
+  },
+  {
+    "id": 179,
+    "section": "Artificial Intelligence",
+    "question": "Overfitting occurs when a model fits __________ rather than general patterns.",
+    "options": [
+      "noise",
+      "features",
+      "labels",
+      "hyperparameters"
+    ],
+    "answer": "noise"
+  },
+  {
+    "id": 180,
+    "section": "Artificial Intelligence",
+    "question": "Rule-based systems represent knowledge as __________.",
+    "options": [
+      "tuples",
+      "if–then rules",
+      "hex dumps",
+      "bitfields"
+    ],
+    "answer": "if–then rules"
+  },
+
+  {
+    "id": 181,
+    "section": "Introduction to Social Media",
+    "question": "A social network connects users via __________ relationships.",
+    "options": [
+      "random",
+      "explicit",
+      "encrypted-only",
+      "anonymous"
+    ],
+    "answer": "explicit"
+  },
+  {
+    "id": 182,
+    "section": "Introduction to Social Media",
+    "question": "A 'feed' typically displays a stream of __________.",
+    "options": [
+      "system logs",
+      "user-generated posts",
+      "compiled binaries",
+      "API tokens"
+    ],
+    "answer": "user-generated posts"
+  },
+  {
+    "id": 183,
+    "section": "Introduction to Social Media",
+    "question": "Hashtags enable content __________ by topic.",
+    "options": [
+      "encryption",
+      "indexing/discovery",
+      "compression",
+      "deletion"
+    ],
+    "answer": "indexing/discovery"
+  },
+  {
+    "id": 184,
+    "section": "Introduction to Social Media",
+    "question": "A 'follower' relationship is typically __________ direction.",
+    "options": [
+      "bi-",
+      "uni-",
+      "tri-",
+      "random"
+    ],
+    "answer": "uni-"
+  },
+  {
+    "id": 185,
+    "section": "Introduction to Social Media",
+    "question": "User engagement metrics include likes, shares, and __________.",
+    "options": [
+      "page faults",
+      "comments",
+      "cache hits",
+      "CPU cycles"
+    ],
+    "answer": "comments"
+  },
+  {
+    "id": 186,
+    "section": "Introduction to Social Media",
+    "question": "Privacy settings control who can __________ content.",
+    "options": [
+      "compile",
+      "view/interact with",
+      "encrypt",
+      "hash"
+    ],
+    "answer": "view/interact with"
+  },
+  {
+    "id": 187,
+    "section": "Introduction to Social Media",
+    "question": "A 'profile' aggregates a user’s __________.",
+    "options": [
+      "kernel modules",
+      "personal info and activity",
+      "file handles",
+      "device drivers"
+    ],
+    "answer": "personal info and activity"
+  },
+  {
+    "id": 188,
+    "section": "Introduction to Social Media",
+    "question": "Platform 'algorithms' often rank posts to maximize __________.",
+    "options": [
+      "latency",
+      "engagement",
+      "power usage",
+      "compilation time"
+    ],
+    "answer": "engagement"
+  },
+  {
+    "id": 189,
+    "section": "Introduction to Social Media",
+    "question": "Direct messaging is typically a __________ channel.",
+    "options": [
+      "public",
+      "broadcast",
+      "private",
+      "multicast"
+    ],
+    "answer": "private"
+  },
+  {
+    "id": 190,
+    "section": "Introduction to Social Media",
+    "question": "Content moderation addresses spam, abuse, and __________.",
+    "options": [
+      "page faults",
+      "malware",
+      "inappropriate content",
+      "routing loops"
+    ],
+    "answer": "inappropriate content"
+  },
+
+  {
+    "id": 191,
+    "section": "Social and Ethical Issues",
+    "question": "Intellectual property (IP) law concerns rights over __________.",
+    "options": [
+      "physical servers only",
+      "creations of the mind",
+      "routing tables",
+      "random data"
+    ],
+    "answer": "creations of the mind"
+  },
+  {
+    "id": 192,
+    "section": "Social and Ethical Issues",
+    "question": "Privacy relates to control over personal __________.",
+    "options": [
+      "bandwidth",
+      "data",
+      "kernels",
+      "licenses"
+    ],
+    "answer": "data"
+  },
+  {
+    "id": 193,
+    "section": "Social and Ethical Issues",
+    "question": "Computer crime can include unauthorized access, fraud, and __________.",
+    "options": [
+      "unit testing",
+      "malware distribution",
+      "code formatting",
+      "open-sourcing"
+    ],
+    "answer": "malware distribution"
+  },
+  {
+    "id": 194,
+    "section": "Social and Ethical Issues",
+    "question": "Ethical principles often include beneficence and __________.",
+    "options": [
+      "maleficence",
+      "non-maleficence",
+      "negligence",
+      "dominance"
+    ],
+    "answer": "non-maleficence"
+  },
+  {
+    "id": 195,
+    "section": "Social and Ethical Issues",
+    "question": "Plagiarism is presenting another’s work as __________.",
+    "options": [
+      "fair use",
+      "a citation",
+      "one’s own",
+      "public domain"
+    ],
+    "answer": "one’s own"
+  },
+  {
+    "id": 196,
+    "section": "Social and Ethical Issues",
+    "question": "'Hacker' historically referred to someone skilled at __________.",
+    "options": [
+      "network routing only",
+      "creative problem solving",
+      "plagiarism",
+      "hardware sales"
+    ],
+    "answer": "creative problem solving"
+  },
+  {
+    "id": 197,
+    "section": "Social and Ethical Issues",
+    "question": "Fair use may allow limited use of copyrighted material for __________.",
+    "options": [
+      "commercial resale",
+      "transformative purposes like education",
+      "unlimited copying",
+      "encryption"
+    ],
+    "answer": "transformative purposes like education"
+  },
+  {
+    "id": 198,
+    "section": "Social and Ethical Issues",
+    "question": "Security measures should balance protection with user __________.",
+    "options": [
+      "confusion",
+      "inconvenience",
+      "usability",
+      "data hoarding"
+    ],
+    "answer": "usability"
+  },
+  {
+    "id": 199,
+    "section": "Social and Ethical Issues",
+    "question": "Data protection regulations often require informed __________.",
+    "options": [
+      "consent",
+      "compilation",
+      "compression",
+      "caching"
+    ],
+    "answer": "consent"
+  },
+  {
+    "id": 200,
+    "section": "Social and Ethical Issues",
+    "question": "Responsible disclosure involves reporting vulnerabilities to __________.",
+    "options": [
+      "random users",
+      "vendors/maintainers first",
+      "social media",
+      "lawyers only"
+    ],
+    "answer": "vendors/maintainers first"
+  }
+]
