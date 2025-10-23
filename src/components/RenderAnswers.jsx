@@ -18,20 +18,7 @@ const RenderAnswers = ({ answer, data, handleAnswer, options, selected, showAnsw
 }
 
 function RenderType(type, data = [], opt) {
-    if (type === "table") {
-        return <div className='d-flex justify-content-between'>
-            {data.map((opt, index) => {
-                return <div key={index}>
-                    <div >{opt.header || "."}</div>
-                    {opt.value?.map((item, key) => {
-                        return <div key={key}>{item}</div>
-                    })}
-                </div>
-            })}
-        </div>
-    }
     return opt
-
 }
 
 export default RenderAnswers

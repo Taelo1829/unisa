@@ -435,18 +435,6 @@
         "answer": "A, B, C and D"
     },
     {
-        "id": 34,
-        "section": "Computer algorithms, programming and software development",
-        "question": "Suppose a list contains the following elements: 47, 98, 22, 13, 93, 8. What is the order of the elements in the list after three passes if bubble sort is used?",
-        "options": [
-            "8, 13, 22, 47, 98, 93",
-            "8, 13, 22, 47, 93, 98",
-            "8, 13, 22, 98, 93, 47",
-            "8, 13, 22, 93, 98, 47"
-        ],
-        "answer": "8, 13, 22, 47, 93, 98"
-    },
-    {
         "id": 35,
         "question": "A list contains the following elements: 3, 7, 8, 17, 23, 42, 47, 78, 99, 107, 130. At the beginning, first = 1, mid = 6 and last = 11. What are the values of first, mid and last respectively after another (one) iteration of the binary search algorithm if the goal is 78?",
         "options": [
@@ -743,7 +731,8 @@
                 ]
             }
         ]
-    }, {
+    },
+    {
         "id": 54,
         "question": "A function F(A, B, C) accepts a decimal number between 0 and 7 as input and outputs 1 if the number is 1 or a prime number. The following table shows different combinations of binary inputs for A, B, and C. Which alternative shows the correct outputs for F?",
         "options": [
@@ -812,7 +801,8 @@
                 ]
             }
         ]
-    }, {
+    },
+    {
         "id": 55,
         "question": "A function F(A, B, C) accepts a decimal number between 0 and 7 as input and outputs 1 if the number is 1 or a prime number. The following table shows different combinations of binary inputs for A, B, and C. Which alternative shows the correct outputs for F?",
         "options": [
@@ -822,7 +812,7 @@
             "Alternative 4: 1, 0"
         ],
         "answer": "Alternative 4: 1, 0",
-        "answerType": "table",
+        "type": "alternative",
         "data": [
             {
                 "header": "",
@@ -881,7 +871,8 @@
                 ]
             }
         ]
-    }, {
+    },
+    {
         "id": 56,
         "question": "A function F(A, B, C) accepts a decimal number between 0 and 7 as input and outputs 1 if the number is 1 or a prime number. The following table shows different combinations of binary inputs for A, B, and C. Which alternative shows the correct outputs for F?",
         "options": [
@@ -891,7 +882,7 @@
             "Alternative 4: 1, 0"
         ],
         "answer": "Alternative 2: 1, 1",
-        "answerType": "table",
+        "type": "table",
         "data": [
             {
                 "header": "",
@@ -988,7 +979,7 @@
             "x yz"
         ],
         "answer": "(x + y)'",
-        "data": "https://ibb.co/6cMd10hS",
+        "data": "https://i.ibb.co/Gf6htQwD/image.png",
         "type": "image"
     },
     {
@@ -1067,7 +1058,7 @@
             "4.\n       y'z'   y'z    yz    yz'\n   x'  1       1       1     \n   x                     1"
         ],
         "answer": "1.\n       y'z'   y'z    yz    yz'\n   x'         1             1\n   x     1                 1",
-        "answerType": "table",
+        "type": "alternative",
         "data": [
             {
                 "header": "y'z'",
@@ -1589,7 +1580,7 @@
             "Transversal",
             "Retrieval"
         ],
-        "answer": "Searching"
+        "answer": "Traversal"
     },
     {
         "id": 100,

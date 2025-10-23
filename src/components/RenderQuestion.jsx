@@ -30,6 +30,20 @@ function RenderType(type, data) {
         return (<>
             <img src={data} alt={data} width={"100%"} />
         </>)
+
+    if (type === "alternative") {
+        return <div className='d-flex justify-content-between'>
+            {data.map((opt, index) => {
+                return <div key={index}>
+                    <div >{opt.header || "."}</div>
+                    {opt.value?.map((item, key) => {
+                        return <div key={key}>{item}</div>
+                    })}
+                </div>
+            })}
+        </div>
+    }
+
 }
 
 export default RenderQuestion
