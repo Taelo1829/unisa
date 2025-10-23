@@ -919,18 +919,6 @@
     "answer": "diagrammatic symbols"
   },
   {
-    "id": 79,
-    "section": "Algorithms",
-    "question": "Divide-and-conquer splits a problem, solves parts, and then __________.",
-    "options": [
-      "repeats indefinitely",
-      "merges results",
-      "ignores base cases",
-      "sorts input"
-    ],
-    "answer": "merges results"
-  },
-  {
     "id": 80,
     "section": "Algorithms",
     "question": "Greedy algorithms make __________ choices at each step.",
