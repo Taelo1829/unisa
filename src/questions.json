@@ -470,6 +470,7 @@
     },
     {
         "id": 37,
+        "section": "Computer systems, organisation and networks",
         "question": "Modern operating systems use three different terms that refer to a set of instructions: program, job and process. In which of the following possible states can a process be?",
         "options": [
             "Only A and B",
@@ -852,7 +853,7 @@
         ],
         "answer": "BC",
         "type": "image",
-        "data": "https://i.ibb.co/PsshyGKv/image.png",
+        "data": "https://i.ibb.co/PsshyGKv/image.png"
     },
     {
         "id": 64,
