@@ -586,6 +586,7 @@
     },
     {
         "id": 46,
+        "section": "Computer systems, organisation and networks",
         "question": "In a network, what reliability factor is related to transit time and response time?",
         "options": [
             "performance",
@@ -1646,5 +1647,29 @@
         "answer": "at least once",
         "explanation": "Basis path testing is a white-box testing technique that ensures every statement and branch in a program is executed at least once to verify logical correctness and ensure all possible paths are covered.",
         "section": "Computer algorithms, programming and software development"
+    },
+    {
+        "id": 105,
+        "section": "Computer background, number systems, data storage, operations on data and logic",
+        "question": "Which of the following is NOT TRUE of computer images?",
+        "options": [
+            "JPEG (Joint Photographic Experts Group) uses the indexed colour scheme",
+            "Raster graphics is used when we need to store an analog image (e.g. a photograph)",
+            "The number of bits used to represent a pixel depends on how a pixel's colour is handled by different encoding techniques",
+            "The scanning rate in image processing is called resolution"
+        ],
+        "answer": "JPEG (Joint Photographic Experts Group) uses the indexed colour scheme"
+    },
+    {
+        "id": 106,
+        "section": "Computer algorithms, programming and software development",
+        "question": "Which of the following is NOT TRUE of the coupling of modules in a system?",
+        "options": [
+            "Coupling is a measure of how tightly two modules are bound to each other",
+            "The more tightly coupled the modules are, the less dependent they are",
+            "Coupling between modules must be minimised",
+            "Loosely coupled modules are more likely to be reusable"
+        ],
+        "answer": "The more tightly coupled the modules are, the less dependent they are"
     }
 ]

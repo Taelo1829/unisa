@@ -1,0 +1,2666 @@
+[
+    {
+        "id": 1,
+        "section": "Chapter 1: Introduction",
+        "question": "The Turing model characterizes a computer as a __________.",
+        "options": [
+            "programmable data processor",
+            "fixed-function calculator",
+            "network switch",
+            "mechanical loom"
+        ],
+        "answer": "programmable data processor"
+    },
+    {
+        "id": 2,
+        "section": "Chapter 1: Introduction",
+        "question": "In the von Neumann model, both program and data are stored in the same __________.",
+        "options": [
+            "register file",
+            "memory",
+            "I/O controller",
+            "ALU"
+        ],
+        "answer": "memory"
+    },
+    {
+        "id": 3,
+        "section": "Chapter 1: Introduction",
+        "question": "Which CPU component performs arithmetic and logical operations?",
+        "options": [
+            "ALU",
+            "Control Unit",
+            "DMA",
+            "Timer"
+        ],
+        "answer": "ALU"
+    },
+    {
+        "id": 4,
+        "section": "Chapter 1: Introduction",
+        "question": "The control unit primarily __________.",
+        "options": [
+            "stores user files",
+            "coordinates and sequences operations",
+            "renders graphics",
+            "executes only floating-point ops"
+        ],
+        "answer": "coordinates and sequences operations"
+    },
+    {
+        "id": 5,
+        "section": "Chapter 1: Introduction",
+        "question": "The stored-program idea is most associated with __________.",
+        "options": [
+            "Alan Turing",
+            "John von Neumann",
+            "Charles Babbage",
+            "Herman Hollerith"
+        ],
+        "answer": "John von Neumann"
+    },
+    {
+        "id": 6,
+        "section": "Chapter 1: Introduction",
+        "question": "A universal Turing machine can compute __________.",
+        "options": [
+            "any computable function",
+            "only arithmetic sums",
+            "only logical predicates",
+            "only finite automata languages"
+        ],
+        "answer": "any computable function"
+    },
+    {
+        "id": 7,
+        "section": "Chapter 1: Introduction",
+        "question": "Which device pioneered program control using punched cards?",
+        "options": [
+            "Jacquard loom",
+            "ENIAC",
+            "ABC",
+            "Colossus"
+        ],
+        "answer": "Jacquard loom"
+    },
+    {
+        "id": 8,
+        "section": "Chapter 1: Introduction",
+        "question": "First-generation electronic computers primarily used __________.",
+        "options": [
+            "vacuum tubes",
+            "transistors",
+            "integrated circuits",
+            "microprocessors"
+        ],
+        "answer": "vacuum tubes"
+    },
+    {
+        "id": 9,
+        "section": "Chapter 1: Introduction",
+        "question": "The set of disciplines directly related to creating hardware and system software are often called the __________ areas of computer science.",
+        "options": [
+            "applications",
+            "systems",
+            "social",
+            "artistic"
+        ],
+        "answer": "systems"
+    },
+    {
+        "id": 10,
+        "section": "Chapter 1: Introduction",
+        "question": "The basic cycle in a stored-program machine is often described as __________.",
+        "options": [
+            "compile-link-run",
+            "fetch-decode-execute",
+            "scan-parse-generate",
+            "input-compress-output"
+        ],
+        "answer": "fetch-decode-execute"
+    },
+    {
+        "id": 11,
+        "section": "Chapter 2: Number Systems",
+        "question": "In a positional system, a digit’s value depends on the digit and its __________.",
+        "options": [
+            "color",
+            "position (place value)",
+            "ASCII code",
+            "row number"
+        ],
+        "answer": "position (place value)"
+    },
+    {
+        "id": 12,
+        "section": "Chapter 2: Number Systems",
+        "question": "Binary digits are also known as __________.",
+        "options": [
+            "bytes",
+            "nybbles",
+            "bits",
+            "words"
+        ],
+        "answer": "bits"
+    },
+    {
+        "id": 13,
+        "section": "Chapter 2: Number Systems",
+        "question": "Hexadecimal uses base __________.",
+        "options": [
+            "8",
+            "10",
+            "12",
+            "16"
+        ],
+        "answer": "16"
+    },
+    {
+        "id": 14,
+        "section": "Chapter 2: Number Systems",
+        "question": "Four binary bits correspond neatly to one __________ digit.",
+        "options": [
+            "decimal",
+            "octal",
+            "hexadecimal",
+            "roman"
+        ],
+        "answer": "hexadecimal"
+    },
+    {
+        "id": 15,
+        "section": "Chapter 2: Number Systems",
+        "question": "Three binary bits correspond neatly to one __________ digit.",
+        "options": [
+            "decimal",
+            "octal",
+            "hexadecimal",
+            "ternary"
+        ],
+        "answer": "octal"
+    },
+    {
+        "id": 16,
+        "section": "Chapter 2: Number Systems",
+        "question": "The maximum unsigned value represented by K binary digits is __________.",
+        "options": [
+            "2^K − 1",
+            "2^K",
+            "2^(K−1)",
+            "2^(K−1) − 1"
+        ],
+        "answer": "2^K − 1"
+    },
+    {
+        "id": 17,
+        "section": "Chapter 2: Number Systems",
+        "question": "To convert from base b to decimal, multiply each digit by powers of b and then __________.",
+        "options": [
+            "subtract",
+            "sum",
+            "XOR",
+            "divide"
+        ],
+        "answer": "sum"
+    },
+    {
+        "id": 18,
+        "section": "Chapter 2: Number Systems",
+        "question": "The Roman numeral system is an example of a __________ system.",
+        "options": [
+            "positional",
+            "nonpositional",
+            "floating",
+            "mixed-radix"
+        ],
+        "answer": "nonpositional"
+    },
+    {
+        "id": 19,
+        "section": "Chapter 2: Number Systems",
+        "question": "The binary number (101.11)_2 equals __________ in decimal.",
+        "options": [
+            "5.25",
+            "5.5",
+            "5.75",
+            "6.25"
+        ],
+        "answer": "5.75"
+    },
+    {
+        "id": 20,
+        "section": "Chapter 2: Number Systems",
+        "question": "The function symbols ⌈ ⌉ in ⌈log_b N⌉ denote the __________ function.",
+        "options": [
+            "floor",
+            "ceiling",
+            "round",
+            "truncate"
+        ],
+        "answer": "ceiling"
+    },
+    {
+        "id": 21,
+        "section": "Chapter 2: Number Systems",
+        "question": "Which base is most convenient for human interpretation of binary machine values?",
+        "options": [
+            "decimal",
+            "octal and hexadecimal",
+            "ternary",
+            "sexagesimal"
+        ],
+        "answer": "octal and hexadecimal"
+    },
+    {
+        "id": 22,
+        "section": "Chapter 2: Number Systems",
+        "question": "In hexadecimal, the digit 'C' corresponds to decimal __________.",
+        "options": [
+            "10",
+            "11",
+            "12",
+            "13"
+        ],
+        "answer": "12"
+    },
+    {
+        "id": 23,
+        "section": "Chapter 2: Number Systems",
+        "question": "Converting a decimal fraction to another base commonly uses repeated __________.",
+        "options": [
+            "division",
+            "multiplication by the base",
+            "subtraction",
+            "exponentiation"
+        ],
+        "answer": "multiplication by the base"
+    },
+    {
+        "id": 24,
+        "section": "Chapter 2: Number Systems",
+        "question": "In dotted decimal notation for IP, each 'dot' separates a base-256 __________.",
+        "options": [
+            "digit (octet)",
+            "nybble",
+            "word",
+            "halfword"
+        ],
+        "answer": "digit (octet)"
+    },
+    {
+        "id": 25,
+        "section": "Chapter 3: Data Storage",
+        "question": "Inside a computer, all data types are ultimately represented as __________.",
+        "options": [
+            "Unicode strings",
+            "ASCII only",
+            "bit patterns",
+            "vector drawings"
+        ],
+        "answer": "bit patterns"
+    },
+    {
+        "id": 26,
+        "section": "Chapter 3: Data Storage",
+        "question": "An unsigned 8-bit value represents integers in the range __________.",
+        "options": [
+            "−128 to 127",
+            "0 to 255",
+            "1 to 256",
+            "−255 to 255"
+        ],
+        "answer": "0 to 255"
+    },
+    {
+        "id": 27,
+        "section": "Chapter 3: Data Storage",
+        "question": "In sign-and-magnitude, the leftmost bit stores the __________.",
+        "options": [
+            "parity",
+            "LSB",
+            "sign",
+            "overflow"
+        ],
+        "answer": "sign"
+    },
+    {
+        "id": 28,
+        "section": "Chapter 3: Data Storage",
+        "question": "Two’s complement has how many representations of zero?",
+        "options": [
+            "two",
+            "one",
+            "depends on K",
+            "none"
+        ],
+        "answer": "one"
+    },
+    {
+        "id": 29,
+        "section": "Chapter 3: Data Storage",
+        "question": "IEEE 754 single precision uses __________ bits.",
+        "options": [
+            "16",
+            "32",
+            "48",
+            "64"
+        ],
+        "answer": "32"
+    },
+    {
+        "id": 30,
+        "section": "Chapter 3: Data Storage",
+        "question": "In IEEE single precision, the exponent bias is __________.",
+        "options": [
+            "63",
+            "127",
+            "255",
+            "1023"
+        ],
+        "answer": "127"
+    },
+    {
+        "id": 31,
+        "section": "Chapter 3: Data Storage",
+        "question": "ASCII originally used __________ bits per character.",
+        "options": [
+            "5",
+            "7",
+            "8",
+            "16"
+        ],
+        "answer": "7"
+    },
+    {
+        "id": 32,
+        "section": "Chapter 3: Data Storage",
+        "question": "Audio digitization commonly involves sampling, quantization, and __________.",
+        "options": [
+            "hashing",
+            "encoding",
+            "parsing",
+            "vectorization"
+        ],
+        "answer": "encoding"
+    },
+    {
+        "id": 33,
+        "section": "Chapter 3: Data Storage",
+        "question": "Raster graphics represent images as a grid of __________.",
+        "options": [
+            "polygons",
+            "pixels",
+            "splines",
+            "triangles only"
+        ],
+        "answer": "pixels"
+    },
+    {
+        "id": 34,
+        "section": "Chapter 3: Data Storage",
+        "question": "Vector graphics encode images as mathematical descriptions of __________.",
+        "options": [
+            "photographic textures",
+            "geometric primitives",
+            "bitmaps",
+            "noise fields"
+        ],
+        "answer": "geometric primitives"
+    },
+    {
+        "id": 35,
+        "section": "Chapter 3: Data Storage",
+        "question": "MP3 is primarily a __________ compression format for audio.",
+        "options": [
+            "lossless",
+            "lossy",
+            "dictionary-only",
+            "RLE-only"
+        ],
+        "answer": "lossy"
+    },
+    {
+        "id": 36,
+        "section": "Chapter 3: Data Storage",
+        "question": "In IEEE floating-point, the mantissa (fraction) determines the number’s __________.",
+        "options": [
+            "range",
+            "precision",
+            "sign",
+            "bias"
+        ],
+        "answer": "precision"
+    },
+    {
+        "id": 37,
+        "section": "Chapter 3: Data Storage",
+        "question": "The Excess (biased) representation is used to store the __________ in IEEE floats.",
+        "options": [
+            "sign",
+            "exponent",
+            "mantissa",
+            "parity"
+        ],
+        "answer": "exponent"
+    },
+    {
+        "id": 38,
+        "section": "Chapter 3: Data Storage",
+        "question": "Underflow in floating-point occurs when the magnitude is too __________ to represent.",
+        "options": [
+            "large",
+            "small",
+            "odd",
+            "aligned"
+        ],
+        "answer": "small"
+    },
+    {
+        "id": 39,
+        "section": "Chapter 3: Data Storage",
+        "question": "Truncation error in floats often results from limiting the number of __________ bits.",
+        "options": [
+            "exponent",
+            "mantissa",
+            "sign",
+            "bias"
+        ],
+        "answer": "mantissa"
+    },
+    {
+        "id": 40,
+        "section": "Chapter 3: Data Storage",
+        "question": "Text encoding of many modern scripts is standardized through __________.",
+        "options": [
+            "ASCII",
+            "Unicode",
+            "BCD",
+            "EBCDIC"
+        ],
+        "answer": "Unicode"
+    },
+    {
+        "id": 41,
+        "section": "Chapter 3: Data Storage",
+        "question": "Image 'True-Color' commonly uses __________ bits per pixel.",
+        "options": [
+            "8",
+            "16",
+            "24",
+            "32"
+        ],
+        "answer": "24"
+    },
+    {
+        "id": 42,
+        "section": "Chapter 3: Data Storage",
+        "question": "Indexed color images map pixel values to a small __________ of RGB triples.",
+        "options": [
+            "heap",
+            "palette",
+            "stack",
+            "queue"
+        ],
+        "answer": "palette"
+    },
+    {
+        "id": 43,
+        "section": "Chapter 4: Operations on Data",
+        "question": "NOT, AND, OR, and XOR are __________ operations.",
+        "options": [
+            "arithmetic",
+            "logical",
+            "relational",
+            "geometric"
+        ],
+        "answer": "logical"
+    },
+    {
+        "id": 44,
+        "section": "Chapter 4: Operations on Data",
+        "question": "A bitwise AND with a mask bit of 0 will __________ the corresponding bit.",
+        "options": [
+            "set",
+            "clear (unset)",
+            "flip",
+            "rotate"
+        ],
+        "answer": "clear (unset)"
+    },
+    {
+        "id": 45,
+        "section": "Chapter 4: Operations on Data",
+        "question": "A logical left shift on an 8-bit pattern drops the MSB and inserts __________ at the LSB.",
+        "options": [
+            "1",
+            "0",
+            "sign bit",
+            "parity bit"
+        ],
+        "answer": "0"
+    },
+    {
+        "id": 46,
+        "section": "Chapter 4: Operations on Data",
+        "question": "An arithmetic right shift on two’s complement values replicates the __________.",
+        "options": [
+            "LSB",
+            "MSB (sign bit)",
+            "parity",
+            "carry"
+        ],
+        "answer": "MSB (sign bit)"
+    },
+    {
+        "id": 47,
+        "section": "Chapter 4: Operations on Data",
+        "question": "In two’s complement arithmetic, A − B is computed as A + __________.",
+        "options": [
+            "one’s complement of B",
+            "two’s complement of B",
+            "B >> 1",
+            "B rotated left"
+        ],
+        "answer": "two’s complement of B"
+    },
+    {
+        "id": 48,
+        "section": "Chapter 4: Operations on Data",
+        "question": "Overflow in two’s complement addition occurs when adding two numbers with the same sign produces a result with __________.",
+        "options": [
+            "the same sign",
+            "the opposite sign",
+            "zero",
+            "no carry"
+        ],
+        "answer": "the opposite sign"
+    },
+    {
+        "id": 49,
+        "section": "Chapter 4: Operations on Data",
+        "question": "XOR with a mask bit of 1 will __________ the targeted bit.",
+        "options": [
+            "set",
+            "clear",
+            "flip",
+            "copy"
+        ],
+        "answer": "flip"
+    },
+    {
+        "id": 50,
+        "section": "Chapter 4: Operations on Data",
+        "question": "Rotate (circular shift) operations differ from simple shifts because they __________.",
+        "options": [
+            "reverse bits",
+            "do not lose bits",
+            "sign-extend",
+            "sort bits"
+        ],
+        "answer": "do not lose bits"
+    },
+    {
+        "id": 51,
+        "section": "Chapter 4: Operations on Data",
+        "question": "Arithmetic left shift of a valid two’s complement number corresponds to __________ by 2 (if no overflow).",
+        "options": [
+            "division",
+            "multiplication",
+            "rounding",
+            "negation"
+        ],
+        "answer": "multiplication"
+    },
+    {
+        "id": 52,
+        "section": "Chapter 4: Operations on Data",
+        "question": "A mask of 11110000 (binary) used with OR will __________ the four leftmost bits.",
+        "options": [
+            "clear",
+            "flip",
+            "set",
+            "ignore"
+        ],
+        "answer": "set"
+    },
+    {
+        "id": 53,
+        "section": "Chapter 4: Operations on Data",
+        "question": "To test a specific bit, a common idiom is to right shift then __________ with 1.",
+        "options": [
+            "AND",
+            "OR",
+            "XOR",
+            "NOT"
+        ],
+        "answer": "AND"
+    },
+    {
+        "id": 54,
+        "section": "Chapter 4: Operations on Data",
+        "question": "One’s complement of a bit pattern is obtained by __________ each bit.",
+        "options": [
+            "rotating",
+            "flipping",
+            "sorting",
+            "masking"
+        ],
+        "answer": "flipping"
+    },
+    {
+        "id": 55,
+        "section": "Chapter 4: Operations on Data",
+        "question": "Two’s complement can be computed by one’s complement followed by adding __________.",
+        "options": [
+            "0",
+            "1",
+            "the bias",
+            "the MSB"
+        ],
+        "answer": "1"
+    },
+    {
+        "id": 56,
+        "section": "Chapter 4: Operations on Data",
+        "question": "A simple right shift on an unsigned quantity is equivalent to integer __________ by 2.",
+        "options": [
+            "multiplication",
+            "division (floor)",
+            "negation",
+            "round-to-even"
+        ],
+        "answer": "division (floor)"
+    },
+    {
+        "id": 57,
+        "section": "Chapter 4: Operations on Data",
+        "question": "Combining a rotation with an AND mask is often used to __________ fields in a word.",
+        "options": [
+            "compress",
+            "extract",
+            "encrypt",
+            "sort"
+        ],
+        "answer": "extract"
+    },
+    {
+        "id": 58,
+        "section": "Chapter 4: Operations on Data",
+        "question": "Setting bits is typically implemented with a(n) __________ operation.",
+        "options": [
+            "AND",
+            "OR",
+            "XOR",
+            "NOR"
+        ],
+        "answer": "OR"
+    },
+    {
+        "id": 59,
+        "section": "Chapter 5: Computer Organization",
+        "question": "Registers are small, fast storage locations inside the __________.",
+        "options": [
+            "cache",
+            "CPU",
+            "main memory",
+            "disk"
+        ],
+        "answer": "CPU"
+    },
+    {
+        "id": 60,
+        "section": "Chapter 5: Computer Organization",
+        "question": "The program counter holds the address of the __________ instruction.",
+        "options": [
+            "first program",
+            "current/next",
+            "last executed",
+            "interrupt handler"
+        ],
+        "answer": "current/next"
+    },
+    {
+        "id": 61,
+        "section": "Chapter 5: Computer Organization",
+        "question": "Cache is typically __________ than main memory and __________ in size.",
+        "options": [
+            "slower; larger",
+            "faster; smaller",
+            "same speed; larger",
+            "nonvolatile; larger"
+        ],
+        "answer": "faster; smaller"
+    },
+    {
+        "id": 62,
+        "section": "Chapter 5: Computer Organization",
+        "question": "DRAM stores each bit using a tiny __________.",
+        "options": [
+            "flip-flop",
+            "capacitor",
+            "diode",
+            "resistor"
+        ],
+        "answer": "capacitor"
+    },
+    {
+        "id": 63,
+        "section": "Chapter 5: Computer Organization",
+        "question": "SRAM is often used to implement __________.",
+        "options": [
+            "main memory",
+            "cache memory",
+            "optical buffers",
+            "ROMs"
+        ],
+        "answer": "cache memory"
+    },
+    {
+        "id": 64,
+        "section": "Chapter 5: Computer Organization",
+        "question": "ROM is __________ and generally used for firmware.",
+        "options": [
+            "volatile",
+            "nonvolatile",
+            "mechanical",
+            "optical only"
+        ],
+        "answer": "nonvolatile"
+    },
+    {
+        "id": 65,
+        "section": "Chapter 5: Computer Organization",
+        "question": "Address space is the number of uniquely addressable __________.",
+        "options": [
+            "ports",
+            "memory locations",
+            "registers",
+            "files"
+        ],
+        "answer": "memory locations"
+    },
+    {
+        "id": 66,
+        "section": "Chapter 5: Computer Organization",
+        "question": "In a 32 MB byte-addressable memory, the number of address bits required is __________.",
+        "options": [
+            "20",
+            "22",
+            "25",
+            "32"
+        ],
+        "answer": "25"
+    },
+    {
+        "id": 67,
+        "section": "Chapter 5: Computer Organization",
+        "question": "The 80–20 rule helps justify the performance benefit of __________.",
+        "options": [
+            "DMA",
+            "cache memory",
+            "SSD over HDD",
+            "more ALUs"
+        ],
+        "answer": "cache memory"
+    },
+    {
+        "id": 68,
+        "section": "Chapter 5: Computer Organization",
+        "question": "Pipelining improves CPU __________.",
+        "options": [
+            "latency",
+            "throughput",
+            "voltage",
+            "die size"
+        ],
+        "answer": "throughput"
+    },
+    {
+        "id": 69,
+        "section": "Chapter 5: Computer Organization",
+        "question": "RISC stands for Reduced __________ Computer.",
+        "options": [
+            "Instruction Set",
+            "Integer Stack",
+            "Interrupt System",
+            "I/O Scheduler"
+        ],
+        "answer": "Instruction Set"
+    },
+    {
+        "id": 70,
+        "section": "Chapter 5: Computer Organization",
+        "question": "The instruction register (IR) holds the instruction currently being __________.",
+        "options": [
+            "compiled",
+            "executed/decoded",
+            "linked",
+            "paged"
+        ],
+        "answer": "executed/decoded"
+    },
+    {
+        "id": 71,
+        "section": "Chapter 5: Computer Organization",
+        "question": "EEPROM differs from EPROM by supporting __________ erasure.",
+        "options": [
+            "electrical",
+            "ultraviolet",
+            "magnetic",
+            "thermal"
+        ],
+        "answer": "electrical"
+    },
+    {
+        "id": 72,
+        "section": "Chapter 5: Computer Organization",
+        "question": "In hierarchical memory, the fastest and most costly per byte is typically __________.",
+        "options": [
+            "disks",
+            "main memory",
+            "cache/registers",
+            "tape"
+        ],
+        "answer": "cache/registers"
+    },
+    {
+        "id": 73,
+        "section": "Chapter 5: Computer Organization",
+        "question": "Magnetic disks organize data in concentric __________ divided into sectors.",
+        "options": [
+            "rings",
+            "tracks",
+            "lanes",
+            "stripes"
+        ],
+        "answer": "tracks"
+    },
+    {
+        "id": 74,
+        "section": "Chapter 5: Computer Organization",
+        "question": "A magnetic tape is a __________ access device.",
+        "options": [
+            "random",
+            "sequential",
+            "associative",
+            "content-addressable"
+        ],
+        "answer": "sequential"
+    },
+    {
+        "id": 75,
+        "section": "Chapter 5: Computer Organization",
+        "question": "CD-ROMs encode data using pits and lands read by a __________.",
+        "options": [
+            "magnetometer",
+            "low-power laser",
+            "ultrasonic head",
+            "capacitive probe"
+        ],
+        "answer": "low-power laser"
+    },
+    {
+        "id": 76,
+        "section": "Chapter 5: Computer Organization",
+        "question": "A controller that moves data between memory and device with minimal CPU is often called __________.",
+        "options": [
+            "ALU",
+            "DMA",
+            "MMU",
+            "RTC"
+        ],
+        "answer": "DMA"
+    },
+    {
+        "id": 77,
+        "section": "Chapter 6: Computer Networks and Internet",
+        "question": "The five-layer Internet model places HTTP at the __________ layer.",
+        "options": [
+            "Application",
+            "Transport",
+            "Network",
+            "Data-Link"
+        ],
+        "answer": "Application"
+    },
+    {
+        "id": 78,
+        "section": "Chapter 6: Computer Networks and Internet",
+        "question": "TCP provides a reliable, byte-stream service, while UDP is __________.",
+        "options": [
+            "reliable",
+            "connectionless",
+            "circuit-switched",
+            "error-correcting only"
+        ],
+        "answer": "connectionless"
+    },
+    {
+        "id": 79,
+        "section": "Chapter 6: Computer Networks and Internet",
+        "question": "Routers primarily operate at the __________ layer.",
+        "options": [
+            "Application",
+            "Transport",
+            "Network",
+            "Physical"
+        ],
+        "answer": "Network"
+    },
+    {
+        "id": 80,
+        "section": "Chapter 6: Computer Networks and Internet",
+        "question": "Switches forward frames based on __________ addresses.",
+        "options": [
+            "IP",
+            "MAC",
+            "port",
+            "URL"
+        ],
+        "answer": "MAC"
+    },
+    {
+        "id": 81,
+        "section": "Chapter 6: Computer Networks and Internet",
+        "question": "DNS translates domain names to __________.",
+        "options": [
+            "MAC addresses",
+            "IP addresses",
+            "ports",
+            "MSS values"
+        ],
+        "answer": "IP addresses"
+    },
+    {
+        "id": 82,
+        "section": "Chapter 6: Computer Networks and Internet",
+        "question": "SMTP is used primarily for __________.",
+        "options": [
+            "file transfer",
+            "email transmission",
+            "web browsing",
+            "remote shell"
+        ],
+        "answer": "email transmission"
+    },
+    {
+        "id": 83,
+        "section": "Chapter 6: Computer Networks and Internet",
+        "question": "Common transmission media include twisted pair, coaxial cable, and __________.",
+        "options": [
+            "fiber optic",
+            "USB",
+            "SATA",
+            "PS/2"
+        ],
+        "answer": "fiber optic"
+    },
+    {
+        "id": 84,
+        "section": "Chapter 6: Computer Networks and Internet",
+        "question": "The unit of data at the Transport layer is typically called a __________.",
+        "options": [
+            "frame",
+            "segment/datagram",
+            "bit",
+            "symbol"
+        ],
+        "answer": "segment/datagram"
+    },
+    {
+        "id": 85,
+        "section": "Chapter 6: Computer Networks and Internet",
+        "question": "The unit of data at the Data-Link layer is known as a __________.",
+        "options": [
+            "packet",
+            "frame",
+            "segment",
+            "blob"
+        ],
+        "answer": "frame"
+    },
+    {
+        "id": 86,
+        "section": "Chapter 6: Computer Networks and Internet",
+        "question": "The Physical layer concerns __________ transmission characteristics.",
+        "options": [
+            "electrical/optical",
+            "software APIs",
+            "URI formats",
+            "HTML parsing"
+        ],
+        "answer": "electrical/optical"
+    },
+    {
+        "id": 87,
+        "section": "Chapter 6: Computer Networks and Internet",
+        "question": "A subnet mask separates the network and __________ portions of an IP address.",
+        "options": [
+            "MAC",
+            "host",
+            "port",
+            "DNS"
+        ],
+        "answer": "host"
+    },
+    {
+        "id": 88,
+        "section": "Chapter 6: Computer Networks and Internet",
+        "question": "HTTP is a stateless protocol layered over __________.",
+        "options": [
+            "UDP",
+            "TCP",
+            "ICMP",
+            "Ethernet only"
+        ],
+        "answer": "TCP"
+    },
+    {
+        "id": 89,
+        "section": "Chapter 6: Computer Networks and Internet",
+        "question": "ARP is used to map IP addresses to __________ addresses.",
+        "options": [
+            "email",
+            "MAC",
+            "URL",
+            "port"
+        ],
+        "answer": "MAC"
+    },
+    {
+        "id": 90,
+        "section": "Chapter 6: Computer Networks and Internet",
+        "question": "A socket is identified by an IP address and a __________ number.",
+        "options": [
+            "MAC",
+            "slot",
+            "port",
+            "frame"
+        ],
+        "answer": "port"
+    },
+    {
+        "id": 91,
+        "section": "Chapter 6: Computer Networks and Internet",
+        "question": "MTU stands for Maximum __________ Unit.",
+        "options": [
+            "Transfer",
+            "Transmission",
+            "Transport",
+            "Transit"
+        ],
+        "answer": "Transmission"
+    },
+    {
+        "id": 92,
+        "section": "Chapter 6: Computer Networks and Internet",
+        "question": "ICMP is often used for network __________.",
+        "options": [
+            "addressing",
+            "diagnostics (e.g., ping)",
+            "encryption",
+            "caching"
+        ],
+        "answer": "diagnostics (e.g., ping)"
+    },
+    {
+        "id": 93,
+        "section": "Chapter 6: Computer Networks and Internet",
+        "question": "At the Application layer, FTP is primarily used for __________.",
+        "options": [
+            "mail",
+            "file transfer",
+            "nameservice",
+            "routing"
+        ],
+        "answer": "file transfer"
+    },
+    {
+        "id": 94,
+        "section": "Chapter 6: Computer Networks and Internet",
+        "question": "The unit of data at the Network layer is commonly called a __________.",
+        "options": [
+            "segment",
+            "packet",
+            "frame",
+            "bit"
+        ],
+        "answer": "packet"
+    },
+    {
+        "id": 95,
+        "section": "Chapter 7: Operating Systems",
+        "question": "An operating system acts primarily as a __________ manager.",
+        "options": [
+            "database",
+            "hardware/resource",
+            "compiler",
+            "router"
+        ],
+        "answer": "hardware/resource"
+    },
+    {
+        "id": 96,
+        "section": "Chapter 7: Operating Systems",
+        "question": "A process is a program in __________.",
+        "options": [
+            "storage",
+            "ROM",
+            "execution",
+            "compilation"
+        ],
+        "answer": "execution"
+    },
+    {
+        "id": 97,
+        "section": "Chapter 7: Operating Systems",
+        "question": "Round-robin scheduling is based on __________.",
+        "options": [
+            "shortest remaining time",
+            "priority queues",
+            "time slices (quantum)",
+            "lotteries only"
+        ],
+        "answer": "time slices (quantum)"
+    },
+    {
+        "id": 98,
+        "section": "Chapter 7: Operating Systems",
+        "question": "Deadlock is a condition where processes __________.",
+        "options": [
+            "wait indefinitely",
+            "terminate too fast",
+            "use too much CPU",
+            "thrash caches"
+        ],
+        "answer": "wait indefinitely"
+    },
+    {
+        "id": 99,
+        "section": "Chapter 7: Operating Systems",
+        "question": "Virtual memory combines RAM with __________.",
+        "options": [
+            "cache",
+            "disk storage",
+            "ROM",
+            "GPU RAM"
+        ],
+        "answer": "disk storage"
+    },
+    {
+        "id": 100,
+        "section": "Chapter 7: Operating Systems",
+        "question": "A context switch saves and restores the __________ state.",
+        "options": [
+            "network",
+            "process",
+            "filesystem",
+            "BIOS"
+        ],
+        "answer": "process"
+    },
+    {
+        "id": 101,
+        "section": "Chapter 7: Operating Systems",
+        "question": "A file system organizes files and __________.",
+        "options": [
+            "schemas",
+            "directories",
+            "ports",
+            "sockets only"
+        ],
+        "answer": "directories"
+    },
+    {
+        "id": 102,
+        "section": "Chapter 7: Operating Systems",
+        "question": "A monolithic kernel runs most services in __________ mode.",
+        "options": [
+            "user",
+            "kernel",
+            "virtual",
+            "diagnostic"
+        ],
+        "answer": "kernel"
+    },
+    {
+        "id": 103,
+        "section": "Chapter 7: Operating Systems",
+        "question": "Semaphores and mutexes are used to achieve __________.",
+        "options": [
+            "paging",
+            "synchronization",
+            "compression",
+            "caching"
+        ],
+        "answer": "synchronization"
+    },
+    {
+        "id": 104,
+        "section": "Chapter 7: Operating Systems",
+        "question": "Thrashing occurs when the system spends most time __________.",
+        "options": [
+            "in user mode",
+            "paging/swapping",
+            "in I/O wait",
+            "compiling code"
+        ],
+        "answer": "paging/swapping"
+    },
+    {
+        "id": 105,
+        "section": "Chapter 7: Operating Systems",
+        "question": "A device driver is typically a module that manages a specific __________.",
+        "options": [
+            "file",
+            "hardware device",
+            "query",
+            "actor"
+        ],
+        "answer": "hardware device"
+    },
+    {
+        "id": 106,
+        "section": "Chapter 7: Operating Systems",
+        "question": "A system call is the interface from user programs to __________ services.",
+        "options": [
+            "compiler",
+            "kernel",
+            "hypervisor",
+            "BIOS"
+        ],
+        "answer": "kernel"
+    },
+    {
+        "id": 107,
+        "section": "Chapter 7: Operating Systems",
+        "question": "The scheduler decides which process should __________ next.",
+        "options": [
+            "compile",
+            "execute on the CPU",
+            "be swapped to disk",
+            "be encrypted"
+        ],
+        "answer": "execute on the CPU"
+    },
+    {
+        "id": 108,
+        "section": "Chapter 7: Operating Systems",
+        "question": "In memory management, paging divides memory into fixed-size __________.",
+        "options": [
+            "segments",
+            "pages",
+            "heaps",
+            "pools"
+        ],
+        "answer": "pages"
+    },
+    {
+        "id": 109,
+        "section": "Chapter 7: Operating Systems",
+        "question": "Segmented memory divides address space into variable-size __________.",
+        "options": [
+            "pages",
+            "segments",
+            "frames",
+            "blocks"
+        ],
+        "answer": "segments"
+    },
+    {
+        "id": 110,
+        "section": "Chapter 7: Operating Systems",
+        "question": "A page table maps virtual page numbers to physical __________.",
+        "options": [
+            "segments",
+            "frames",
+            "ports",
+            "clusters"
+        ],
+        "answer": "frames"
+    },
+    {
+        "id": 111,
+        "section": "Chapter 8: Algorithms",
+        "question": "An algorithm must be finite, effective, and __________.",
+        "options": [
+            "probabilistic",
+            "deterministic",
+            "approximate",
+            "randomized"
+        ],
+        "answer": "deterministic"
+    },
+    {
+        "id": 112,
+        "section": "Chapter 8: Algorithms",
+        "question": "The three basic control structures are sequence, selection, and __________.",
+        "options": [
+            "iteration",
+            "memoization",
+            "exception",
+            "parallelism"
+        ],
+        "answer": "iteration"
+    },
+    {
+        "id": 113,
+        "section": "Chapter 8: Algorithms",
+        "question": "Pseudocode expresses algorithms independent of language-specific __________.",
+        "options": [
+            "performance",
+            "syntax",
+            "libraries",
+            "compilers"
+        ],
+        "answer": "syntax"
+    },
+    {
+        "id": 114,
+        "section": "Chapter 8: Algorithms",
+        "question": "Big-O notation gives an asymptotic __________ bound.",
+        "options": [
+            "lower",
+            "upper",
+            "exact",
+            "average-case"
+        ],
+        "answer": "upper"
+    },
+    {
+        "id": 115,
+        "section": "Chapter 8: Algorithms",
+        "question": "Binary search requires the input array to be __________.",
+        "options": [
+            "random",
+            "sorted",
+            "hashed",
+            "cyclic"
+        ],
+        "answer": "sorted"
+    },
+    {
+        "id": 116,
+        "section": "Chapter 8: Algorithms",
+        "question": "Recursion typically solves a problem by solving smaller __________.",
+        "options": [
+            "inputs",
+            "subproblems",
+            "graphs",
+            "queues"
+        ],
+        "answer": "subproblems"
+    },
+    {
+        "id": 117,
+        "section": "Chapter 8: Algorithms",
+        "question": "A stable sort preserves the relative order of records with equal __________.",
+        "options": [
+            "addresses",
+            "keys/values",
+            "lengths",
+            "formats"
+        ],
+        "answer": "keys/values"
+    },
+    {
+        "id": 118,
+        "section": "Chapter 8: Algorithms",
+        "question": "Divide-and-conquer solves subproblems and then __________ the results.",
+        "options": [
+            "ignores",
+            "merges",
+            "encrypts",
+            "prunes"
+        ],
+        "answer": "merges"
+    },
+    {
+        "id": 119,
+        "section": "Chapter 8: Algorithms",
+        "question": "Greedy algorithms make __________ optimal choices at each step.",
+        "options": [
+            "global",
+            "local",
+            "random",
+            "backtracked"
+        ],
+        "answer": "local"
+    },
+    {
+        "id": 120,
+        "section": "Chapter 8: Algorithms",
+        "question": "Flowcharts use standardized diagrammatic symbols to depict __________.",
+        "options": [
+            "data types",
+            "control flow",
+            "compiler passes",
+            "device drivers"
+        ],
+        "answer": "control flow"
+    },
+    {
+        "id": 121,
+        "section": "Chapter 8: Algorithms",
+        "question": "A correct algorithm must eventually __________ on all valid inputs.",
+        "options": [
+            "loop",
+            "halt",
+            "swap pages",
+            "cache"
+        ],
+        "answer": "halt"
+    },
+    {
+        "id": 122,
+        "section": "Chapter 8: Algorithms",
+        "question": "A subalgorithm is a module invoked by another algorithm to perform a __________ task.",
+        "options": [
+            "top-level",
+            "specific subtask",
+            "UI",
+            "hardware"
+        ],
+        "answer": "specific subtask"
+    },
+    {
+        "id": 123,
+        "section": "Chapter 8: Algorithms",
+        "question": "Algorithmic complexity often counts basic __________ operations.",
+        "options": [
+            "I/O",
+            "primitive",
+            "macro",
+            "vectorized"
+        ],
+        "answer": "primitive"
+    },
+    {
+        "id": 124,
+        "section": "Chapter 8: Algorithms",
+        "question": "Recurrence relations frequently describe the complexity of __________ algorithms.",
+        "options": [
+            "brute-force",
+            "divide-and-conquer",
+            "randomized",
+            "online"
+        ],
+        "answer": "divide-and-conquer"
+    },
+    {
+        "id": 125,
+        "section": "Chapter 9: Programming Languages",
+        "question": "A compiler translates source code into __________.",
+        "options": [
+            "machine code",
+            "comments",
+            "bytecode always",
+            "tokens only"
+        ],
+        "answer": "machine code"
+    },
+    {
+        "id": 126,
+        "section": "Chapter 9: Programming Languages",
+        "question": "An interpreter executes a program by performing __________ translation.",
+        "options": [
+            "compile-time",
+            "runtime",
+            "link-time",
+            "macro"
+        ],
+        "answer": "runtime"
+    },
+    {
+        "id": 127,
+        "section": "Chapter 9: Programming Languages",
+        "question": "Procedural languages follow the __________ paradigm.",
+        "options": [
+            "declarative",
+            "imperative",
+            "functional",
+            "logic"
+        ],
+        "answer": "imperative"
+    },
+    {
+        "id": 128,
+        "section": "Chapter 9: Programming Languages",
+        "question": "In OOP, a class defines a type; objects are its __________.",
+        "options": [
+            "methods",
+            "instances",
+            "packages",
+            "imports"
+        ],
+        "answer": "instances"
+    },
+    {
+        "id": 129,
+        "section": "Chapter 9: Programming Languages",
+        "question": "Static typing performs type checking at __________.",
+        "options": [
+            "runtime",
+            "compile time",
+            "deployment",
+            "test time"
+        ],
+        "answer": "compile time"
+    },
+    {
+        "id": 130,
+        "section": "Chapter 9: Programming Languages",
+        "question": "Syntax describes form; semantics describes __________.",
+        "options": [
+            "speed",
+            "meaning",
+            "tooling",
+            "formatting"
+        ],
+        "answer": "meaning"
+    },
+    {
+        "id": 131,
+        "section": "Chapter 9: Programming Languages",
+        "question": "Functional programming emphasizes __________ functions.",
+        "options": [
+            "stateful",
+            "pure",
+            "void",
+            "variadic only"
+        ],
+        "answer": "pure"
+    },
+    {
+        "id": 132,
+        "section": "Chapter 9: Programming Languages",
+        "question": "Lexical scope binds names according to the program’s __________ structure.",
+        "options": [
+            "dynamic call",
+            "static",
+            "heap",
+            "OS"
+        ],
+        "answer": "static"
+    },
+    {
+        "id": 133,
+        "section": "Chapter 9: Programming Languages",
+        "question": "A linker resolves references among __________ files.",
+        "options": [
+            "source",
+            "object",
+            "script",
+            "binary logs"
+        ],
+        "answer": "object"
+    },
+    {
+        "id": 134,
+        "section": "Chapter 9: Programming Languages",
+        "question": "Bytecode is typically executed by a __________ machine.",
+        "options": [
+            "real",
+            "virtual",
+            "finite-state",
+            "stack-only"
+        ],
+        "answer": "virtual"
+    },
+    {
+        "id": 135,
+        "section": "Chapter 9: Programming Languages",
+        "question": "Imperative languages use statements that change program __________.",
+        "options": [
+            "state",
+            "syntax",
+            "semantics",
+            "tokens"
+        ],
+        "answer": "state"
+    },
+    {
+        "id": 136,
+        "section": "Chapter 9: Programming Languages",
+        "question": "A programming paradigm is a style or approach to __________.",
+        "options": [
+            "hardware design",
+            "problem solving/programming",
+            "testing only",
+            "versioning"
+        ],
+        "answer": "problem solving/programming"
+    },
+    {
+        "id": 137,
+        "section": "Chapter 10: Software Engineering",
+        "question": "The SDLC typically includes analysis, design, implementation, testing, and __________.",
+        "options": [
+            "refactoring only",
+            "deployment/maintenance",
+            "encryption",
+            "obfuscation"
+        ],
+        "answer": "deployment/maintenance"
+    },
+    {
+        "id": 138,
+        "section": "Chapter 10: Software Engineering",
+        "question": "Requirements engineering produces a __________ specification.",
+        "options": [
+            "test",
+            "requirements",
+            "build",
+            "deployment"
+        ],
+        "answer": "requirements"
+    },
+    {
+        "id": 139,
+        "section": "Chapter 10: Software Engineering",
+        "question": "Unit testing targets individual software __________.",
+        "options": [
+            "systems",
+            "units/components",
+            "organizations",
+            "users"
+        ],
+        "answer": "units/components"
+    },
+    {
+        "id": 140,
+        "section": "Chapter 10: Software Engineering",
+        "question": "Black-box testing focuses on __________ behavior.",
+        "options": [
+            "internal path",
+            "input-output",
+            "instruction cache",
+            "memory map"
+        ],
+        "answer": "input-output"
+    },
+    {
+        "id": 141,
+        "section": "Chapter 10: Software Engineering",
+        "question": "UML stands for Unified Modeling __________.",
+        "options": [
+            "Language",
+            "Layout",
+            "Library",
+            "Lookup"
+        ],
+        "answer": "Language"
+    },
+    {
+        "id": 142,
+        "section": "Chapter 10: Software Engineering",
+        "question": "A use-case diagram captures __________ interactions.",
+        "options": [
+            "deployment",
+            "actor–system",
+            "package",
+            "build"
+        ],
+        "answer": "actor–system"
+    },
+    {
+        "id": 143,
+        "section": "Chapter 10: Software Engineering",
+        "question": "Agile methods emphasize __________ feedback and iteration.",
+        "options": [
+            "infrequent",
+            "continuous",
+            "heavy upfront",
+            "document-only"
+        ],
+        "answer": "continuous"
+    },
+    {
+        "id": 144,
+        "section": "Chapter 10: Software Engineering",
+        "question": "Version control systems track and manage changes to __________.",
+        "options": [
+            "hardware",
+            "source code",
+            "network cables",
+            "OS kernels"
+        ],
+        "answer": "source code"
+    },
+    {
+        "id": 145,
+        "section": "Chapter 10: Software Engineering",
+        "question": "Refactoring improves code structure without changing __________.",
+        "options": [
+            "behavior",
+            "formatting",
+            "comments",
+            "team size"
+        ],
+        "answer": "behavior"
+    },
+    {
+        "id": 146,
+        "section": "Chapter 10: Software Engineering",
+        "question": "Integration testing verifies the interactions between __________.",
+        "options": [
+            "users",
+            "modules",
+            "specs",
+            "compilers"
+        ],
+        "answer": "modules"
+    },
+    {
+        "id": 147,
+        "section": "Chapter 10: Software Engineering",
+        "question": "A structure chart depicts the hierarchical organization of __________.",
+        "options": [
+            "tests",
+            "modules/subprograms",
+            "servers",
+            "files"
+        ],
+        "answer": "modules/subprograms"
+    },
+    {
+        "id": 148,
+        "section": "Chapter 10: Software Engineering",
+        "question": "In UML, a class diagram primarily shows classes and their __________.",
+        "options": [
+            "sessions",
+            "relationships",
+            "packets",
+            "sockets"
+        ],
+        "answer": "relationships"
+    },
+    {
+        "id": 149,
+        "section": "Chapter 10: Software Engineering",
+        "question": "Documentation is important for maintainability and user __________.",
+        "options": [
+            "sleep",
+            "understanding",
+            "hardware",
+            "latency"
+        ],
+        "answer": "understanding"
+    },
+    {
+        "id": 150,
+        "section": "Chapter 10: Software Engineering",
+        "question": "Regression testing ensures new changes have not broken existing __________.",
+        "options": [
+            "licenses",
+            "functionality",
+            "teams",
+            "hardware"
+        ],
+        "answer": "functionality"
+    },
+    {
+        "id": 151,
+        "section": "Chapter 11: Data Structure",
+        "question": "An array provides __________ access by index.",
+        "options": [
+            "sequential-only",
+            "random/direct",
+            "hashed",
+            "tree-based"
+        ],
+        "answer": "random/direct"
+    },
+    {
+        "id": 152,
+        "section": "Chapter 11: Data Structure",
+        "question": "A record groups fields of possibly __________ types.",
+        "options": [
+            "identical",
+            "different",
+            "numeric-only",
+            "pointer-only"
+        ],
+        "answer": "different"
+    },
+    {
+        "id": 153,
+        "section": "Chapter 11: Data Structure",
+        "question": "A singly linked list node contains data and a pointer to the __________ node.",
+        "options": [
+            "previous",
+            "next",
+            "random",
+            "parent"
+        ],
+        "answer": "next"
+    },
+    {
+        "id": 154,
+        "section": "Chapter 11: Data Structure",
+        "question": "Random access to the i-th element of an array is typically __________ time.",
+        "options": [
+            "O(1)",
+            "O(log n)",
+            "O(n)",
+            "O(n log n)"
+        ],
+        "answer": "O(1)"
+    },
+    {
+        "id": 155,
+        "section": "Chapter 11: Data Structure",
+        "question": "In a linked list, insertion at head can be performed in __________ time.",
+        "options": [
+            "O(1)",
+            "O(n)",
+            "O(log n)",
+            "O(n log n)"
+        ],
+        "answer": "O(1)"
+    },
+    {
+        "id": 156,
+        "section": "Chapter 11: Data Structure",
+        "question": "A dynamic array grows by allocating a larger block and __________ elements.",
+        "options": [
+            "hashing",
+            "copying",
+            "encrypting",
+            "sorting"
+        ],
+        "answer": "copying"
+    },
+    {
+        "id": 157,
+        "section": "Chapter 11: Data Structure",
+        "question": "In a circular linked list, the tail node points to the __________.",
+        "options": [
+            "NULL",
+            "head",
+            "random node",
+            "middle"
+        ],
+        "answer": "head"
+    },
+    {
+        "id": 158,
+        "section": "Chapter 11: Data Structure",
+        "question": "A doubly linked list supports traversal in __________ directions.",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "answer": "2"
+    },
+    {
+        "id": 159,
+        "section": "Chapter 11: Data Structure",
+        "question": "Arrays are best when frequent operations are __________.",
+        "options": [
+            "random access",
+            "middle insertions",
+            "middle deletions",
+            "concatenation"
+        ],
+        "answer": "random access"
+    },
+    {
+        "id": 160,
+        "section": "Chapter 11: Data Structure",
+        "question": "Linked lists are best when frequent operations are __________.",
+        "options": [
+            "random indexing",
+            "insertions/removals at ends",
+            "binary searching",
+            "hashing"
+        ],
+        "answer": "insertions/removals at ends"
+    },
+    {
+        "id": 161,
+        "section": "Chapter 11: Data Structure",
+        "question": "Records (structs) are useful for grouping related fields into a single __________.",
+        "options": [
+            "array",
+            "composite type",
+            "hash",
+            "thread"
+        ],
+        "answer": "composite type"
+    },
+    {
+        "id": 162,
+        "section": "Chapter 11: Data Structure",
+        "question": "The time to search for a value in an unsorted array is typically __________.",
+        "options": [
+            "O(1)",
+            "O(n)",
+            "O(log n)",
+            "O(n log n)"
+        ],
+        "answer": "O(n)"
+    },
+    {
+        "id": 179,
+        "section": "Chapter 13: File Structure",
+        "question": "Sequential files are best suited for __________ access.",
+        "options": [
+            "random",
+            "sequential",
+            "indexed",
+            "hashed"
+        ],
+        "answer": "sequential"
+    },
+    {
+        "id": 180,
+        "section": "Chapter 13: File Structure",
+        "question": "Indexed files use a(n) __________ to locate records quickly.",
+        "options": [
+            "hash",
+            "index",
+            "checksum",
+            "encoder"
+        ],
+        "answer": "index"
+    },
+    {
+        "id": 181,
+        "section": "Chapter 13: File Structure",
+        "question": "Hashed files compute storage locations using a __________ function.",
+        "options": [
+            "linear",
+            "hash",
+            "trigonometric",
+            "polynomial"
+        ],
+        "answer": "hash"
+    },
+    {
+        "id": 182,
+        "section": "Chapter 13: File Structure",
+        "question": "Directories map file names to __________.",
+        "options": [
+            "user IDs",
+            "file descriptors/locations",
+            "ports",
+            "permissions only"
+        ],
+        "answer": "file descriptors/locations"
+    },
+    {
+        "id": 183,
+        "section": "Chapter 13: File Structure",
+        "question": "Text files store data as sequences of __________.",
+        "options": [
+            "binary floats",
+            "encoded characters",
+            "images",
+            "vectors"
+        ],
+        "answer": "encoded characters"
+    },
+    {
+        "id": 184,
+        "section": "Chapter 13: File Structure",
+        "question": "Binary files store data as raw __________.",
+        "options": [
+            "glyphs",
+            "bit patterns",
+            "HTML",
+            "Unicode strings"
+        ],
+        "answer": "bit patterns"
+    },
+    {
+        "id": 185,
+        "section": "Chapter 13: File Structure",
+        "question": "Record-oriented files group data into fixed or variable-length __________.",
+        "options": [
+            "pages",
+            "records",
+            "locks",
+            "ports"
+        ],
+        "answer": "records"
+    },
+    {
+        "id": 186,
+        "section": "Chapter 13: File Structure",
+        "question": "A primary index is typically built on the file’s __________ key.",
+        "options": [
+            "foreign",
+            "primary",
+            "composite only",
+            "surrogate only"
+        ],
+        "answer": "primary"
+    },
+    {
+        "id": 187,
+        "section": "Chapter 13: File Structure",
+        "question": "Overflow areas in hashing handle __________.",
+        "options": [
+            "encryption",
+            "collisions",
+            "compression",
+            "backups"
+        ],
+        "answer": "collisions"
+    },
+    {
+        "id": 188,
+        "section": "Chapter 13: File Structure",
+        "question": "B+ trees are widely used for __________ file organizations.",
+        "options": [
+            "sequential",
+            "indexed",
+            "hashed-only",
+            "text-only"
+        ],
+        "answer": "indexed"
+    },
+    {
+        "id": 189,
+        "section": "Chapter 13: File Structure",
+        "question": "A file header commonly stores metadata such as format and __________.",
+        "options": [
+            "owner",
+            "record length",
+            "CPU count",
+            "GPU type"
+        ],
+        "answer": "record length"
+    },
+    {
+        "id": 190,
+        "section": "Chapter 13: File Structure",
+        "question": "Fixed-length records simplify computing a record’s __________.",
+        "options": [
+            "checksum",
+            "byte offset",
+            "compression ratio",
+            "encryption key"
+        ],
+        "answer": "byte offset"
+    },
+    {
+        "id": 191,
+        "section": "Chapter 14: Databases",
+        "question": "The relational model organizes data into __________.",
+        "options": [
+            "trees",
+            "tables (relations)",
+            "documents",
+            "graphs"
+        ],
+        "answer": "tables (relations)"
+    },
+    {
+        "id": 192,
+        "section": "Chapter 14: Databases",
+        "question": "A primary key uniquely identifies a __________ in a table.",
+        "options": [
+            "column",
+            "row (tuple)",
+            "schema",
+            "index"
+        ],
+        "answer": "row (tuple)"
+    },
+    {
+        "id": 193,
+        "section": "Chapter 14: Databases",
+        "question": "A foreign key references a primary key in a(n) __________ table.",
+        "options": [
+            "same",
+            "related/different",
+            "temporary",
+            "system"
+        ],
+        "answer": "related/different"
+    },
+    {
+        "id": 194,
+        "section": "Chapter 14: Databases",
+        "question": "Normalization reduces data __________.",
+        "options": [
+            "availability",
+            "redundancy",
+            "indexes",
+            "logging"
+        ],
+        "answer": "redundancy"
+    },
+    {
+        "id": 195,
+        "section": "Chapter 14: Databases",
+        "question": "SQL SELECT is used to __________ data.",
+        "options": [
+            "define",
+            "retrieve",
+            "remove constraints",
+            "backup"
+        ],
+        "answer": "retrieve"
+    },
+    {
+        "id": 196,
+        "section": "Chapter 14: Databases",
+        "question": "ACID stands for Atomicity, Consistency, Isolation, and __________.",
+        "options": [
+            "Durability",
+            "Distribution",
+            "Decomposition",
+            "Duplication"
+        ],
+        "answer": "Durability"
+    },
+    {
+        "id": 197,
+        "section": "Chapter 14: Databases",
+        "question": "An object-oriented database integrates database features with __________ concepts.",
+        "options": [
+            "functional",
+            "object",
+            "logic",
+            "relational-only"
+        ],
+        "answer": "object"
+    },
+    {
+        "id": 198,
+        "section": "Chapter 14: Databases",
+        "question": "An object-relational database aims to keep relational advantages and support __________ data.",
+        "options": [
+            "flat",
+            "structured complex (objects)",
+            "binary-only",
+            "text-only"
+        ],
+        "answer": "structured complex (objects)"
+    },
+    {
+        "id": 199,
+        "section": "Chapter 14: Databases",
+        "question": "Indexes primarily speed up __________ performance.",
+        "options": [
+            "updates",
+            "queries",
+            "backups",
+            "constraints"
+        ],
+        "answer": "queries"
+    },
+    {
+        "id": 200,
+        "section": "Chapter 14: Databases",
+        "question": "ER modeling captures entities, attributes, and __________.",
+        "options": [
+            "procedures",
+            "relationships",
+            "files",
+            "sockets"
+        ],
+        "answer": "relationships"
+    },
+    {
+        "id": 201,
+        "section": "Chapter 14: Databases",
+        "question": "A relation is a set of tuples; each tuple corresponds to a __________.",
+        "options": [
+            "column",
+            "row",
+            "index",
+            "view"
+        ],
+        "answer": "row"
+    },
+    {
+        "id": 202,
+        "section": "Chapter 14: Databases",
+        "question": "A schema defines the __________ of the database.",
+        "options": [
+            "instances",
+            "structure",
+            "backup",
+            "UI"
+        ],
+        "answer": "structure"
+    },
+    {
+        "id": 203,
+        "section": "Chapter 14: Databases",
+        "question": "A join combines rows from two tables based on a related __________.",
+        "options": [
+            "index",
+            "column/key",
+            "trigger",
+            "cursor"
+        ],
+        "answer": "column/key"
+    },
+    {
+        "id": 204,
+        "section": "Chapter 14: Databases",
+        "question": "Functional dependencies underpin the theory of database __________.",
+        "options": [
+            "indexing",
+            "normalization",
+            "backup",
+            "sharding"
+        ],
+        "answer": "normalization"
+    },
+    {
+        "id": 205,
+        "section": "Chapter 14: Databases",
+        "question": "A view is a __________ table defined by a query.",
+        "options": [
+            "physical",
+            "virtual",
+            "temporary-only",
+            "indexed-only"
+        ],
+        "answer": "virtual"
+    },
+    {
+        "id": 206,
+        "section": "Chapter 14: Databases",
+        "question": "The relational algebra operation that filters rows is called __________.",
+        "options": [
+            "projection",
+            "selection",
+            "join",
+            "union"
+        ],
+        "answer": "selection"
+    },
+    {
+        "id": 219,
+        "section": "Chapter 17: Theory of Computation",
+        "question": "A Turing machine is a formal model of __________.",
+        "options": [
+            "storage",
+            "computation",
+            "networks",
+            "databases"
+        ],
+        "answer": "computation"
+    },
+    {
+        "id": 220,
+        "section": "Chapter 17: Theory of Computation",
+        "question": "The halting problem is __________.",
+        "options": [
+            "decidable",
+            "undecidable",
+            "polynomial-time",
+            "NP-complete"
+        ],
+        "answer": "undecidable"
+    },
+    {
+        "id": 221,
+        "section": "Chapter 17: Theory of Computation",
+        "question": "Class P contains problems solvable in __________ time.",
+        "options": [
+            "exponential",
+            "polynomial",
+            "constant only",
+            "logarithmic only"
+        ],
+        "answer": "polynomial"
+    },
+    {
+        "id": 222,
+        "section": "Chapter 17: Theory of Computation",
+        "question": "NP stands for Non-deterministic __________ time.",
+        "options": [
+            "Polynomial",
+            "Primitive",
+            "Pseudocode",
+            "Partial"
+        ],
+        "answer": "Polynomial"
+    },
+    {
+        "id": 223,
+        "section": "Chapter 17: Theory of Computation",
+        "question": "If A reduces to B in polynomial time and B is in P, then A is __________.",
+        "options": [
+            "undecidable",
+            "in P",
+            "NP-hard",
+            "co-NP"
+        ],
+        "answer": "in P"
+    },
+    {
+        "id": 224,
+        "section": "Chapter 17: Theory of Computation",
+        "question": "A language is decidable if some Turing machine __________ on every input.",
+        "options": [
+            "loops",
+            "halts",
+            "encrypts",
+            "parses"
+        ],
+        "answer": "halts"
+    },
+    {
+        "id": 225,
+        "section": "Chapter 17: Theory of Computation",
+        "question": "Gödel numbering encodes formal objects as __________.",
+        "options": [
+            "graphs",
+            "numbers",
+            "trees",
+            "strings only"
+        ],
+        "answer": "numbers"
+    },
+    {
+        "id": 226,
+        "section": "Chapter 17: Theory of Computation",
+        "question": "Regular languages are recognized by __________ automata.",
+        "options": [
+            "pushdown",
+            "finite",
+            "Turing",
+            "linear bounded"
+        ],
+        "answer": "finite"
+    },
+    {
+        "id": 227,
+        "section": "Chapter 17: Theory of Computation",
+        "question": "Context-free languages are generated by __________ grammars.",
+        "options": [
+            "regular",
+            "type-2",
+            "context-sensitive",
+            "type-0"
+        ],
+        "answer": "type-2"
+    },
+    {
+        "id": 228,
+        "section": "Chapter 17: Theory of Computation",
+        "question": "The complexity of problems concerns the __________ resources needed.",
+        "options": [
+            "human",
+            "computational",
+            "financial",
+            "biological"
+        ],
+        "answer": "computational"
+    },
+    {
+        "id": 229,
+        "section": "Chapter 17: Theory of Computation",
+        "question": "A reduction shows that solving one problem can be transformed into solving __________.",
+        "options": [
+            "nothing",
+            "another problem",
+            "a database",
+            "a network"
+        ],
+        "answer": "another problem"
+    },
+    {
+        "id": 230,
+        "section": "Chapter 17: Theory of Computation",
+        "question": "Closure properties describe which language classes are closed under given __________.",
+        "options": [
+            "CPUs",
+            "operations",
+            "protocols",
+            "storages"
+        ],
+        "answer": "operations"
+    },
+    {
+        "id": 231,
+        "section": "Chapter 18: Artificial Intelligence",
+        "question": "Knowledge representation includes logic, frames, and __________ networks.",
+        "options": [
+            "packet",
+            "semantic",
+            "neural only",
+            "supply"
+        ],
+        "answer": "semantic"
+    },
+    {
+        "id": 232,
+        "section": "Chapter 18: Artificial Intelligence",
+        "question": "An expert system typically includes a knowledge base and an __________ engine.",
+        "options": [
+            "indexing",
+            "inference",
+            "encryption",
+            "I/O"
+        ],
+        "answer": "inference"
+    },
+    {
+        "id": 233,
+        "section": "Chapter 18: Artificial Intelligence",
+        "question": "Heuristic search uses rules of thumb to guide __________.",
+        "options": [
+            "compilation",
+            "exploration",
+            "encryption",
+            "compression"
+        ],
+        "answer": "exploration"
+    },
+    {
+        "id": 234,
+        "section": "Chapter 18: Artificial Intelligence",
+        "question": "A perceptron is a basic model of a __________ neuron.",
+        "options": [
+            "quantum",
+            "biologically inspired",
+            "optical",
+            "chemical"
+        ],
+        "answer": "biologically inspired"
+    },
+    {
+        "id": 235,
+        "section": "Chapter 18: Artificial Intelligence",
+        "question": "Backpropagation is used to train __________ networks.",
+        "options": [
+            "rule-based",
+            "neural",
+            "Bayesian",
+            "finite-state"
+        ],
+        "answer": "neural"
+    },
+    {
+        "id": 236,
+        "section": "Chapter 18: Artificial Intelligence",
+        "question": "Perception in AI often includes processing of __________.",
+        "options": [
+            "DNS",
+            "image and speech",
+            "BIOS",
+            "paging files"
+        ],
+        "answer": "image and speech"
+    },
+    {
+        "id": 237,
+        "section": "Chapter 18: Artificial Intelligence",
+        "question": "State-space search explores nodes connected by __________.",
+        "options": [
+            "tables",
+            "edges (operators)",
+            "datagrams",
+            "pages"
+        ],
+        "answer": "edges (operators)"
+    },
+    {
+        "id": 238,
+        "section": "Chapter 18: Artificial Intelligence",
+        "question": "A* search combines path cost and a(n) __________ estimate.",
+        "options": [
+            "random",
+            "heuristic",
+            "encryption",
+            "compression"
+        ],
+        "answer": "heuristic"
+    },
+    {
+        "id": 239,
+        "section": "Chapter 18: Artificial Intelligence",
+        "question": "Overfitting occurs when a model learns __________ instead of general patterns.",
+        "options": [
+            "noise",
+            "features",
+            "labels",
+            "hyperparameters"
+        ],
+        "answer": "noise"
+    },
+    {
+        "id": 240,
+        "section": "Chapter 18: Artificial Intelligence",
+        "question": "Rule-based systems represent knowledge as sets of __________ rules.",
+        "options": [
+            "SQL",
+            "if–then",
+            "regex",
+            "UML"
+        ],
+        "answer": "if–then"
+    },
+    {
+        "id": 241,
+        "section": "Chapter 19: Introduction to Social Media",
+        "question": "A social network connects users via __________ relationships.",
+        "options": [
+            "anonymous",
+            "explicit",
+            "encrypted-only",
+            "random"
+        ],
+        "answer": "explicit"
+    },
+    {
+        "id": 242,
+        "section": "Chapter 19: Introduction to Social Media",
+        "question": "A 'feed' commonly shows a stream of __________.",
+        "options": [
+            "kernel logs",
+            "user-generated posts",
+            "binary code",
+            "routing tables"
+        ],
+        "answer": "user-generated posts"
+    },
+    {
+        "id": 243,
+        "section": "Chapter 19: Introduction to Social Media",
+        "question": "Hashtags enable content __________ by topic.",
+        "options": [
+            "deletion",
+            "indexing/discovery",
+            "compaction",
+            "encryption"
+        ],
+        "answer": "indexing/discovery"
+    },
+    {
+        "id": 244,
+        "section": "Chapter 19: Introduction to Social Media",
+        "question": "A 'follower' relationship is typically __________ directional.",
+        "options": [
+            "bi-",
+            "uni-",
+            "tri-",
+            "multi-"
+        ],
+        "answer": "uni-"
+    },
+    {
+        "id": 245,
+        "section": "Chapter 20: Social and Ethical Issues",
+        "question": "Intellectual property concerns rights over __________.",
+        "options": [
+            "physical servers",
+            "creations of the mind",
+            "routing tables",
+            "random data"
+        ],
+        "answer": "creations of the mind"
+    },
+    {
+        "id": 246,
+        "section": "Chapter 20: Social and Ethical Issues",
+        "question": "Privacy relates to control over personal __________.",
+        "options": [
+            "bandwidth",
+            "data",
+            "kernels",
+            "licenses"
+        ],
+        "answer": "data"
+    },
+    {
+        "id": 247,
+        "section": "Chapter 20: Social and Ethical Issues",
+        "question": "Computer crime can include unauthorized access, fraud, and __________.",
+        "options": [
+            "unit testing",
+            "malware distribution",
+            "code formatting",
+            "open-sourcing"
+        ],
+        "answer": "malware distribution"
+    },
+    {
+        "id": 248,
+        "section": "Chapter 20: Social and Ethical Issues",
+        "question": "Ethical principles often include beneficence and __________.",
+        "options": [
+            "maleficence",
+            "non-maleficence",
+            "negligence",
+            "dominance"
+        ],
+        "answer": "non-maleficence"
+    },
+    {
+        "id": 249,
+        "section": "Chapter 20: Social and Ethical Issues",
+        "question": "Plagiarism is presenting another’s work as __________.",
+        "options": [
+            "fair use",
+            "one’s own",
+            "public domain",
+            "a citation"
+        ],
+        "answer": "one’s own"
+    },
+    {
+        "id": 250,
+        "section": "Chapter 20: Social and Ethical Issues",
+        "question": "Fair use may permit limited use of copyrighted material for __________ purposes.",
+        "options": [
+            "arbitrary commercial",
+            "transformative (e.g., education)",
+            "unlimited copying",
+            "encryption"
+        ],
+        "answer": "transformative (e.g., education)"
+    }
+]
