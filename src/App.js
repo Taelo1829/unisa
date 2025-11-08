@@ -25,7 +25,7 @@ function App() {
     let it = 0
     let answeredQuestions = JSON.parse(localStorage.getItem("answeredQuestions") ?? "[]")
 
-    while (results.length < 80) {
+    while (results.length < 50) {
       //random index
       let ri = parseInt(Math.random() * questions.length - 1)
       if (!existingIndexes.includes(ri)) {

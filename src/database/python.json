@@ -1,0 +1,602 @@
+[
+    {
+        "id": 1,
+        "section": "Chapter 1 Getting Acquainted with Python",
+        "question": "Python is described as a high-level language because:",
+        "options": [
+            "It uses clear and simple instructions",
+            "It runs directly in hardware",
+            "It cannot run on different platforms",
+            "It does not support programming structures"
+        ],
+        "answer": "It uses clear and simple instructions"
+    },
+    {
+        "id": 2,
+        "section": "Chapter 1 Getting Acquainted with Python",
+        "question": "Python is considered portable because:",
+        "options": [
+            "It can run on Windows, Linux/UNIX, and Mac OS",
+            "It can only run on one operating system",
+            "It requires special hardware",
+            "It cannot support applications"
+        ],
+        "answer": "It can run on Windows, Linux/UNIX, and Mac OS"
+    },
+    {
+        "id": 3,
+        "section": "Chapter 2 Installing Python",
+        "question": "The official website for downloading Python is:",
+        "options": [
+            "www.python.org",
+            "www.python.net",
+            "www.getpython.com",
+            "www.codepython.org"
+        ],
+        "answer": "www.python.org"
+    },
+    {
+        "id": 4,
+        "section": "Chapter 2 Installing Python",
+        "question": "The Python installation typically includes:",
+        "options": [
+            "IDLE",
+            "Hardware drivers",
+            "External compiler tools",
+            "Memory monitors"
+        ],
+        "answer": "IDLE"
+    },
+    {
+        "id": 5,
+        "section": "Chapter 3 Interacting with Python",
+        "question": "The default Python Shell prompt appears as:",
+        "options": [
+            ">>>",
+            "::",
+            "$$",
+            "-->"
+        ],
+        "answer": ">>>"
+    },
+    {
+        "id": 6,
+        "section": "Chapter 3 Interacting with Python",
+        "question": "The Shell Window allows a programmer to:",
+        "options": [
+            "Enter and evaluate statements immediately",
+            "Compile code into machine language",
+            "Store code permanently",
+            "Access hardware memory"
+        ],
+        "answer": "Enter and evaluate statements immediately"
+    },
+    {
+        "id": 7,
+        "section": "Chapter 4 Python Syntax",
+        "question": "Python uses indentation to:",
+        "options": [
+            "Indicate blocks of code",
+            "Store program files",
+            "Convert variables",
+            "Mark comments"
+        ],
+        "answer": "Indicate blocks of code"
+    },
+    {
+        "id": 8,
+        "section": "Chapter 4 Python Syntax",
+        "question": "A comment in Python begins with:",
+        "options": [
+            "#",
+            "%",
+            "@",
+            "&"
+        ],
+        "answer": "#"
+    },
+    {
+        "id": 9,
+        "section": "Chapter 5 Variables and Data Types",
+        "question": "Which of the following is a valid identifier?",
+        "options": [
+            "student_name",
+            "2student",
+            "name@",
+            "@student"
+        ],
+        "answer": "student_name"
+    },
+    {
+        "id": 10,
+        "section": "Chapter 5 Variables and Data Types",
+        "question": "A string literal must be enclosed in:",
+        "options": [
+            "Matching single or double quotes",
+            "Angle brackets",
+            "Curly braces",
+            "Square brackets"
+        ],
+        "answer": "Matching single or double quotes"
+    },
+    {
+        "id": 11,
+        "section": "Chapter 5 Variables and Data Types",
+        "question": "Given s = \"Python\", s[0] returns:",
+        "options": [
+            "P",
+            "y",
+            "n",
+            "on"
+        ],
+        "answer": "P"
+    },
+    {
+        "id": 12,
+        "section": "Chapter 5 Variables and Data Types",
+        "question": "The len() function returns:",
+        "options": [
+            "The number of characters in a string",
+            "The last character in a string",
+            "The uppercase version of a string",
+            "The memory address of a string"
+        ],
+        "answer": "The number of characters in a string"
+    },
+    {
+        "id": 13,
+        "section": "Chapter 5 Variables and Data Types",
+        "question": "The str() function is used to:",
+        "options": [
+            "Convert a value to a string",
+            "Convert a string to binary",
+            "Remove spaces from text",
+            "Display formatted output"
+        ],
+        "answer": "Convert a value to a string"
+    },
+    {
+        "id": 14,
+        "section": "Chapter 6 Basic Operators",
+        "question": "The + operator performs:",
+        "options": [
+            "Addition",
+            "Modulus",
+            "Exponentiation",
+            "Floor division"
+        ],
+        "answer": "Addition"
+    },
+    {
+        "id": 15,
+        "section": "Chapter 6 Basic Operators",
+        "question": "The % operator returns:",
+        "options": [
+            "Remainder",
+            "Binary form",
+            "Exponent value",
+            "Quotient"
+        ],
+        "answer": "Remainder"
+    },
+    {
+        "id": 16,
+        "section": "Chapter 6 Basic Operators",
+        "question": "The ** operator performs:",
+        "options": [
+            "Exponentiation",
+            "String concatenation",
+            "Binary conversion",
+            "Comparison"
+        ],
+        "answer": "Exponentiation"
+    },
+    {
+        "id": 17,
+        "section": "Chapter 7 Built-in Functions",
+        "question": "The input() function returns:",
+        "options": [
+            "A string",
+            "A Boolean",
+            "A list",
+            "A dictionary"
+        ],
+        "answer": "A string"
+    },
+    {
+        "id": 18,
+        "section": "Chapter 7 Built-in Functions",
+        "question": "The type() function determines:",
+        "options": [
+            "The data type of a value",
+            "The largest value in a list",
+            "The size of memory",
+            "The number of function arguments"
+        ],
+        "answer": "The data type of a value"
+    },
+    {
+        "id": 19,
+        "section": "Chapter 8 Conditional Statements",
+        "question": "Which keyword is used to form a conditional decision?",
+        "options": [
+            "if",
+            "for",
+            "return",
+            "list"
+        ],
+        "answer": "if"
+    },
+    {
+        "id": 20,
+        "section": "Chapter 8 Conditional Statements",
+        "question": "The else clause is executed when:",
+        "options": [
+            "The if condition is False",
+            "The if condition is True",
+            "The program ends",
+            "The user enters data"
+        ],
+        "answer": "The if condition is False"
+    },
+    {
+        "id": 21,
+        "section": "Chapter 8 Conditional Statements",
+        "question": "The elif keyword is used to:",
+        "options": [
+            "Check another condition",
+            "Terminate a loop",
+            "Convert a value",
+            "Delete a variable"
+        ],
+        "answer": "Check another condition"
+    },
+    {
+        "id": 22,
+        "section": "Chapter 8 Conditional Statements",
+        "question": "A comparison operator returns:",
+        "options": [
+            "True or False",
+            "A string",
+            "A list",
+            "An integer"
+        ],
+        "answer": "True or False"
+    },
+    {
+        "id": 23,
+        "section": "Chapter 9 Loops",
+        "question": "The while loop repeats as long as:",
+        "options": [
+            "A condition remains True",
+            "The value is constant",
+            "The user enters input",
+            "A list exists"
+        ],
+        "answer": "A condition remains True"
+    },
+    {
+        "id": 24,
+        "section": "Chapter 9 Loops",
+        "question": "The for loop is commonly used with:",
+        "options": [
+            "range()",
+            "input()",
+            "str()",
+            "type()"
+        ],
+        "answer": "range()"
+    },
+    {
+        "id": 25,
+        "section": "Chapter 9 Loops",
+        "question": "range(3, 7) generates:",
+        "options": [
+            "3 4 5 6",
+            "3 4 5 6 7",
+            "4 5 6 7",
+            "5 6"
+        ],
+        "answer": "3 4 5 6"
+    },
+    {
+        "id": 26,
+        "section": "Chapter 9 Loops",
+        "question": "In a loop, the break statement:",
+        "options": [
+            "Stops the loop immediately",
+            "Skips one iteration",
+            "Repeats the loop",
+            "Returns a value"
+        ],
+        "answer": "Stops the loop immediately"
+    },
+    {
+        "id": 27,
+        "section": "Chapter 9 Loops",
+        "question": "The continue statement:",
+        "options": [
+            "Skips to the next iteration",
+            "Ends the loop",
+            "Returns False",
+            "Converts numbers"
+        ],
+        "answer": "Skips to the next iteration"
+    },
+    {
+        "id": 28,
+        "section": "Chapter 5 Variables and Data Types",
+        "question": "A list is defined using:",
+        "options": [
+            "Square brackets",
+            "Curly braces",
+            "Angle brackets",
+            "Parentheses"
+        ],
+        "answer": "Square brackets"
+    },
+    {
+        "id": 29,
+        "section": "Chapter 5 Variables and Data Types",
+        "question": "The append() method:",
+        "options": [
+            "Adds an item to the end of a list",
+            "Removes an item from a list",
+            "Sorts a list",
+            "Converts a list to a string"
+        ],
+        "answer": "Adds an item to the end of a list"
+    },
+    {
+        "id": 30,
+        "section": "Chapter 5 Variables and Data Types",
+        "question": "The remove() method:",
+        "options": [
+            "Deletes an item by value",
+            "Deletes an item by index",
+            "Clears all items",
+            "Inserts an item"
+        ],
+        "answer": "Deletes an item by value"
+    },
+    {
+        "id": 31,
+        "section": "Chapter 5 Variables and Data Types",
+        "question": "A dictionary stores values as:",
+        "options": [
+            "Key-value pairs",
+            "Single characters",
+            "Binary digits",
+            "Number sequences"
+        ],
+        "answer": "Key-value pairs"
+    },
+    {
+        "id": 32,
+        "section": "Chapter 5 Variables and Data Types",
+        "question": "To remove an item from a dictionary:",
+        "options": [
+            "del dictionary[key]",
+            "append(dictionary[key])",
+            "pop(dictionary)",
+            "type(dictionary)"
+        ],
+        "answer": "del dictionary[key]"
+    },
+    {
+        "id": 33,
+        "section": "Chapter 6 Basic Operators",
+        "question": "The == operator checks whether:",
+        "options": [
+            "Two values are equal",
+            "A value is greater",
+            "A value is lower",
+            "A string is uppercase"
+        ],
+        "answer": "Two values are equal"
+    },
+    {
+        "id": 34,
+        "section": "Chapter 6 Basic Operators",
+        "question": "The != operator means:",
+        "options": [
+            "Not equal to",
+            "Greater than",
+            "Less than",
+            "Exponent"
+        ],
+        "answer": "Not equal to"
+    },
+    {
+        "id": 35,
+        "section": "Chapter 6 Basic Operators",
+        "question": "The and operator returns True when:",
+        "options": [
+            "Both conditions are True",
+            "Either condition is True",
+            "No condition is True",
+            "Both conditions are False"
+        ],
+        "answer": "Both conditions are True"
+    },
+    {
+        "id": 36,
+        "section": "Chapter 6 Basic Operators",
+        "question": "The or operator returns True when:",
+        "options": [
+            "Either condition is True",
+            "Both conditions are False",
+            "No condition is True",
+            "Both conditions are True"
+        ],
+        "answer": "Either condition is True"
+    },
+    {
+        "id": 37,
+        "section": "Chapter 6 Basic Operators",
+        "question": "The not operator:",
+        "options": [
+            "Reverses a Boolean value",
+            "Adds two numbers",
+            "Defines a function",
+            "Sorts a list"
+        ],
+        "answer": "Reverses a Boolean value"
+    },
+    {
+        "id": 38,
+        "section": "Chapter 7 Built-in Functions",
+        "question": "The max() function returns:",
+        "options": [
+            "The largest value",
+            "The smallest value",
+            "The average value",
+            "The length of a list"
+        ],
+        "answer": "The largest value"
+    },
+    {
+        "id": 39,
+        "section": "Chapter 7 Built-in Functions",
+        "question": "The min() function returns:",
+        "options": [
+            "The smallest value",
+            "The largest value",
+            "The remainder of division",
+            "The exponent of a number"
+        ],
+        "answer": "The smallest value"
+    },
+    {
+        "id": 40,
+        "section": "Chapter 7 Built-in Functions",
+        "question": "The abs() function returns:",
+        "options": [
+            "The absolute value",
+            "The binary value",
+            "The uppercase version",
+            "The remainder"
+        ],
+        "answer": "The absolute value"
+    },
+    {
+        "id": 41,
+        "section": "Chapter 10 User-Defined Functions",
+        "question": "A function is defined using:",
+        "options": [
+            "def",
+            "fun",
+            "call",
+            "loop"
+        ],
+        "answer": "def"
+    },
+    {
+        "id": 42,
+        "section": "Chapter 10 User-Defined Functions",
+        "question": "A return statement:",
+        "options": [
+            "Sends a value back to the caller",
+            "Starts a new loop",
+            "Ends the program",
+            "Changes a variable type"
+        ],
+        "answer": "Sends a value back to the caller"
+    },
+    {
+        "id": 43,
+        "section": "Chapter 10 User-Defined Functions",
+        "question": "A function parameter:",
+        "options": [
+            "Accepts a value when the function is called",
+            "Stores data permanently",
+            "Runs before the program starts",
+            "Clears stored values"
+        ],
+        "answer": "Accepts a value when the function is called"
+    },
+    {
+        "id": 44,
+        "section": "Chapter 10 User-Defined Functions",
+        "question": "A function can be reused to:",
+        "options": [
+            "Avoid repeating code",
+            "Force repeated typing",
+            "Prevent input",
+            "Disable loops"
+        ],
+        "answer": "Avoid repeating code"
+    },
+    {
+        "id": 45,
+        "section": "Chapter 11 Introduction to Classes and Object-Oriented Programming",
+        "question": "A class defines:",
+        "options": [
+            "The attributes and behavior of objects",
+            "A single number only",
+            "A list of strings",
+            "A built-in function"
+        ],
+        "answer": "The attributes and behavior of objects"
+    },
+    {
+        "id": 46,
+        "section": "Chapter 11 Introduction to Classes and Object-Oriented Programming",
+        "question": "An object is:",
+        "options": [
+            "An instance of a class",
+            "A binary operator",
+            "A string literal",
+            "A dictionary key"
+        ],
+        "answer": "An instance of a class"
+    },
+    {
+        "id": 47,
+        "section": "Chapter 11 Introduction to Classes and Object-Oriented Programming",
+        "question": "The self parameter refers to:",
+        "options": [
+            "The current object",
+            "The next loop value",
+            "The source code file",
+            "The function result"
+        ],
+        "answer": "The current object"
+    },
+    {
+        "id": 48,
+        "section": "Chapter 11 Introduction to Classes and Object-Oriented Programming",
+        "question": "A method is:",
+        "options": [
+            "A function defined inside a class",
+            "A for loop",
+            "A built-in operator",
+            "A numeric literal"
+        ],
+        "answer": "A function defined inside a class"
+    },
+    {
+        "id": 49,
+        "section": "Chapter 11 Introduction to Classes and Object-Oriented Programming",
+        "question": "Everything in Python is treated as:",
+        "options": [
+            "An object",
+            "A list",
+            "A number",
+            "A comment"
+        ],
+        "answer": "An object"
+    },
+    {
+        "id": 50,
+        "section": "Chapter 11 Introduction to Classes and Object-Oriented Programming",
+        "question": "A class can contain:",
+        "options": [
+            "Variables and methods",
+            "Only numeric data",
+            "Only printed text",
+            "Only functions with no parameters"
+        ],
+        "answer": "Variables and methods"
+    }
+]
