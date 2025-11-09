@@ -24,25 +24,28 @@ function App() {
     let existingIndexes = []
     let it = 0
     let answeredQuestions = JSON.parse(localStorage.getItem("answeredQuestions") ?? "[]")
-
     while (results.length < 50) {
       //random index
       let ri = parseInt(Math.random() * questions.length - 1)
       if (!existingIndexes.includes(ri)) {
         let question = questions[ri]
-        if (!sectionCount[question.section]) sectionCount[question.section] = 1
-        if ((sectionCount[question.section] < 20 || !question.section) && !answeredQuestions.includes(question.id)) {
-          sectionCount[question.section]++
-          results.push(question)
-          existingIndexes.push(ri)
-          it = 0
-        } else if (answeredQuestions.includes(question.id)) {
-          it++
-          if (it > 3) {
-            it = 0
+        if (question) {
+          if (!sectionCount[question?.section]) sectionCount[question.section] = 1
+          if ((sectionCount[question?.section] < 20 || !question.section) && !answeredQuestions.includes(question.id)) {
+            sectionCount[question.section]++
             results.push(question)
             existingIndexes.push(ri)
+            it = 0
+          } else if (answeredQuestions.includes(question.id)) {
+            it++
+            if (it > 3) {
+              it = 0
+              results.push(question)
+              existingIndexes.push(ri)
+            }
           }
+        } else {
+          break
         }
       }
     }
