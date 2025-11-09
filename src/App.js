@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import questions from './database/questions.json';
+import questions from './database/python.json';
 import './App.css';
 import Header from './Header';
 import RenderQuestion from './components/RenderQuestion';
