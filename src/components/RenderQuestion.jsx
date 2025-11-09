@@ -1,7 +1,10 @@
 import React from 'react'
 
 const RenderQuestion = ({ question, type = "", data = [], section }) => {
-    question = question.split(".").map((row, key) => <div key={key}>{row}{key < question.split(".").length - 1 ? "." : ""}</div>)
+    question = question.split(".").map((row, key) => {
+        let content = <pre key={key}>{row}{key < question.split(".").length - 1 ? "." : ""}</pre>
+        return content
+    })
 
     return (
         <div className='question'>
