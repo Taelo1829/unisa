@@ -2,601 +2,1201 @@
     {
         "id": 1,
         "section": "Chapter 1 Getting Acquainted with Python",
-        "question": "Python is described as a high-level language because:",
+        "question": "Which phrase best describes Python in the book?",
         "options": [
-            "It uses clear and simple instructions",
-            "It runs directly in hardware",
-            "It cannot run on different platforms",
-            "It does not support programming structures"
+            "High-level language",
+            "Machine language",
+            "Hardware language",
+            "Physical language"
         ],
-        "answer": "It uses clear and simple instructions"
+        "answer": "High-level language"
     },
     {
         "id": 2,
         "section": "Chapter 1 Getting Acquainted with Python",
-        "question": "Python is considered portable because:",
+        "question": "Python came from which language mentioned in the book?",
         "options": [
-            "It can run on Windows, Linux/UNIX, and Mac OS",
-            "It can only run on one operating system",
-            "It requires special hardware",
-            "It cannot support applications"
+            "ABC",
+            "C",
+            "Java",
+            "HTML"
         ],
-        "answer": "It can run on Windows, Linux/UNIX, and Mac OS"
+        "answer": "ABC"
     },
     {
         "id": 3,
         "section": "Chapter 2 Installing Python",
-        "question": "The official website for downloading Python is:",
+        "question": "Which link is given for Python downloads?",
         "options": [
-            "www.python.org",
-            "www.python.net",
-            "www.getpython.com",
-            "www.codepython.org"
+            "https://www.python.org/downloads/",
+            "https://www.getpython.com/",
+            "https://www.python.net/",
+            "https://www.codepython.org/"
         ],
-        "answer": "www.python.org"
+        "answer": "https://www.python.org/downloads/"
     },
     {
         "id": 4,
         "section": "Chapter 2 Installing Python",
-        "question": "The Python installation typically includes:",
+        "question": "Standard installation will include:",
         "options": [
-            "IDLE",
-            "Hardware drivers",
-            "External compiler tools",
-            "Memory monitors"
+            "IDLE, pip, and documentation",
+            "Only pip",
+            "Only documentation",
+            "Only hardware drivers"
         ],
-        "answer": "IDLE"
+        "answer": "IDLE, pip, and documentation"
     },
     {
         "id": 5,
         "section": "Chapter 3 Interacting with Python",
-        "question": "The default Python Shell prompt appears as:",
+        "question": "The Python command line prompt is:",
         "options": [
             ">>>",
-            "::",
-            "$$",
-            "-->"
+            "$",
+            "#",
+            ">"
         ],
         "answer": ">>>"
     },
     {
         "id": 6,
         "section": "Chapter 3 Interacting with Python",
-        "question": "The Shell Window allows a programmer to:",
+        "question": "To exit from Python which command is listed in the book?",
         "options": [
-            "Enter and evaluate statements immediately",
-            "Compile code into machine language",
-            "Store code permanently",
-            "Access hardware memory"
+            "quit()",
+            "stop()",
+            "end()",
+            "close()"
         ],
-        "answer": "Enter and evaluate statements immediately"
+        "answer": "quit()"
     },
     {
         "id": 7,
-        "section": "Chapter 4 Python Syntax",
-        "question": "Python uses indentation to:",
+        "section": "Chapter 3 Interacting with Python",
+        "question": "In IDLE the window used to write code is called the:",
         "options": [
-            "Indicate blocks of code",
-            "Store program files",
-            "Convert variables",
-            "Mark comments"
+            "File Window",
+            "Shell Window",
+            "Debug Window",
+            "Help Window"
         ],
-        "answer": "Indicate blocks of code"
+        "answer": "File Window"
     },
     {
         "id": 8,
         "section": "Chapter 4 Python Syntax",
-        "question": "A comment in Python begins with:",
-        "options": [
-            "#",
-            "%",
-            "@",
-            "&"
-        ],
-        "answer": "#"
-    },
-    {
-        "id": 9,
-        "section": "Chapter 5 Variables and Data Types",
-        "question": "Which of the following is a valid identifier?",
-        "options": [
-            "student_name",
-            "2student",
-            "name@",
-            "@student"
-        ],
-        "answer": "student_name"
-    },
-    {
-        "id": 10,
-        "section": "Chapter 5 Variables and Data Types",
-        "question": "A string literal must be enclosed in:",
-        "options": [
-            "Matching single or double quotes",
-            "Angle brackets",
-            "Curly braces",
-            "Square brackets"
-        ],
-        "answer": "Matching single or double quotes"
-    },
-    {
-        "id": 11,
-        "section": "Chapter 5 Variables and Data Types",
-        "question": "Given s = \"Python\", s[0] returns:",
-        "options": [
-            "P",
-            "y",
-            "n",
-            "on"
-        ],
-        "answer": "P"
-    },
-    {
-        "id": 12,
-        "section": "Chapter 5 Variables and Data Types",
-        "question": "The len() function returns:",
-        "options": [
-            "The number of characters in a string",
-            "The last character in a string",
-            "The uppercase version of a string",
-            "The memory address of a string"
-        ],
-        "answer": "The number of characters in a string"
-    },
-    {
-        "id": 13,
-        "section": "Chapter 5 Variables and Data Types",
-        "question": "The str() function is used to:",
-        "options": [
-            "Convert a value to a string",
-            "Convert a string to binary",
-            "Remove spaces from text",
-            "Display formatted output"
-        ],
-        "answer": "Convert a value to a string"
-    },
-    {
-        "id": 14,
-        "section": "Chapter 6 Basic Operators",
-        "question": "The + operator performs:",
-        "options": [
-            "Addition",
-            "Modulus",
-            "Exponentiation",
-            "Floor division"
-        ],
-        "answer": "Addition"
-    },
-    {
-        "id": 15,
-        "section": "Chapter 6 Basic Operators",
-        "question": "The % operator returns:",
-        "options": [
-            "Remainder",
-            "Binary form",
-            "Exponent value",
-            "Quotient"
-        ],
-        "answer": "Remainder"
-    },
-    {
-        "id": 16,
-        "section": "Chapter 6 Basic Operators",
-        "question": "The ** operator performs:",
-        "options": [
-            "Exponentiation",
-            "String concatenation",
-            "Binary conversion",
-            "Comparison"
-        ],
-        "answer": "Exponentiation"
-    },
-    {
-        "id": 17,
-        "section": "Chapter 7 Built-in Functions",
-        "question": "The input() function returns:",
-        "options": [
-            "A string",
-            "A Boolean",
-            "A list",
-            "A dictionary"
-        ],
-        "answer": "A string"
-    },
-    {
-        "id": 18,
-        "section": "Chapter 7 Built-in Functions",
-        "question": "The type() function determines:",
-        "options": [
-            "The data type of a value",
-            "The largest value in a list",
-            "The size of memory",
-            "The number of function arguments"
-        ],
-        "answer": "The data type of a value"
-    },
-    {
-        "id": 19,
-        "section": "Chapter 8 Conditional Statements",
-        "question": "Which keyword is used to form a conditional decision?",
-        "options": [
-            "if",
-            "for",
-            "return",
-            "list"
-        ],
-        "answer": "if"
-    },
-    {
-        "id": 20,
-        "section": "Chapter 8 Conditional Statements",
-        "question": "The else clause is executed when:",
-        "options": [
-            "The if condition is False",
-            "The if condition is True",
-            "The program ends",
-            "The user enters data"
-        ],
-        "answer": "The if condition is False"
-    },
-    {
-        "id": 21,
-        "section": "Chapter 8 Conditional Statements",
-        "question": "The elif keyword is used to:",
-        "options": [
-            "Check another condition",
-            "Terminate a loop",
-            "Convert a value",
-            "Delete a variable"
-        ],
-        "answer": "Check another condition"
-    },
-    {
-        "id": 22,
-        "section": "Chapter 8 Conditional Statements",
-        "question": "A comparison operator returns:",
-        "options": [
-            "True or False",
-            "A string",
-            "A list",
-            "An integer"
-        ],
-        "answer": "True or False"
-    },
-    {
-        "id": 23,
-        "section": "Chapter 9 Loops",
-        "question": "The while loop repeats as long as:",
-        "options": [
-            "A condition remains True",
-            "The value is constant",
-            "The user enters input",
-            "A list exists"
-        ],
-        "answer": "A condition remains True"
-    },
-    {
-        "id": 24,
-        "section": "Chapter 9 Loops",
-        "question": "The for loop is commonly used with:",
-        "options": [
-            "range()",
-            "input()",
-            "str()",
-            "type()"
-        ],
-        "answer": "range()"
-    },
-    {
-        "id": 25,
-        "section": "Chapter 9 Loops",
-        "question": "range(3, 7) generates:",
-        "options": [
-            "3 4 5 6",
-            "3 4 5 6 7",
-            "4 5 6 7",
-            "5 6"
-        ],
-        "answer": "3 4 5 6"
-    },
-    {
-        "id": 26,
-        "section": "Chapter 9 Loops",
-        "question": "In a loop, the break statement:",
-        "options": [
-            "Stops the loop immediately",
-            "Skips one iteration",
-            "Repeats the loop",
-            "Returns a value"
-        ],
-        "answer": "Stops the loop immediately"
-    },
-    {
-        "id": 27,
-        "section": "Chapter 9 Loops",
-        "question": "The continue statement:",
-        "options": [
-            "Skips to the next iteration",
-            "Ends the loop",
-            "Returns False",
-            "Converts numbers"
-        ],
-        "answer": "Skips to the next iteration"
-    },
-    {
-        "id": 28,
-        "section": "Chapter 5 Variables and Data Types",
-        "question": "A list is defined using:",
-        "options": [
-            "Square brackets",
-            "Curly braces",
-            "Angle brackets",
-            "Parentheses"
-        ],
-        "answer": "Square brackets"
-    },
-    {
-        "id": 29,
-        "section": "Chapter 5 Variables and Data Types",
-        "question": "The append() method:",
-        "options": [
-            "Adds an item to the end of a list",
-            "Removes an item from a list",
-            "Sorts a list",
-            "Converts a list to a string"
-        ],
-        "answer": "Adds an item to the end of a list"
-    },
-    {
-        "id": 30,
-        "section": "Chapter 5 Variables and Data Types",
-        "question": "The remove() method:",
-        "options": [
-            "Deletes an item by value",
-            "Deletes an item by index",
-            "Clears all items",
-            "Inserts an item"
-        ],
-        "answer": "Deletes an item by value"
-    },
-    {
-        "id": 31,
-        "section": "Chapter 5 Variables and Data Types",
-        "question": "A dictionary stores values as:",
-        "options": [
-            "Key-value pairs",
-            "Single characters",
-            "Binary digits",
-            "Number sequences"
-        ],
-        "answer": "Key-value pairs"
-    },
-    {
-        "id": 32,
-        "section": "Chapter 5 Variables and Data Types",
-        "question": "To remove an item from a dictionary:",
-        "options": [
-            "del dictionary[key]",
-            "append(dictionary[key])",
-            "pop(dictionary)",
-            "type(dictionary)"
-        ],
-        "answer": "del dictionary[key]"
-    },
-    {
-        "id": 33,
-        "section": "Chapter 6 Basic Operators",
-        "question": "The == operator checks whether:",
-        "options": [
-            "Two values are equal",
-            "A value is greater",
-            "A value is lower",
-            "A string is uppercase"
-        ],
-        "answer": "Two values are equal"
-    },
-    {
-        "id": 34,
-        "section": "Chapter 6 Basic Operators",
-        "question": "The != operator means:",
-        "options": [
-            "Not equal to",
-            "Greater than",
-            "Less than",
-            "Exponent"
-        ],
-        "answer": "Not equal to"
-    },
-    {
-        "id": 35,
-        "section": "Chapter 6 Basic Operators",
-        "question": "The and operator returns True when:",
-        "options": [
-            "Both conditions are True",
-            "Either condition is True",
-            "No condition is True",
-            "Both conditions are False"
-        ],
-        "answer": "Both conditions are True"
-    },
-    {
-        "id": 36,
-        "section": "Chapter 6 Basic Operators",
-        "question": "The or operator returns True when:",
-        "options": [
-            "Either condition is True",
-            "Both conditions are False",
-            "No condition is True",
-            "Both conditions are True"
-        ],
-        "answer": "Either condition is True"
-    },
-    {
-        "id": 37,
-        "section": "Chapter 6 Basic Operators",
-        "question": "The not operator:",
-        "options": [
-            "Reverses a Boolean value",
-            "Adds two numbers",
-            "Defines a function",
-            "Sorts a list"
-        ],
-        "answer": "Reverses a Boolean value"
-    },
-    {
-        "id": 38,
-        "section": "Chapter 7 Built-in Functions",
-        "question": "The max() function returns:",
-        "options": [
-            "The largest value",
-            "The smallest value",
-            "The average value",
-            "The length of a list"
-        ],
-        "answer": "The largest value"
-    },
-    {
-        "id": 39,
-        "section": "Chapter 7 Built-in Functions",
-        "question": "The min() function returns:",
-        "options": [
-            "The smallest value",
-            "The largest value",
-            "The remainder of division",
-            "The exponent of a number"
-        ],
-        "answer": "The smallest value"
-    },
-    {
-        "id": 40,
-        "section": "Chapter 7 Built-in Functions",
-        "question": "The abs() function returns:",
-        "options": [
-            "The absolute value",
-            "The binary value",
-            "The uppercase version",
-            "The remainder"
-        ],
-        "answer": "The absolute value"
-    },
-    {
-        "id": 41,
-        "section": "Chapter 10 User-Defined Functions",
-        "question": "A function is defined using:",
+        "question": "Which is a Python keyword listed in the book?",
         "options": [
             "def",
-            "fun",
-            "call",
-            "loop"
+            "main",
+            "start",
+            "run"
         ],
         "answer": "def"
     },
     {
-        "id": 42,
-        "section": "Chapter 10 User-Defined Functions",
-        "question": "A return statement:",
+        "id": 9,
+        "section": "Chapter 4 Python Syntax",
+        "question": "What begins a comment in Python?",
         "options": [
-            "Sends a value back to the caller",
-            "Starts a new loop",
-            "Ends the program",
-            "Changes a variable type"
+            "#",
+            "//",
+            "/*",
+            "--"
         ],
-        "answer": "Sends a value back to the caller"
+        "answer": "#"
+    },
+    {
+        "id": 10,
+        "section": "Chapter 4 Python Syntax",
+        "question": "An identifier should not begin with:",
+        "options": [
+            "A number",
+            "A letter",
+            "An underscore",
+            "A keyword"
+        ],
+        "answer": "A number"
+    },
+    {
+        "id": 11,
+        "section": "Chapter 5 Variables and Data Types",
+        "question": "Which defines a string in the book?",
+        "options": [
+            "A sequence of Unicode characters",
+            "A binary literal",
+            "A list of numbers",
+            "A dictionary key"
+        ],
+        "answer": "A sequence of Unicode characters"
+    },
+    {
+        "id": 12,
+        "section": "Chapter 5 Variables and Data Types",
+        "question": "What does str(3.1416) return as shown in the book?",
+        "options": [
+            "'3.1416'",
+            "3.1416",
+            "3",
+            "'pi'"
+        ],
+        "answer": "'3.1416'"
+    },
+    {
+        "id": 13,
+        "section": "Chapter 5 Variables and Data Types",
+        "question": "Given s = \"Hello Python\", what does s[-1] return?",
+        "options": [
+            "'n'",
+            "'H'",
+            "'o'",
+            "'P'"
+        ],
+        "answer": "'n'"
+    },
+    {
+        "id": 14,
+        "section": "Chapter 5 Variables and Data Types",
+        "question": "Which function returns the size of a string?",
+        "options": [
+            "len()",
+            "type()",
+            "str()",
+            "max()"
+        ],
+        "answer": "len()"
+    },
+    {
+        "id": 15,
+        "section": "Chapter 5 Variables and Data Types",
+        "question": "Which literal denotes a hexadecimal in the book?",
+        "options": [
+            "0x",
+            "0b",
+            "0o",
+            "0h"
+        ],
+        "answer": "0x"
+    },
+    {
+        "id": 16,
+        "section": "Chapter 5 Variables and Data Types",
+        "question": "What is output of: print(len('World')) ?",
+        "options": [
+            "5",
+            "4",
+            "6",
+            "0"
+        ],
+        "answer": "5"
+    },
+    {
+        "id": 17,
+        "section": "Chapter 5 Variables and Data Types",
+        "question": "Which shows a binary literal in the book?",
+        "options": [
+            "0b1100",
+            "1100",
+            "0xA0C",
+            "0o7"
+        ],
+        "answer": "0b1100"
+    },
+    {
+        "id": 18,
+        "section": "Chapter 5 Variables and Data Types",
+        "question": "What does bin(12) return as shown in the book?",
+        "options": [
+            "'0b1100'",
+            "'1100'",
+            "'12'",
+            "'0xC'"
+        ],
+        "answer": "'0b1100'"
+    },
+    {
+        "id": 19,
+        "section": "Chapter 6 Basic Operators",
+        "question": "What is result of 2**3?",
+        "options": [
+            "8",
+            "6",
+            "9",
+            "5"
+        ],
+        "answer": "8"
+    },
+    {
+        "id": 20,
+        "section": "Chapter 6 Basic Operators",
+        "question": "What is result of 17 % 5 as in the book?",
+        "options": [
+            "2",
+            "3",
+            "1",
+            "0"
+        ],
+        "answer": "2"
+    },
+    {
+        "id": 21,
+        "section": "Chapter 6 Basic Operators",
+        "question": "What is result of 17 // 5?",
+        "options": [
+            "3",
+            "3.4",
+            "2",
+            "5"
+        ],
+        "answer": "3"
+    },
+    {
+        "id": 22,
+        "section": "Chapter 6 Basic Operators",
+        "question": "Which operator checks equality?",
+        "options": [
+            "==",
+            "!=",
+            ">",
+            "<"
+        ],
+        "answer": "=="
+    },
+    {
+        "id": 23,
+        "section": "Chapter 6 Basic Operators",
+        "question": "Which is logical operator listed in the book?",
+        "options": [
+            "and",
+            "xor",
+            "nor",
+            "nand"
+        ],
+        "answer": "and"
+    },
+    {
+        "id": 24,
+        "section": "Chapter 6 Basic Operators",
+        "question": "What is output of not (8 > 2)?",
+        "options": [
+            "False",
+            "True",
+            "8",
+            "2"
+        ],
+        "answer": "False"
+    },
+    {
+        "id": 25,
+        "section": "Chapter 7 Built-in Functions",
+        "question": "What does abs(-10) return?",
+        "options": [
+            "10",
+            "-10",
+            "0",
+            "False"
+        ],
+        "answer": "10"
+    },
+    {
+        "id": 26,
+        "section": "Chapter 7 Built-in Functions",
+        "question": "What does max(9, 12, 6, 15) return?",
+        "options": [
+            "15",
+            "12",
+            "9",
+            "6"
+        ],
+        "answer": "15"
+    },
+    {
+        "id": 27,
+        "section": "Chapter 7 Built-in Functions",
+        "question": "What does list(range(5)) produce?",
+        "options": [
+            "[0, 1, 2, 3, 4]",
+            "[1, 2, 3, 4, 5]",
+            "[5]",
+            "[]"
+        ],
+        "answer": "[0, 1, 2, 3, 4]"
+    },
+    {
+        "id": 28,
+        "section": "Chapter 7 Built-in Functions",
+        "question": "What is result of float(12)?",
+        "options": [
+            "12.0",
+            "12",
+            "'12'",
+            "0"
+        ],
+        "answer": "12.0"
+    },
+    {
+        "id": 29,
+        "section": "Chapter 8 Conditional Statements",
+        "question": "Which keyword introduces a conditional block?",
+        "options": [
+            "if",
+            "for",
+            "def",
+            "class"
+        ],
+        "answer": "if"
+    },
+    {
+        "id": 30,
+        "section": "Chapter 8 Conditional Statements",
+        "question": "Which line is correct for else usage?",
+        "options": [
+            "else:",
+            "else(",
+            "else ;",
+            "else if:"
+        ],
+        "answer": "else:"
+    },
+    {
+        "id": 31,
+        "section": "Chapter 8 Conditional Statements",
+        "question": "What does 8 == 6 + 2 evaluate to?",
+        "options": [
+            "True",
+            "False",
+            "8",
+            "6"
+        ],
+        "answer": "True"
+    },
+    {
+        "id": 32,
+        "section": "Chapter 8 Conditional Statements",
+        "question": "Which will check another condition after if?",
+        "options": [
+            "elif",
+            "else",
+            "end",
+            "repeat"
+        ],
+        "answer": "elif"
+    },
+    {
+        "id": 33,
+        "section": "Chapter 9 Loops",
+        "question": "What does list(range(5,9)) return?",
+        "options": [
+            "[5, 6, 7, 8]",
+            "[5, 6, 7, 8, 9]",
+            "[0,1,2,3,4]",
+            "[9]"
+        ],
+        "answer": "[5, 6, 7, 8]"
+    },
+    {
+        "id": 34,
+        "section": "Chapter 9 Loops",
+        "question": "What is output of: for n in range(3): print(n) ?",
+        "options": [
+            "0 1 2",
+            "1 2 3",
+            "3 2 1",
+            "0 1 2 3"
+        ],
+        "answer": "0 1 2"
+    },
+    {
+        "id": 35,
+        "section": "Chapter 9 Loops",
+        "question": "What does range(10,71,5) include at end shown in the book?",
+        "options": [
+            "70",
+            "71",
+            "65",
+            "75"
+        ],
+        "answer": "70"
+    },
+    {
+        "id": 36,
+        "section": "Chapter 9 Loops",
+        "question": "What does break do inside a loop?",
+        "options": [
+            "Stop the loop immediately",
+            "Skip one iteration",
+            "Return a value",
+            "Start loop again"
+        ],
+        "answer": "Stop the loop immediately"
+    },
+    {
+        "id": 37,
+        "section": "Chapter 9 Loops",
+        "question": "What does continue do inside a loop?",
+        "options": [
+            "Skip to the next iteration",
+            "Stop the loop",
+            "Print the value",
+            "Exit the program"
+        ],
+        "answer": "Skip to the next iteration"
+    },
+    {
+        "id": 38,
+        "section": "Chapter 5 Variables and Data Types",
+        "question": "Which syntax creates a list?",
+        "options": [
+            "colors = ['red', 'green']",
+            "colors = ('red', 'green')",
+            "colors = {'red','green'}",
+            "colors = 'red','green'"
+        ],
+        "answer": "colors = ['red', 'green']"
+    },
+    {
+        "id": 39,
+        "section": "Chapter 5 Variables and Data Types",
+        "question": "What does colors.append('violet') do?",
+        "options": [
+            "Add 'violet' to end of list",
+            "Remove 'violet' from list",
+            "Insert 'violet' at index zero",
+            "Clear the list"
+        ],
+        "answer": "Add 'violet' to end of list"
+    },
+    {
+        "id": 40,
+        "section": "Chapter 5 Variables and Data Types",
+        "question": "What is result after colors.remove('white')?",
+        "options": [
+            "List without 'white'",
+            "Error always",
+            "List with two 'white'",
+            "List unchanged"
+        ],
+        "answer": "List without 'white'"
+    },
+    {
+        "id": 41,
+        "section": "Chapter 5 Variables and Data Types",
+        "question": "What does colors.insert(4, 'blue') do?",
+        "options": [
+            "Insert 'blue' at index 4",
+            "Append 'blue' at end",
+            "Remove 'blue'",
+            "Change 'blue' to 'green'"
+        ],
+        "answer": "Insert 'blue' at index 4"
+    },
+    {
+        "id": 42,
+        "section": "Chapter 5 Variables and Data Types",
+        "question": "Which shows a dictionary example from the book?",
+        "options": [
+            "menu = {'spam': 12.5, 'salad': 15}",
+            "menu = ['spam', 12.5]",
+            "menu = ('spam', 12.5)",
+            "menu = spam:12.5"
+        ],
+        "answer": "menu = {'spam': 12.5, 'salad': 15}"
     },
     {
         "id": 43,
-        "section": "Chapter 10 User-Defined Functions",
-        "question": "A function parameter:",
+        "section": "Chapter 5 Variables and Data Types",
+        "question": "What does dict.clear(menu) do?",
         "options": [
-            "Accepts a value when the function is called",
-            "Stores data permanently",
-            "Runs before the program starts",
-            "Clears stored values"
+            "Remove all entries from menu",
+            "Delete the dictionary object",
+            "Add entries to menu",
+            "Print the menu"
         ],
-        "answer": "Accepts a value when the function is called"
+        "answer": "Remove all entries from menu"
     },
     {
         "id": 44,
-        "section": "Chapter 10 User-Defined Functions",
-        "question": "A function can be reused to:",
+        "section": "Chapter 5 Variables and Data Types",
+        "question": "What happens after del menu as shown in the book?",
         "options": [
-            "Avoid repeating code",
-            "Force repeated typing",
-            "Prevent input",
-            "Disable loops"
+            "menu is not defined",
+            "menu is empty list",
+            "menu prints values",
+            "menu becomes string"
         ],
-        "answer": "Avoid repeating code"
+        "answer": "menu is not defined"
     },
     {
         "id": 45,
-        "section": "Chapter 11 Introduction to Classes and Object-Oriented Programming",
-        "question": "A class defines:",
+        "section": "Chapter 7 Built-in Functions",
+        "question": "What prints a sequence of values separated by spaces?",
         "options": [
-            "The attributes and behavior of objects",
-            "A single number only",
-            "A list of strings",
-            "A built-in function"
+            "print(a, b, c)",
+            "print(a + b + c)",
+            "print(a ; b ; c)",
+            "print a, b, c"
         ],
-        "answer": "The attributes and behavior of objects"
+        "answer": "print(a, b, c)"
     },
     {
         "id": 46,
-        "section": "Chapter 11 Introduction to Classes and Object-Oriented Programming",
-        "question": "An object is:",
+        "section": "Chapter 7 Built-in Functions",
+        "question": "What does round not appear as a built-in in the provided list? (choose the listed built-in)",
         "options": [
-            "An instance of a class",
-            "A binary operator",
-            "A string literal",
-            "A dictionary key"
+            "abs()",
+            "round()",
+            "all()",
+            "any()"
         ],
-        "answer": "An instance of a class"
+        "answer": "abs()"
     },
     {
         "id": 47,
-        "section": "Chapter 11 Introduction to Classes and Object-Oriented Programming",
-        "question": "The self parameter refers to:",
+        "section": "Chapter 8 Conditional Statements",
+        "question": "Which of the following is a comparison operator listed?",
         "options": [
-            "The current object",
-            "The next loop value",
-            "The source code file",
-            "The function result"
+            ">=",
+            "^^",
+            "==>",
+            "<>"
         ],
-        "answer": "The current object"
+        "answer": ">="
     },
     {
         "id": 48,
-        "section": "Chapter 11 Introduction to Classes and Object-Oriented Programming",
-        "question": "A method is:",
+        "section": "Chapter 8 Conditional Statements",
+        "question": "Which will evaluate to False as in examples?",
         "options": [
-            "A function defined inside a class",
-            "A for loop",
-            "A built-in operator",
-            "A numeric literal"
+            "not (8 > 2)",
+            "(8 > 2)",
+            "(2 == 2)",
+            "(7 >= 5)"
         ],
-        "answer": "A function defined inside a class"
+        "answer": "not (8 > 2)"
     },
     {
         "id": 49,
+        "section": "Chapter 9 Loops",
+        "question": "Which form shows range with step as in book?",
+        "options": [
+            "range(begin, end, step)",
+            "range(step, begin, end)",
+            "range(end)",
+            "range()"
+        ],
+        "answer": "range(begin, end, step)"
+    },
+    {
+        "id": 50,
+        "section": "Chapter 9 Loops",
+        "question": "What is list(range(10, 71, 5)) last element?",
+        "options": [
+            "70",
+            "65",
+            "71",
+            "75"
+        ],
+        "answer": "70"
+    },
+    {
+        "id": 51,
+        "section": "Chapter 5 Variables and Data Types",
+        "question": "Code: What does this print?\n\n```\nmy_variable = 10\nmy_variable = my_variable + 3\nprint(my_variable)\n```",
+        "options": [
+            "13",
+            "10",
+            "3",
+            "Error"
+        ],
+        "answer": "13"
+    },
+    {
+        "id": 52,
+        "section": "Chapter 5 Variables and Data Types",
+        "question": "Code: What does this print?\n\n```\na = 'Hello' + 'Python'\nprint(a)\n```",
+        "options": [
+            "HelloPython",
+            "Hello Python",
+            "Hello\nPython",
+            "Error"
+        ],
+        "answer": "HelloPython"
+    },
+    {
+        "id": 53,
+        "section": "Chapter 5 Variables and Data Types",
+        "question": "Code: What does this print?\n\n```\ns = 'Program'\nprint(s[3:6])\n```",
+        "options": [
+            "gra",
+            "Pro",
+            "ram",
+            "gr"
+        ],
+        "answer": "gra"
+    },
+    {
+        "id": 54,
+        "section": "Chapter 6 Basic Operators",
+        "question": "Code: What does this print?\n\n```\nprint(6.2e2)\n```",
+        "options": [
+            "620",
+            "6.2e2",
+            "620.0",
+            "62"
+        ],
+        "answer": "620"
+    },
+    {
+        "id": 55,
+        "section": "Chapter 6 Basic Operators",
+        "question": "Code: What does this print?\n\n```\nprint(2**3)\n```",
+        "options": [
+            "8",
+            "6",
+            "9",
+            "2"
+        ],
+        "answer": "8"
+    },
+    {
+        "id": 56,
+        "section": "Chapter 7 Built-in Functions",
+        "question": "Code: What does this print?\n\n```\npi = 3.1416\nprint(\"This my favorite number: \" + str(pi))\n```",
+        "options": [
+            "This my favorite number: 3.1416",
+            "This my favorite number:3.1416",
+            "This my favorite number:",
+            "Error"
+        ],
+        "answer": "This my favorite number: 3.1416"
+    },
+    {
+        "id": 57,
+        "section": "Chapter 7 Built-in Functions",
+        "question": "Code: What does this print?\n\n```\nprint(list(range(5)))\n```",
+        "options": [
+            "[0, 1, 2, 3, 4]",
+            "[1, 2, 3, 4, 5]",
+            "range(0,5)",
+            "0 1 2 3 4"
+        ],
+        "answer": "[0, 1, 2, 3, 4]"
+    },
+    {
+        "id": 58,
+        "section": "Chapter 8 Conditional Statements",
+        "question": "Identify error: Which line is incorrect?\n\n```\n1. x = 5\n2. if x > 10\n3.     print(\"big\")\n```",
+        "options": [
+            "Line 2 missing colon",
+            "Line 1 wrong value",
+            "Line 3 wrong indent",
+            "No error"
+        ],
+        "answer": "Line 2 missing colon"
+    },
+    {
+        "id": 59,
+        "section": "Chapter 8 Conditional Statements",
+        "question": "Fill blank: if x ___ 10:\n\nWhich operator completes example for equality?",
+        "options": [
+            "==",
+            "=",
+            "!=",
+            "=>"
+        ],
+        "answer": "=="
+    },
+    {
+        "id": 60,
+        "section": "Chapter 9 Loops",
+        "question": "Code: What does this print?\n\n```\nfor i in range(2):\n    print(i)\n```",
+        "options": [
+            "0 1",
+            "1 2",
+            "0 1 2",
+            "Error"
+        ],
+        "answer": "0 1"
+    },
+    {
+        "id": 61,
+        "section": "Chapter 9 Loops",
+        "question": "Identify error: Which line is incorrect?\n\n```\n1. for i in range(3):\n2. print(i)\n```",
+        "options": [
+            "Line 2 missing indentation",
+            "Line 1 wrong",
+            "No error",
+            "Line 2 wrong value"
+        ],
+        "answer": "Line 2 missing indentation"
+    },
+    {
+        "id": 62,
+        "section": "Chapter 10 User-Defined Functions",
+        "question": "Code: What does this print?\n\n```\ndef f():\n    return 5\nprint(f())\n```",
+        "options": [
+            "5",
+            "f()",
+            "None",
+            "Error"
+        ],
+        "answer": "5"
+    },
+    {
+        "id": 63,
+        "section": "Chapter 10 User-Defined Functions",
+        "question": "Identify error: Which line is incorrect?\n\n```\n1. def add(a, b):\n2.     return a + b\n3. print(add(2))\n```",
+        "options": [
+            "Line 3 missing second argument",
+            "Line 1 wrong",
+            "Line 2 wrong indent",
+            "No error"
+        ],
+        "answer": "Line 3 missing second argument"
+    },
+    {
+        "id": 64,
+        "section": "Chapter 10 User-Defined Functions",
+        "question": "Fill blank: def f(x): return ___\nWhich returns x doubled?",
+        "options": [
+            "x * 2",
+            "x + x + 1",
+            "2",
+            "x"
+        ],
+        "answer": "x * 2"
+    },
+    {
+        "id": 65,
+        "section": "Chapter 5 Variables and Data Types",
+        "question": "Code: What does this print?\n\n```\ncolors = ['red', 'orange']\ncolors.append('yellow')\nprint(len(colors))\n```",
+        "options": [
+            "3",
+            "2",
+            "1",
+            "Error"
+        ],
+        "answer": "3"
+    },
+    {
+        "id": 66,
+        "section": "Chapter 5 Variables and Data Types",
+        "question": "Code: What does this print?\n\n```\nmenu = {'cake': 6, 'salad': 15}\nprint(menu['cake'])\n```",
+        "options": [
+            "6",
+            "15",
+            "{'cake':6}",
+            "Error"
+        ],
+        "answer": "6"
+    },
+    {
+        "id": 67,
+        "section": "Chapter 6 Basic Operators",
+        "question": "Code: What does this print?\n\n```\nprint(17 % 5)\n```",
+        "options": [
+            "2",
+            "3",
+            "1",
+            "0"
+        ],
+        "answer": "2"
+    },
+    {
+        "id": 68,
+        "section": "Chapter 6 Basic Operators",
+        "question": "Fill blank: 2 ** 3 = ___",
+        "options": [
+            "8",
+            "6",
+            "5",
+            "9"
+        ],
+        "answer": "8"
+    },
+    {
+        "id": 69,
+        "section": "Chapter 7 Built-in Functions",
+        "question": "Identify error: Which line is incorrect?\n\n```\n1. a = 'Hello'\n2. print(A)\n```",
+        "options": [
+            "Line 2 uses A not a",
+            "Line 1 wrong quote",
+            "Line 1 missing value",
+            "No error"
+        ],
+        "answer": "Line 2 uses A not a"
+    },
+    {
+        "id": 70,
+        "section": "Chapter 8 Conditional Statements",
+        "question": "Code: What does this print?\n\n```\nif 2 > 3:\n    print('yes')\nelse:\n    print('no')\n```",
+        "options": [
+            "no",
+            "yes",
+            "Error",
+            ""
+        ],
+        "answer": "no"
+    },
+    {
+        "id": 71,
+        "section": "Chapter 9 Loops",
+        "question": "Code: What does this print?\n\n```\nfor x in [1, 2, 3]:\n    if x == 2:\n        print(x)\n```",
+        "options": [
+            "2",
+            "1 2 3",
+            "1",
+            "3"
+        ],
+        "answer": "2"
+    },
+    {
+        "id": 72,
+        "section": "Chapter 10 User-Defined Functions",
+        "question": "Fill blank: To define a function you use the keyword ___",
+        "options": [
+            "def",
+            "class",
+            "if",
+            "for"
+        ],
+        "answer": "def"
+    },
+    {
+        "id": 73,
+        "section": "Chapter 10 User-Defined Functions",
+        "question": "Code: What does this print?\n\n```\ndef g(a):\n    print(a)\ng('Hi')\n```",
+        "options": [
+            "Hi",
+            "a",
+            "g('Hi')",
+            "Error"
+        ],
+        "answer": "Hi"
+    },
+    {
+        "id": 74,
         "section": "Chapter 11 Introduction to Classes and Object-Oriented Programming",
-        "question": "Everything in Python is treated as:",
+        "question": "Which term from the book describes a class member that is a function?",
+        "options": [
+            "Method",
+            "Attribute",
+            "Module",
+            "Literal"
+        ],
+        "answer": "Method"
+    },
+    {
+        "id": 75,
+        "section": "Chapter 11 Introduction to Classes and Object-Oriented Programming",
+        "question": "Fill blank: In a class method first parameter is usually ___",
+        "options": [
+            "self",
+            "this",
+            "obj",
+            "me"
+        ],
+        "answer": "self"
+    },
+    {
+        "id": 76,
+        "section": "Chapter 11 Introduction to Classes and Object-Oriented Programming",
+        "question": "Code: Identify error: Which line is incorrect?\n\n```\n1. class Car:\n2. def __init__(self):\n3.     self.cost = 35\n```",
+        "options": [
+            "Line 2 missing indentation under class",
+            "Line 1 wrong",
+            "Line 3 wrong value",
+            "No error"
+        ],
+        "answer": "Line 2 missing indentation under class"
+    },
+    {
+        "id": 77,
+        "section": "Chapter 11 Introduction to Classes and Object-Oriented Programming",
+        "question": "Code: What does this print?\n\n```\nclass A:\n    pass\nprint(type(A()))\n```",
+        "options": [
+            "<class '__main__.A'>",
+            "A",
+            "class A",
+            "Error"
+        ],
+        "answer": "<class '__main__.A'>"
+    },
+    {
+        "id": 78,
+        "section": "Chapter 7 Built-in Functions",
+        "question": "Code: What does this print?\n\n```\nprint(abs(3 + 4j))\n```",
+        "options": [
+            "5.0",
+            "7.0",
+            "3+4j",
+            "Error"
+        ],
+        "answer": "5.0"
+    },
+    {
+        "id": 79,
+        "section": "Chapter 6 Basic Operators",
+        "question": "Code: What does this print?\n\n```\nprint('^' * 5)\n```",
+        "options": [
+            "^^^^^",
+            "^ ^ ^ ^ ^",
+            "5^",
+            "Error"
+        ],
+        "answer": "^^^^^"
+    },
+    {
+        "id": 80,
+        "section": "Chapter 5 Variables and Data Types",
+        "question": "Fill blank: To get last character of s you can use s[___]",
+        "options": [
+            "-1",
+            "len(s)",
+            "0",
+            "1"
+        ],
+        "answer": "-1"
+    },
+    {
+        "id": 81,
+        "section": "Chapter 7 Built-in Functions",
+        "question": "Code: What does this print?\n\n```\nprint(type(2 + 3j))\n```",
+        "options": [
+            "<class 'complex'>",
+            "<class 'int'>",
+            "<class 'float'>",
+            "<class 'str'>"
+        ],
+        "answer": "<class 'complex'>"
+    },
+    {
+        "id": 82,
+        "section": "Chapter 6 Basic Operators",
+        "question": "Identify error: Which is not a valid operator listed?",
+        "options": [
+            "=>",
+            "**",
+            "%",
+            "//"
+        ],
+        "answer": "=>"
+    },
+    {
+        "id": 83,
+        "section": "Chapter 7 Built-in Functions",
+        "question": "Code: What does this print?\n\n```\nprint(min(7, 26, 0, 4))\n```",
+        "options": [
+            "0",
+            "4",
+            "7",
+            "26"
+        ],
+        "answer": "0"
+    },
+    {
+        "id": 84,
+        "section": "Chapter 9 Loops",
+        "question": "Fill blank: range(begin, end, ___)",
+        "options": [
+            "step",
+            "stop",
+            "value",
+            "start"
+        ],
+        "answer": "step"
+    },
+    {
+        "id": 85,
+        "section": "Chapter 10 User-Defined Functions",
+        "question": "Identify error: Which line is incorrect?\n\n```\n1. def f():\n2. return 1\n```",
+        "options": [
+            "Line 2 missing indentation",
+            "Line 1 wrong",
+            "Line 2 wrong value",
+            "No error"
+        ],
+        "answer": "Line 2 missing indentation"
+    },
+    {
+        "id": 86,
+        "section": "Chapter 5 Variables and Data Types",
+        "question": "Code: What does this print?\n\n```\na = 0b1100\nprint(a)\n```",
+        "options": [
+            "12",
+            "1100",
+            "0b1100",
+            "Error"
+        ],
+        "answer": "12"
+    },
+    {
+        "id": 87,
+        "section": "Chapter 5 Variables and Data Types",
+        "question": "Code: What does this print?\n\n```\nprint(oct(7))\n```",
+        "options": [
+            "'0o7'",
+            "7",
+            "0o7",
+            "Error"
+        ],
+        "answer": "'0o7'"
+    },
+    {
+        "id": 88,
+        "section": "Chapter 6 Basic Operators",
+        "question": "Code: What does this print?\n\n```\nprint(hex(2572))\n```",
+        "options": [
+            "'0xa0c'",
+            "2572",
+            "0xa0c",
+            "Error"
+        ],
+        "answer": "'0xa0c'"
+    },
+    {
+        "id": 89,
+        "section": "Chapter 7 Built-in Functions",
+        "question": "Code: What does this print?\n\n```\nfrom time import strftime\nprint(strftime(\"%Y-%m-%d %H:%M:%S\"))\n```",
+        "options": [
+            "A formatted date and time string",
+            "The word strftime",
+            "%Y-%m-%d %H:%M:%S",
+            "Error"
+        ],
+        "answer": "A formatted date and time string"
+    },
+    {
+        "id": 90,
+        "section": "Chapter 8 Conditional Statements",
+        "question": "Code: What does this print?\n\n```\nbool_1 = 4 == 2*3\nprint(bool_1)\n```",
+        "options": [
+            "False",
+            "True",
+            "4",
+            "6"
+        ],
+        "answer": "False"
+    },
+    {
+        "id": 91,
+        "section": "Chapter 7 Built-in Functions",
+        "question": "Fill blank: list(range(5)) returns ___",
+        "options": [
+            "[0, 1, 2, 3, 4]",
+            "[1, 2, 3, 4, 5]",
+            "[5]",
+            "range(5)"
+        ],
+        "answer": "[0, 1, 2, 3, 4]"
+    },
+    {
+        "id": 92,
+        "section": "Chapter 9 Loops",
+        "question": "Code: Identify error: Which line is incorrect?\n\n```\n1. for i in range(3):\n2.     print(i)\n3.  print('done')\n```",
+        "options": [
+            "Line 3 wrong indentation",
+            "Line 1 wrong",
+            "Line 2 wrong",
+            "No error"
+        ],
+        "answer": "Line 3 wrong indentation"
+    },
+    {
+        "id": 93,
+        "section": "Chapter 10 User-Defined Functions",
+        "question": "Code: What does this print?\n\n```\ndef f(x):\n    return x + 1\nprint(f(4))\n```",
+        "options": [
+            "5",
+            "4",
+            "x + 1",
+            "Error"
+        ],
+        "answer": "5"
+    },
+    {
+        "id": 94,
+        "section": "Chapter 11 Introduction to Classes and Object-Oriented Programming",
+        "question": "Code: What does this print?\n\n```\nclass C:\n    def m(self):\n        return 'ok'\nprint(C().m())\n```",
+        "options": [
+            "ok",
+            "m",
+            "C.m",
+            "Error"
+        ],
+        "answer": "ok"
+    },
+    {
+        "id": 95,
+        "section": "Chapter 11 Introduction to Classes and Object-Oriented Programming",
+        "question": "Fill blank: Everything in Python is treated as ___",
         "options": [
             "An object",
-            "A list",
+            "A string",
             "A number",
-            "A comment"
+            "A list"
         ],
         "answer": "An object"
     },
     {
-        "id": 50,
-        "section": "Chapter 11 Introduction to Classes and Object-Oriented Programming",
-        "question": "A class can contain:",
+        "id": 96,
+        "section": "Chapter 7 Built-in Functions",
+        "question": "Code: What does this print?\n\n```\nprint('^' * 3 + '!' )\n```",
         "options": [
-            "Variables and methods",
-            "Only numeric data",
-            "Only printed text",
-            "Only functions with no parameters"
+            "^^^!",
+            "^ ^ ^!",
+            "3^!",
+            "Error"
         ],
-        "answer": "Variables and methods"
+        "answer": "^^^!"
+    },
+    {
+        "id": 97,
+        "section": "Chapter 6 Basic Operators",
+        "question": "Code: What does this print?\n\n```\nmeal = 65.50\ntax = 6.6 / 100\nmeal = meal + meal * tax\nprint(round(meal, 2))\n```",
+        "options": [
+            "69.99",
+            "65.50",
+            "83.78",
+            "Error"
+        ],
+        "answer": "69.99"
+    },
+    {
+        "id": 98,
+        "section": "Chapter 7 Built-in Functions",
+        "question": "Identify error: Which line is incorrect?\n\n```\n1. name = input(\"May I know your name? \")\n2. print(\"It is a pleasure to meet you\" + name)\n```",
+        "options": [
+            "Line 2 missing space before name",
+            "Line 1 wrong",
+            "Line 2 wrong function",
+            "No error"
+        ],
+        "answer": "Line 2 missing space before name"
+    },
+    {
+        "id": 99,
+        "section": "Chapter 10 User-Defined Functions",
+        "question": "Code: What does this print?\n\n```\ndef add(a, b=2):\n    return a + b\nprint(add(3))\n```",
+        "options": [
+            "5",
+            "3",
+            "2",
+            "Error"
+        ],
+        "answer": "5"
+    },
+    {
+        "id": 100,
+        "section": "Chapter 11 Introduction to Classes and Object-Oriented Programming",
+        "question": "Code: Identify error: Which line is incorrect?\n\n```\n1. class A:\n2.     def __init__(self, x):\n3.         self.x = x\n4. a = A()\n```",
+        "options": [
+            "Line 4 missing argument for constructor",
+            "Line 2 wrong signature",
+            "Line 3 wrong assignment",
+            "No error"
+        ],
+        "answer": "Line 4 missing argument for constructor"
     }
 ]

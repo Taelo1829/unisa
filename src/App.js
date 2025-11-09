@@ -15,7 +15,10 @@ function App() {
 
   useEffect(() => {
     const randomQuestions = generateRandomQuestions()
-    setShuffledQuestions(randomQuestions);
+    setShuffledQuestions(randomQuestions.map(item => ({
+      ...item,
+      options: item.options.sort(() => Math.random() - 0.5)
+    })));
   }, []);
 
   function generateRandomQuestions() {
